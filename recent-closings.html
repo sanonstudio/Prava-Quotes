@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VRE May 2026 Closings</title>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:#010f2a;font-family:"HK Grotesk","Hanken Grotesk",sans-serif;color:#fff}
+#slide-stack{position:fixed;inset:0}
+.sale-slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease;overflow:hidden}
+.sale-slide.active{opacity:1}
+.slide-photo{position:absolute;inset:0;background-size:cover;background-position:center;transform-origin:center center;animation:kenBurns 10s ease-in-out forwards;animation-play-state:paused}
+.sale-slide.active .slide-photo{animation-play-state:running}
+@keyframes kenBurns{0%{transform:scale(1) translateX(0) translateY(0)}100%{transform:scale(1.07) translateX(-1%) translateY(-1%)}}
+.slide-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(1,10,35,0.97) 0%,rgba(1,10,35,0.82) 30%,rgba(1,10,35,0.35) 65%,rgba(0,0,0,0.15) 100%),linear-gradient(to right,rgba(1,10,35,0.6) 0%,transparent 50%)}
+.slide-content{position:absolute;bottom:0;left:0;right:0;padding:0 56px 104px;z-index:10;text-align:left}
+.sold-header{display:flex;align-items:center;gap:28px;justify-content:flex-start;margin-bottom:20px}
+.sold-label{display:inline-block;font-size:clamp(18px,2vw,26px);font-weight:900;letter-spacing:6px;text-transform:uppercase;color:#fff;background:#C9302C;padding:6px 22px 4px}
+.sold-date{font-size:clamp(16px,1.8vw,24px);font-weight:500;color:rgba(255,255,255,0.7);letter-spacing:0.5px}
+.sale-price{font-size:clamp(80px,12vw,160px);font-weight:900;line-height:1;color:#FFD700;letter-spacing:-2px;margin-bottom:16px}
+.sale-address{font-size:clamp(40px,5.5vw,72px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:6px}
+.sale-city{font-size:clamp(32px,4vw,54px);font-weight:400;color:rgba(255,255,255,0.6);margin-bottom:28px}
+.sale-meta{display:flex;align-items:center;gap:0;flex-wrap:wrap;margin-bottom:26px}
+.meta-pill{font-size:clamp(18px,2.2vw,28px);font-weight:500;color:rgba(255,255,255,0.6);padding-right:28px;margin-right:28px;border-right:1px solid rgba(255,255,255,0.2)}
+.meta-pill:last-child{border-right:none;padding-right:0;margin-right:0}
+.sale-agent-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.sale-agent{font-size:clamp(24px,3vw,42px);font-weight:700;color:#fff;letter-spacing:0.5px}
+.role-tag{display:inline-block;font-size:clamp(12px,1.2vw,16px);font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.55);margin-bottom:4px}
+.slide-logo{position:absolute;bottom:104px;right:56px;z-index:10;opacity:0.85}
+.slide-logo img{height:clamp(54px,6vw,84px);width:auto;display:block}
+.progress-dots{position:absolute;bottom:48px;right:56px;display:flex;gap:8px;z-index:10}
+.dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.25);transition:background 0.4s,transform 0.4s}
+.dot.active{background:#FFD700;transform:scale(1.4)}
+.ticker-bar{position:fixed;bottom:0;left:0;right:0;height:84px;background:rgba(1,91,187,0.95);backdrop-filter:blur(10px);display:flex;align-items:center;overflow:hidden;z-index:20}
+.ticker-label{flex-shrink:0;background:#FFD700;color:#010f2a;font-size:20px;font-weight:900;letter-spacing:4px;padding:0 36px;height:100%;display:flex;align-items:center}
+.ticker-track{flex:1;overflow:hidden;position:relative}
+.ticker-inner{display:flex;gap:0;white-space:nowrap;animation:tickerScroll 50s linear infinite}
+.ticker-item{font-size:26px;font-weight:500;color:rgba(255,255,255,0.95);padding:0 60px;letter-spacing:0.3px}
+.ticker-item span{color:#FFD700;font-weight:700}
+@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.preview-controls{position:fixed;top:8px;right:8px;z-index:200;display:flex;gap:6px;background:rgba(0,0,0,0.7);padding:6px 10px;border-radius:8px}
+.preview-controls button{background:rgba(255,255,255,0.15);color:#fff;border:none;padding:5px 12px;border-radius:5px;font-size:11px;font-weight:600;cursor:pointer}
+.preview-controls button:hover{background:rgba(255,255,255,0.3)}
+</style></head><body>
+<div id="slide-stack"></div>
+<div class="ticker-bar"><div class="ticker-label">RECENT CLOSINGS</div><div class="ticker-track"><div class="ticker-inner" id="tickerInner"></div></div></div>
+<div class="preview-controls"><button onclick="prevSlide()">&#8592; Prev</button><button onclick="nextSlide()">Next &#8594;</button><button onclick="toggleAuto()" id="autoBtn">&#9646;&#9646; Pause</button></div>
+<script>
+var SALES = [
+  {
+    "photo": "https://photos.zillowstatic.com/fp/05a4e9be866507d17f1f6538a50598e3-cc_ft_1536.jpg",
+    "price": "$413,000",
+    "address": "10851 Mangrove Cay Ln NE APT 712",
+    "city": "Saint Petersburg, FL 33716",
+    "beds": 2,
+    "baths_str": "2",
+    "sqft": "1,600",
+    "agent": "Lucas Sadowski",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 29, 2026",
+    "year_built": 2007,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/6cf1c9d361954e20d989d14bf27b0936-cc_ft_1536.jpg",
+    "price": "$390,000",
+    "address": "12421 SW 50th Ct APT 337",
+    "city": "Hollywood, FL 33027",
+    "beds": 4,
+    "baths_str": "3",
+    "sqft": "1,481",
+    "agent": "Damaris Gamez",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 29, 2026",
+    "year_built": 2008,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/0bffedd6a95ecac117a5daae2e03c498-cc_ft_1536.jpg",
+    "price": "$227,500",
+    "address": "6113 Rainbow Circle",
+    "city": "Greenacres, FL 33463",
+    "beds": 2,
+    "baths_str": "2",
+    "sqft": "1,868",
+    "agent": "Stella Patrice",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 29, 2026",
+    "year_built": 1983,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/448d714c4649241db8bb45a0d0d78bca-cc_ft_1536.jpg",
+    "price": "$485,000",
+    "address": "420 Cypress View Dr",
+    "city": "Oldsmar, FL 34677",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "1,870",
+    "agent": "Rebecca Martin Hakola",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 29, 2026",
+    "year_built": 1998,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/14e37f555a86fbb6ed2bd769d06764f6-cc_ft_1536.jpg",
+    "price": "$620,000",
+    "address": "5420 Royal Palm Beach Boulevard",
+    "city": "West Palm Beach, FL 33411",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "2,000",
+    "agent": "Riki Ascherman",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 29, 2026",
+    "year_built": 1987,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/09c8d5409e8d2368a8e6f48db53cac67-cc_ft_1536.jpg",
+    "price": "$455,000",
+    "address": "4301 Hammock Grove Drive",
+    "city": "Lake Worth, FL 33467",
+    "beds": 3,
+    "baths_str": "3",
+    "sqft": "1,695",
+    "agent": "Jennifer Calvoni",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 29, 2026",
+    "year_built": 2023,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/b4b0126cf0996d8c028fe409125171ee-cc_ft_1536.jpg",
+    "price": "$475,000",
+    "address": "2637 46th St S",
+    "city": "Gulfport, FL 33711",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "1,279",
+    "agent": "Lucas Sadowski",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 29, 2026",
+    "year_built": 1952,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/ae8b9345a0e0359b4081a288d671f33d-cc_ft_1536.jpg",
+    "price": "$650,000",
+    "address": "21024 Country Creek Drive",
+    "city": "Boca Raton, FL 33428",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "1,672",
+    "agent": "Jessica Nichole Babcock, Joseph Babcock",
+    "has_agent": true,
+    "role": "Listing Agent",
+    "date": "May 28, 2026",
+    "year_built": 1987,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/d453f0c423dc64b6d80a30bac433bc4e-cc_ft_1536.jpg",
+    "price": "$274,000",
+    "address": "783 Petal Mist Ln",
+    "city": "Brooksville, FL 34604",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "1,702",
+    "agent": "",
+    "has_agent": false,
+    "role": "",
+    "date": "May 28, 2026",
+    "year_built": 2015,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/38dc4e5185f7b557745ed8b17b2c8cb1-cc_ft_1536.jpg",
+    "price": "$605,000",
+    "address": "1215 E North St",
+    "city": "Tampa, FL 33604",
+    "beds": 5,
+    "baths_str": "2",
+    "sqft": "2,188",
+    "agent": "Lucas Sadowski",
+    "has_agent": true,
+    "role": "Listing Agent",
+    "date": "May 28, 2026",
+    "year_built": 1950,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/8bc222dc524d1630b0817e2a08329442-cc_ft_1536.jpg",
+    "price": "$396,000",
+    "address": "4043 Shore Acres Blvd NE",
+    "city": "Saint Petersburg, FL 33703",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "1,260",
+    "agent": "Rod Oliveira",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 28, 2026",
+    "year_built": 1962,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/6e462f7cbc51f9ce31be3434ed91901d-cc_ft_1536.jpg",
+    "price": "$1,400,000",
+    "address": "251 Isle Dr",
+    "city": "Saint Pete Beach, FL 33706",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "2,193",
+    "agent": "Lucas Sadowski",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 26, 2026",
+    "year_built": 1970,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/a045dbb88846fb2a5083dcc43f43fa1a-cc_ft_1536.jpg",
+    "price": "$465,000",
+    "address": "9360 Chelsea Dr S",
+    "city": "Fort Lauderdale, FL 33324",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "1,536",
+    "agent": "Judy Sharma",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 22, 2026",
+    "year_built": 1985,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/e56d283b909157f9635e49c2d2e2812d-cc_ft_1536.jpg",
+    "price": "$1,125,000",
+    "address": "2316 S Shore Dr SE",
+    "city": "Saint Petersburg, FL 33705",
+    "beds": 3,
+    "baths_str": "2",
+    "sqft": "1,924",
+    "agent": "Jeffrey Dickerson",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 22, 2026",
+    "year_built": 1984,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/f5216e7561bf496b217e9e2533cdc632-cc_ft_1536.jpg",
+    "price": "$360,000",
+    "address": "3366 W Hidden Haven Ct",
+    "city": "Tampa, FL 33607",
+    "beds": 3,
+    "baths_str": "3",
+    "sqft": "1,780",
+    "agent": "Hannah Thorn",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 19, 2026",
+    "year_built": 1982,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/899a90c39d17276a4c8ba35f9861d7c4-cc_ft_1536.jpg",
+    "price": "$465,000",
+    "address": "1804 Prairie Grass Ln",
+    "city": "Valrico, FL 33594",
+    "beds": 4,
+    "baths_str": "3",
+    "sqft": "2,595",
+    "agent": "Amber Brown",
+    "has_agent": true,
+    "role": "Listing Agent",
+    "date": "May 19, 2026",
+    "year_built": 2005,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/8a215951f536b82ce4e27fa1a80ccd4f-cc_ft_1536.jpg",
+    "price": "$462,300",
+    "address": "96 & 98 W Esther St",
+    "city": "Orlando, FL 32806",
+    "beds": "",
+    "baths_str": "",
+    "sqft": "1,501",
+    "agent": "Ronnie Leon",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 19, 2026",
+    "year_built": 1930,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/b123d4c9916878c263017761cbb86576-cc_ft_1536.jpg",
+    "price": "$465,000",
+    "address": "9833 SW Isabelline Drive",
+    "city": "Port Saint Lucie, FL 34987",
+    "beds": 2,
+    "baths_str": "3",
+    "sqft": "2,354",
+    "agent": "Stella Patrice",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 18, 2026",
+    "year_built": 2023,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/7aa627f1879d0d453c6c620a9977a7b4-cc_ft_1536.jpg",
+    "price": "$799,000",
+    "address": "5320 Saint Armands Way",
+    "city": "Loxahatchee, FL 33470",
+    "beds": 3,
+    "baths_str": "4",
+    "sqft": "2,776",
+    "agent": "Jennifer Calvoni",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 15, 2026",
+    "year_built": 2024,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/83564086814e3583ecf66fd017952f97-cc_ft_1536.jpg",
+    "price": "$1,100,000",
+    "address": "807 SW 14th Court",
+    "city": "Fort Lauderdale, FL 33315",
+    "beds": 6,
+    "baths_str": "6",
+    "sqft": "2,873",
+    "agent": "Stella Patrice",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 15, 2026",
+    "year_built": 1976,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/9a6ca6cf3403b67aadf3ee778072a89d-cc_ft_1536.jpg",
+    "price": "$285,000",
+    "address": "2700 Bayshore Blvd APT 9305",
+    "city": "Dunedin, FL 34698",
+    "beds": 2,
+    "baths_str": "2",
+    "sqft": "1,248",
+    "agent": "Lindsay Clemmons",
+    "has_agent": true,
+    "role": "Both Sides",
+    "date": "May 15, 2026",
+    "year_built": 1980,
+    "is_both_sides_vre": true
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/2a9074957ad649cbae6e85378d2cd207-cc_ft_1536.jpg",
+    "price": "$840,000",
+    "address": "2100 S Ocean Ln APT 1109",
+    "city": "Fort Lauderdale, FL 33316",
+    "beds": 2,
+    "baths_str": "2",
+    "sqft": "1,513",
+    "agent": "Flynn Nolan",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 12, 2026",
+    "year_built": 1969,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/810f069745d183f5cfd89f597ed16b96-cc_ft_1536.jpg",
+    "price": "$435,000",
+    "address": "5893 Cassandra Court",
+    "city": "West Palm Beach, FL 33415",
+    "beds": 3,
+    "baths_str": "3",
+    "sqft": "1,600",
+    "agent": "Shara Arnold, Amber Brown",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 11, 2026",
+    "year_built": 1985,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/c0d98b48a83b10fa19ac78232083a47d-cc_ft_1536.jpg",
+    "price": "$620,000",
+    "address": "3235 Grassglen Pl",
+    "city": "Wesley Chapel, FL 33544",
+    "beds": 4,
+    "baths_str": "3",
+    "sqft": "2,573",
+    "agent": "Amber Brown",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 11, 2026",
+    "year_built": 2007,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/4dd18fc849a3f2e987fc52a6895bca9b-cc_ft_1536.jpg",
+    "price": "$328,000",
+    "address": "6312 Fairway Blvd",
+    "city": "Apollo Beach, FL 33572",
+    "beds": 2,
+    "baths_str": "2",
+    "sqft": "1,119",
+    "agent": "Hannah Thorn",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 11, 2026",
+    "year_built": 1966,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/bd69ecee1c0521ddcbb21e97652422e5-cc_ft_1536.jpg",
+    "price": "$300,000",
+    "address": "2215 NW 9th Court",
+    "city": "Fort Lauderdale, FL 33311",
+    "beds": 3,
+    "baths_str": "1",
+    "sqft": "1,259",
+    "agent": "Cesar Diaz",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 8, 2026",
+    "year_built": 1956,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/d8ef4fd44f5292e5033368e6009bf46f-cc_ft_1536.jpg",
+    "price": "$315,000",
+    "address": "437 Lakeview Dr APT 104",
+    "city": "Weston, FL 33326",
+    "beds": 2,
+    "baths_str": "2",
+    "sqft": "1,256",
+    "agent": "Flynn Nolan",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 7, 2026",
+    "year_built": 1981,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/c9ae743cee76cb9a7ddae5739a26a253-cc_ft_1536.jpg",
+    "price": "$346,000",
+    "address": "10136 Newminster Loop",
+    "city": "Ruskin, FL 33573",
+    "beds": 4,
+    "baths_str": "3",
+    "sqft": "1,786",
+    "agent": "Lucas Sadowski",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 7, 2026",
+    "year_built": 2016,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/afba583756c432ddc37088b6048f08c7-cc_ft_1536.jpg",
+    "price": "$335,000",
+    "address": "16325 Golf Club Road #303",
+    "city": "Weston, FL 33326",
+    "beds": 2,
+    "baths_str": "3",
+    "sqft": "1,260",
+    "agent": "Brendon Baugh, Deron Baugh",
+    "has_agent": true,
+    "role": "Listing Agent",
+    "date": "May 5, 2026",
+    "year_built": 1980,
+    "is_both_sides_vre": false
+  },
+  {
+    "photo": "https://photos.zillowstatic.com/fp/ed4b605e34feaaba95eedd5a14f9cb76-cc_ft_1536.jpg",
+    "price": "$527,500",
+    "address": "209 35th Ave N",
+    "city": "Saint Petersburg, FL 33704",
+    "beds": 2,
+    "baths_str": "1",
+    "sqft": "872",
+    "agent": "Kris Nelson",
+    "has_agent": true,
+    "role": "Buyer's Agent",
+    "date": "May 5, 2026",
+    "year_built": 1922,
+    "is_both_sides_vre": false
+  }
+];
+var currentIdx = 0, autoTimer = null, autoRunning = true, SLIDE_DURATION = 6500;
+function buildSlides(){
+  var stack = document.getElementById('slide-stack'); stack.innerHTML = '';
+  SALES.forEach(function(sale, i){
+    var slide = document.createElement('div');
+    slide.className = 'sale-slide' + (i === 0 ? ' active' : '');
+    slide.id = 'slide-' + i;
+    var bothBadge = '';
+    var metaParts = [];
+    if (sale.beds) metaParts.push(sale.beds + ' Beds');
+    if (sale.baths_str) metaParts.push(sale.baths_str + ' Baths');
+    if (sale.sqft) metaParts.push(sale.sqft + ' Sq Ft');
+    if (sale.year_built) metaParts.push('Built ' + sale.year_built);
+    var metaHtml = metaParts.map(function(p){ return '<div class="meta-pill">' + p + '</div>'; }).join('');
+    var roleHtml = sale.role ? '<div class="role-tag">' + sale.role + '</div>' : '';
+    var agentHtml = '';
+    if (sale.has_agent) agentHtml = '<div class="sale-agent-row"><div class="sale-agent">' + sale.agent + '</div>' + bothBadge + '</div>';
+    else if (bothBadge) agentHtml = '<div class="sale-agent-row">' + bothBadge + '</div>';
+    slide.innerHTML =
+      '<div class="slide-photo" style="background-image:url(\'' + sale.photo + '\')"></div>' +
+      '<div class="slide-overlay"></div>' +
+      '<div class="slide-content">' +
+        '<div class="sold-header"><div class="sold-label">Sold</div><div class="sold-date">' + sale.date + '</div></div>' +
+        '<div class="sale-price">' + sale.price + '</div>' +
+        '<div class="sale-address">' + sale.address + '</div>' +
+        '<div class="sale-city">' + sale.city + '</div>' +
+        '<div class="sale-meta">' + metaHtml + '</div>' +
+        roleHtml + agentHtml +
+      '</div>' +
+      '<div class="slide-logo"><img src="https://drive.google.com/thumbnail?id=1G4nSxFHfV5OpdCyt67u0R7bhf2jW97Uc&sz=w400" alt="VRE"></div>' +
+      '<div class="progress-dots">' + SALES.map(function(_, j){ return '<div class="dot' + (j === i ? ' active' : '') + '"></div>'; }).join('') + '</div>';
+    stack.appendChild(slide);
+  });
+}
+function buildTicker(){
+  var items = SALES.map(function(s){
+    var who = s.has_agent ? s.agent : s.role;
+    return '<div class="ticker-item">' + s.address + ', ' + s.city.split(',')[0] + ' &nbsp;&nbsp; <span>' + s.price + '</span> &nbsp;&nbsp; ' + who + '</div>';
+  }).join('');
+  document.getElementById('tickerInner').innerHTML = items + items;
+}
+function goToSlide(idx){
+  var prev = document.getElementById('slide-' + currentIdx);
+  if (prev) prev.classList.remove('active');
+  currentIdx = (idx + SALES.length) % SALES.length;
+  var next = document.getElementById('slide-' + currentIdx);
+  if (next) next.classList.add('active');
+  if (next){ var p = next.querySelector('.slide-photo'); if (p){ p.style.animation='none'; p.offsetHeight; p.style.animation=''; } }
+}
+function nextSlide(){ goToSlide(currentIdx + 1); if(autoRunning) resetAuto(); }
+function prevSlide(){ goToSlide(currentIdx - 1); if(autoRunning) resetAuto(); }
+function resetAuto(){ clearInterval(autoTimer); autoTimer = setInterval(function(){ goToSlide(currentIdx + 1); }, SLIDE_DURATION); }
+function toggleAuto(){
+  var btn = document.getElementById('autoBtn');
+  if (autoRunning){ clearInterval(autoTimer); autoRunning = false; btn.textContent = '▶ Play'; }
+  else { resetAuto(); autoRunning = true; btn.textContent = '⏸ Pause'; }
+}
+buildSlides(); buildTicker(); resetAuto();
+</script></body></html>
