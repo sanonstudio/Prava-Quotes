@@ -18,7 +18,7 @@ html, body {
 }
 #bg-canvas      { z-index: 0; }
 #sparkle-canvas { z-index: 3; }
-:root { --footer-h: 148px; --mascot-nudge: 20px; }
+:root { --footer-h: 60px; --mascot-nudge: 20px; }
 .slide {
   position: fixed; inset: 0; z-index: 1;
   display: flex; flex-direction: column;
@@ -81,30 +81,9 @@ html, body {
   font-weight: 900; text-transform: uppercase;
   line-height: 1; color: #fff;
 }
-.ytd-strip {
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 4;
-  background: rgba(1,91,187,0.30);
-  border-top: 2px solid rgba(1,91,187,0.6);
-  /* right padding reserves the corner-logo zone (120px offset + 420px logo)
-     so the label/amount can never run underneath it on narrower screens */
-  padding: 28px 560px 28px 120px;
-  display: flex; align-items: center; gap: 36px;
-}
-.ytd-label {
-  font-family: "League Spartan", sans-serif;
-  font-size: clamp(18px, 2vw, 30px);
-  font-weight: 700; letter-spacing: 4px;
-  text-transform: uppercase; color: #fff;
-}
-.ytd-amount {
-  font-family: "League Spartan", sans-serif;
-  font-size: clamp(32px, 4vw, 60px);
-  font-weight: 900; color: #FFD700; letter-spacing: 1px;
-}
-.ytd-divider { width: 1px; height: 44px; background: rgba(255,255,255,0.25); }
 .logo-corner {
   position: fixed;
-  bottom: 32px; right: 120px;
+  bottom: 32px; left: 120px;
   z-index: 5;
   width: 420px;
   opacity: 0.90;
@@ -118,11 +97,6 @@ html, body {
 <div id="app"></div>
 <div class="logo-corner">
   <img src="https://lh3.googleusercontent.com/d/1G4nSxFHfV5OpdCyt67u0R7bhf2jW97Uc" alt="VRE Logo">
-</div>
-<div class="ytd-strip">
-  <div class="ytd-label" id="ytd-label">Loading&hellip;</div>
-  <div class="ytd-divider"></div>
-  <div class="ytd-amount" id="ytd-amount">&nbsp;</div>
 </div>
 <script>
 // ── Live data source ──────────────────────────────────────────────────────────
@@ -186,16 +160,6 @@ function buildSlide(data) {
     mascot.className = 'slide-mascot';
     mascot.innerHTML = '<img src="https://lh3.googleusercontent.com/d/1oG_L7edU7xF5PM-7VMIXwNKOHPbW_R3p" alt="Bison mascot">';
     document.body.appendChild(mascot);
-  }
-  // Footer — latest closed month (the big number above is the YTD total)
-  if (data.monthLabel) {
-    document.getElementById('ytd-label').textContent =
-      data.monthLabel + ' Seller-Paid Closing Costs';
-    document.getElementById('ytd-amount').textContent = fmtDollar(data.monthCC);
-  } else {
-    document.getElementById('ytd-label').textContent =
-      data.year + ' Season';
-    document.getElementById('ytd-amount').textContent = '';
   }
   // Animate in
   requestAnimationFrame(function() {
