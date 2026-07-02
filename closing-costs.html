@@ -23,9 +23,11 @@ html, body {
   position: fixed; inset: 0; z-index: 1;
   display: flex; flex-direction: column;
   justify-content: center; align-items: flex-start;
-  padding: 80px 120px;
-  padding-bottom: calc(var(--footer-h) + 40px);
-  width: 58%;
+  /* viewport-relative padding so the layout breathes at any screen size;
+     bottom reserves the corner-logo zone so text can never reach it */
+  padding: 7vh 6vw;
+  padding-bottom: max(16vh, 150px);
+  width: 54%;
   opacity: 0;
   transition: opacity 0.7s ease;
   text-align: left;
@@ -48,21 +50,26 @@ html, body {
 }
 .month-label {
   font-family: "League Spartan", sans-serif;
-  font-size: clamp(22px, 2.4vw, 36px);
+  /* min() caps every text block by screen HEIGHT too, so short/wide
+     screens (laptops) scale everything down together instead of clipping */
+  font-size: min(3.2vh, clamp(22px, 2.4vw, 36px));
   font-weight: 700; letter-spacing: 8px;
   text-transform: uppercase; color: #FFD700;
-  margin-bottom: 18px;
+  margin-bottom: 2vh;
 }
 .headline {
   font-family: "League Spartan", sans-serif;
-  font-size: clamp(48px, 6.5vw, 100px);
+  font-size: min(9vh, clamp(40px, 6.5vw, 100px));
   font-weight: 900; text-transform: uppercase;
-  line-height: 1; color: #fff; margin-bottom: 12px;
+  line-height: 1; color: #fff; margin-bottom: 1.2vh;
 }
-.amount-wrap { position: relative; display: inline-block; margin: 4px 0 16px; }
+.amount-wrap { position: relative; display: block; width: 100%; margin: 0.5vh 0 1.6vh; }
 .amount {
   font-family: "League Spartan", sans-serif;
-  font-size: clamp(64px, 11.5vw, 190px);
+  /* base size only — fitCounter() in the JS shrinks it until the full
+     dollar amount fits the column width, whatever the digit count */
+  font-size: min(18vh, clamp(56px, 11vw, 190px));
+  white-space: nowrap;
   font-weight: 900; line-height: 1; color: #FFD700;
   text-shadow:
     0 0 40px rgba(255,215,0,0.9),
@@ -77,15 +84,15 @@ html, body {
 }
 .subline {
   font-family: "League Spartan", sans-serif;
-  font-size: clamp(36px, 5vw, 76px);
+  font-size: min(7vh, clamp(30px, 5vw, 76px));
   font-weight: 900; text-transform: uppercase;
   line-height: 1; color: #fff;
 }
 .logo-corner {
   position: fixed;
-  bottom: 32px; left: 120px;
+  bottom: 3vh; left: 6vw;
   z-index: 5;
-  width: 420px;
+  width: clamp(200px, 21vw, 420px);
   opacity: 0.90;
 }
 .logo-corner img { width: 100%; display: block; }
@@ -129,6 +136,24 @@ function extractData(json) {
   }
   return result;
 }
+// ── Auto-fit the big number to its column ─────────────────────────────────────
+// Measures the FINAL dollar string and steps the font size down until it fits
+// the column width — works for any digit count and any screen size/shape.
+var __lastData = null;
+function fitCounter(el, finalTarget) {
+  if (!el || !el.parentElement) return;
+  var wrap = el.parentElement; // .amount-wrap (block, width:100%)
+  var fs = Math.min(window.innerHeight * 0.18, window.innerWidth * 0.11, 190);
+  fs = Math.max(fs, 36);
+  var prev = el.textContent;
+  el.textContent = '$' + Math.round(finalTarget).toLocaleString('en-US');
+  el.style.fontSize = fs + 'px';
+  while (el.scrollWidth > wrap.clientWidth && fs > 36) {
+    fs -= 2;
+    el.style.fontSize = fs + 'px';
+  }
+  el.textContent = prev;
+}
 // ── Animated counter ──────────────────────────────────────────────────────────
 function countUp(el, target, duration) {
   var start = null;
@@ -161,7 +186,9 @@ function buildSlide(data) {
     mascot.innerHTML = '<img src="https://lh3.googleusercontent.com/d/1oG_L7edU7xF5PM-7VMIXwNKOHPbW_R3p" alt="Bison mascot">';
     document.body.appendChild(mascot);
   }
-  // Animate in
+  // Size the counter for its final value, then animate in
+  __lastData = data;
+  fitCounter(div.querySelector('#counter'), data.ytdCC);
   requestAnimationFrame(function() {
     requestAnimationFrame(function() {
       div.classList.add('active');
@@ -271,6 +298,7 @@ window.addEventListener('resize', function() {
   sC.width = window.innerWidth; sC.height = window.innerHeight;
   var b = document.getElementById('bg-canvas');
   b.width = window.innerWidth; b.height = window.innerHeight;
+  if (__lastData) fitCounter(document.getElementById('counter'), __lastData.ytdCC);
 });
 </script>
 </body>
