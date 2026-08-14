@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VRE Company Listings — For Sale</title>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:#010f2a;font-family:"HK Grotesk","Hanken Grotesk",sans-serif;color:#fff}
+#slide-stack{position:fixed;inset:0}
+.sale-slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease;overflow:hidden}
+.sale-slide.active{opacity:1}
+.slide-photo{position:absolute;inset:0;background-size:cover;background-position:center;transform-origin:center center;animation:kenBurns 10s ease-in-out forwards;animation-play-state:paused}
+.sale-slide.active .slide-photo{animation-play-state:running}
+@keyframes kenBurns{0%{transform:scale(1) translateX(0) translateY(0)}100%{transform:scale(1.07) translateX(-1%) translateY(-1%)}}
+.slide-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(1,10,35,0.97) 0%,rgba(1,10,35,0.82) 30%,rgba(1,10,35,0.35) 65%,rgba(0,0,0,0.15) 100%),linear-gradient(to right,rgba(1,10,35,0.6) 0%,transparent 50%)}
+.slide-content{position:absolute;bottom:0;left:0;right:0;padding:0 56px 104px;z-index:10;text-align:left}
+.sale-header{display:flex;align-items:center;gap:28px;justify-content:flex-start;margin-bottom:20px}
+.sale-label{display:inline-block;font-size:clamp(18px,2vw,26px);font-weight:900;letter-spacing:6px;text-transform:uppercase;color:#010f2a;background:#FFD700;padding:6px 22px 4px}
+.sale-market{font-size:clamp(16px,1.8vw,24px);font-weight:600;color:rgba(255,255,255,0.7);letter-spacing:3px;text-transform:uppercase}
+.mls-flag{display:inline-block;font-size:clamp(13px,1.3vw,18px);font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#FF6B66;border:2px solid #C9302C;padding:4px 14px 2px}
+.sale-price{font-size:clamp(80px,12vw,160px);font-weight:900;line-height:1;color:#FFD700;letter-spacing:-2px;margin-bottom:16px}
+.sale-address{font-size:clamp(40px,5.5vw,72px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:6px}
+.sale-city{font-size:clamp(32px,4vw,54px);font-weight:400;color:rgba(255,255,255,0.6);margin-bottom:28px}
+.sale-meta{display:flex;align-items:center;gap:0;flex-wrap:wrap;margin-bottom:26px}
+.meta-pill{font-size:clamp(18px,2.2vw,28px);font-weight:500;color:rgba(255,255,255,0.6);padding-right:28px;margin-right:28px;border-right:1px solid rgba(255,255,255,0.2)}
+.meta-pill:last-child{border-right:none;padding-right:0;margin-right:0}
+.sale-agent-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.sale-agent{font-size:clamp(24px,3vw,42px);font-weight:700;color:#fff;letter-spacing:0.5px}
+.role-tag{display:inline-block;font-size:clamp(12px,1.2vw,16px);font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.55);margin-bottom:4px}
+.slide-logo{position:absolute;bottom:104px;right:56px;z-index:10;opacity:0.85}
+.slide-logo img{height:clamp(54px,6vw,84px);width:auto;display:block}
+.progress-dots{position:absolute;bottom:48px;right:56px;display:flex;gap:8px;z-index:10}
+.dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.25);transition:background 0.4s,transform 0.4s}
+.dot.active{background:#FFD700;transform:scale(1.4)}
+.ticker-bar{position:fixed;bottom:0;left:0;right:0;height:84px;background:rgba(1,91,187,0.95);backdrop-filter:blur(10px);display:flex;align-items:center;overflow:hidden;z-index:20}
+.ticker-label{flex-shrink:0;background:#FFD700;color:#010f2a;font-size:20px;font-weight:900;letter-spacing:4px;padding:0 36px;height:100%;display:flex;align-items:center}
+.ticker-track{flex:1;overflow:hidden;position:relative}
+.ticker-inner{display:flex;gap:0;white-space:nowrap;animation:tickerScroll 40s linear infinite}
+.ticker-item{font-size:26px;font-weight:500;color:rgba(255,255,255,0.95);padding:0 60px;letter-spacing:0.3px}
+.ticker-item span{color:#FFD700;font-weight:700}
+.ticker-item.msg{color:#FFD700;font-weight:800;letter-spacing:2px}
+@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.preview-controls{position:fixed;top:8px;right:8px;z-index:200;display:flex;gap:6px;background:rgba(0,0,0,0.7);padding:6px 10px;border-radius:8px}
+.preview-controls button{background:rgba(255,255,255,0.15);color:#fff;border:none;padding:5px 12px;border-radius:5px;font-size:11px;font-weight:600;cursor:pointer}
+.preview-controls button:hover{background:rgba(255,255,255,0.3)}
+</style></head><body>
+<div id="slide-stack"></div>
+<div class="ticker-bar"><div class="ticker-label">COMPANY LISTINGS</div><div class="ticker-track"><div class="ticker-inner" id="tickerInner"></div></div></div>
+<div class="preview-controls"><button onclick="prevSlide()">&#8592; Prev</button><button onclick="nextSlide()">Next &#8594;</button><button onclick="toggleAuto()" id="autoBtn">&#9646;&#9646; Pause</button></div>
+<script>
+/* Source: https://vrecompanylistings-team.netlify.app/ (updated Aug 12, 2026) + Zillow photo pass Aug 14, 2026 */
+var LISTINGS = [
+  {"photo":"https://photos.zillowstatic.com/fp/ebef6f84376a3fbb8b8ea8e049242a18-cc_ft_1536.jpg","photo_fb":"https://photos.zillowstatic.com/fp/ebef6f84376a3fbb8b8ea8e049242a18-p_c.jpg","price":"$299,000","address":"10426 Shady Preserve Drive","city":"Riverview, FL 33578","market":"Tampa","agent":"Amber Brown","beds":"","baths":"2","sqft":"1,580","not_on_mls":true},
+  {"photo":"https://photos.zillowstatic.com/fp/48c802353c37c389858a123cb9a3876a-cc_ft_1536.jpg","photo_fb":"","price":"$374,999","address":"3196 Shadow Creek Road","city":"Jacksonville, FL 32226","market":"Tampa","agent":"Dee Brown","beds":"4","baths":"2","sqft":"2,236","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/b39506066bcf00d8fd82eb3e4ddc843a-cc_ft_1536.jpg","photo_fb":"","price":"$250,000","address":"20367 Andover Ave","city":"Port Charlotte, FL 33954","market":"Tampa","agent":"Jonas Bridges","beds":"3","baths":"2","sqft":"1,008","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/fc693a056ee1ef65069ef7fcac9f0f53-cc_ft_1536.jpg","photo_fb":"","price":"$225,000","address":"18245 Bridle Club Dr #18245","city":"Tampa, FL 33647","market":"Tampa","agent":"Lindsay Clemmons","beds":"3","baths":"2","sqft":"1,335","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/6e40e26c4a751716846634965ebee45a-cc_ft_1536.jpg","photo_fb":"https://photos.zillowstatic.com/fp/6e40e26c4a751716846634965ebee45a-sr_576_384.jpg","price":"$321,000","address":"388 Mangrove Shade Cir","city":"Apollo Beach, FL 33572","market":"Tampa","agent":"Lindsay Clemmons","beds":"3","baths":"3","sqft":"1,802","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/987b0db2c8f65536b9c6cae9c0ac9b0e-cc_ft_1536.jpg","photo_fb":"https://photos.zillowstatic.com/fp/987b0db2c8f65536b9c6cae9c0ac9b0e-sr_576_384.jpg","price":"$724,900","address":"7519 N Coolidge Ave","city":"Tampa, FL 33614","market":"Tampa","agent":"Lindsay Clemmons","beds":"4","baths":"3","sqft":"2,303","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/8d172b52a3f7076ddf58b349dbca3052-cc_ft_1536.jpg","photo_fb":"","price":"$400,000","address":"18334 Spencer Rd","city":"Odessa, FL 33556","market":"Tampa","agent":"Noelle McEntire","beds":"3","baths":"2","sqft":"1,935","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/782f30ac52dbd1d32f4c1167b86deb69-cc_ft_1536.jpg","photo_fb":"","price":"$350,000","address":"4613 N Country Hills Ct","city":"Plant City, FL 33566","market":"Tampa","agent":"Rebecca Martin Hakola","beds":"3","baths":"2","sqft":"1,305","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/d2824b623e0450ca2a5118173c6d9e39-cc_ft_1536.jpg","photo_fb":"","price":"$499,000","address":"2229 Marcel Drive","city":"Orange Park, FL 32073","market":"Jacksonville","agent":"Amber Brown","beds":"4","baths":"3","sqft":"1,521","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/79a83626c8f7fb6dc94ca4e6ebbdedfc-cc_ft_1536.jpg","photo_fb":"","price":"$199,900","address":"0 Hogan Road","city":"Jacksonville, FL 32216","market":"Jacksonville","agent":"Justin Hahn","beds":"","baths":"","sqft":"700","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/d735a162046977203baabb1f56e9101d-cc_ft_1536.jpg","photo_fb":"","price":"$289,900","address":"7252 Old Kings Road","city":"Jacksonville, FL 32217","market":"Jacksonville","agent":"Justin Hahn","beds":"3","baths":"2","sqft":"1,412","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/39aedc46c7bd482ce92b4b79216748c2-cc_ft_1536.jpg","photo_fb":"","price":"$600,000","address":"201 Peace River Rd","city":"St. Johns, FL 32259","market":"Jacksonville","agent":"Scott McAnany","beds":"4","baths":"3","sqft":"2,395","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/99d42f83be18b41e9c4d8ac8d480f958-cc_ft_1536.jpg","photo_fb":"","price":"$149,900","address":"2121 NE 42nd Ct 202C","city":"Lighthouse Point, FL 33064","market":"South Florida","agent":"Deron Baugh","beds":"2","baths":"1","sqft":"890","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/b03426b60b9cc26655acbad77b6b7175-cc_ft_1536.jpg","photo_fb":"","price":"$699,000","address":"1806 SW 23rd St","city":"Fort Lauderdale, FL 33315","market":"South Florida","agent":"Jacqueline Wellington","beds":"3","baths":"3","sqft":"2,739","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/5cfbb4015859d5c1809e15328e28df7e-cc_ft_1536.jpg","photo_fb":"","price":"$860,000","address":"1779 Palisades Drive","city":"West Palm Beach, FL 33411","market":"South Florida","agent":"Jennifer Calvoni","beds":"5","baths":"3","sqft":"3,484","not_on_mls":false},
+  {"photo":"","photo_fb":"","price":"$499,000","address":"1091 Northwest 33rd Court","city":"Pompano Beach, FL 33064","market":"South Florida","agent":"Samer Ortiz","beds":"3","baths":"3","sqft":"1,493","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/533ba802f2abad38f8b7e5bc02b6b507-cc_ft_1536.jpg","photo_fb":"","price":"$220,000","address":"3100 NW 42nd Avenue D401","city":"Coconut Creek, FL 33066","market":"South Florida","agent":"Samer Ortiz","beds":"2","baths":"2","sqft":"1,340","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/cf95d34dbef1700c17b41b311a9f99e1-cc_ft_1536.jpg","photo_fb":"","price":"$220,000","address":"3425 NW 47th Ave 3191","city":"Coconut Creek, FL 33063","market":"South Florida","agent":"Samer Ortiz","beds":"2","baths":"2","sqft":"955","not_on_mls":false},
+  {"photo":"https://photos.zillowstatic.com/fp/b9bf5fe6bcc779a5dbdb5401fd9b5122-cc_ft_1536.jpg","photo_fb":"","price":"$185,000","address":"8450 Lagos De Campo Blvd #107","city":"Tamarac, FL 33321","market":"South Florida","agent":"Samer Ortiz","beds":"2","baths":"2","sqft":"980","not_on_mls":false}
+];
+var SLIDES = LISTINGS.filter(function(l){ return l.photo; }); /* listings with no photo are skipped from slides (kept in ticker) */
+var currentIdx = 0, autoTimer = null, autoRunning = true, SLIDE_DURATION = 6500;
+function buildSlides(){
+  var stack = document.getElementById('slide-stack'); stack.innerHTML = '';
+  SLIDES.forEach(function(l, i){
+    var slide = document.createElement('div');
+    slide.className = 'sale-slide' + (i === 0 ? ' active' : '');
+    slide.id = 'slide-' + i;
+    var metaParts = [];
+    if (l.beds) metaParts.push(l.beds + ' Beds');
+    if (l.baths) metaParts.push(l.baths + ' Baths');
+    if (l.sqft) metaParts.push(l.sqft + ' Sq Ft');
+    var metaHtml = metaParts.map(function(p){ return '<div class="meta-pill">' + p + '</div>'; }).join('');
+    var mlsFlag = l.not_on_mls ? '<div class="mls-flag">Not on MLS &mdash; Verify</div>' : '';
+    slide.innerHTML =
+      '<div class="slide-photo" id="photo-' + i + '" style="background-image:url(\'' + l.photo + '\')"></div>' +
+      '<div class="slide-overlay"></div>' +
+      '<div class="slide-content">' +
+        '<div class="sale-header"><div class="sale-label">For Sale</div><div class="sale-market">' + l.market + '</div>' + mlsFlag + '</div>' +
+        '<div class="sale-price">' + l.price + '</div>' +
+        '<div class="sale-address">' + l.address + '</div>' +
+        '<div class="sale-city">' + l.city + '</div>' +
+        '<div class="sale-meta">' + metaHtml + '</div>' +
+        '<div class="role-tag">Listing Agent</div>' +
+        '<div class="sale-agent-row"><div class="sale-agent">' + l.agent + '</div></div>' +
+      '</div>' +
+      '<div class="slide-logo"><img src="https://drive.google.com/thumbnail?id=1G4nSxFHfV5OpdCyt67u0R7bhf2jW97Uc&sz=w400" alt="VRE"></div>' +
+      '<div class="progress-dots">' + SLIDES.map(function(_, j){ return '<div class="dot' + (j === i ? ' active' : '') + '"></div>'; }).join('') + '</div>';
+    stack.appendChild(slide);
+  });
+  /* Photo fallback: if the cc_ft_1536 swap 404s, drop to the originally scraped size */
+  SLIDES.forEach(function(l, i){
+    if (!l.photo || !l.photo_fb) return;
+    var img = new Image();
+    img.onerror = function(){
+      var el = document.getElementById('photo-' + i);
+      if (el) el.style.backgroundImage = "url('" + l.photo_fb + "')";
+    };
+    img.src = l.photo;
+  });
+}
+function buildTicker(){
+  var MSG = '<div class="ticker-item msg">&#10022; ANY AGENT MAY BRING A BUYER &mdash; THESE LEADS BELONG TO THE COMPANY &#10022;</div>';
+  var items = '';
+  LISTINGS.forEach(function(l, i){
+    if (i % 6 === 0) items += MSG;
+    items += '<div class="ticker-item">' + l.address + ', ' + l.city.split(',')[0] + ' &nbsp;&nbsp; <span>' + l.price + '</span> &nbsp;&nbsp; ' + l.agent + '</div>';
+  });
+  document.getElementById('tickerInner').innerHTML = items + items;
+}
+function goToSlide(idx){
+  var prev = document.getElementById('slide-' + currentIdx);
+  if (prev) prev.classList.remove('active');
+  currentIdx = (idx + SLIDES.length) % SLIDES.length;
+  var next = document.getElementById('slide-' + currentIdx);
+  if (next) next.classList.add('active');
+  if (next){ var p = next.querySelector('.slide-photo'); if (p){ p.style.animation='none'; p.offsetHeight; p.style.animation=''; } }
+}
+function nextSlide(){ goToSlide(currentIdx + 1); if(autoRunning) resetAuto(); }
+function prevSlide(){ goToSlide(currentIdx - 1); if(autoRunning) resetAuto(); }
+function resetAuto(){ clearInterval(autoTimer); autoTimer = setInterval(function(){ goToSlide(currentIdx + 1); }, SLIDE_DURATION); }
+function toggleAuto(){
+  var btn = document.getElementById('autoBtn');
+  if (autoRunning){ clearInterval(autoTimer); autoRunning = false; btn.textContent = '▶ Play'; }
+  else { resetAuto(); autoRunning = true; btn.textContent = '⏸ Pause'; }
+}
+buildSlides(); buildTicker(); resetAuto();
+</script></body></html>
