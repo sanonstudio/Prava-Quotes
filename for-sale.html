@@ -14,9 +14,7 @@ html,body{width:100%;height:100%;overflow:hidden;background:#010f2a;font-family:
 .slide-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(1,10,35,0.97) 0%,rgba(1,10,35,0.82) 30%,rgba(1,10,35,0.35) 65%,rgba(0,0,0,0.15) 100%),linear-gradient(to right,rgba(1,10,35,0.6) 0%,transparent 50%)}
 .slide-content{position:absolute;bottom:0;left:0;right:0;padding:0 56px 104px;z-index:10;text-align:left}
 .sale-header{display:flex;align-items:center;gap:28px;justify-content:flex-start;margin-bottom:20px}
-.sale-label{display:inline-block;font-size:clamp(18px,2vw,26px);font-weight:900;letter-spacing:6px;text-transform:uppercase;color:#010f2a;background:#FFD700;padding:6px 22px 4px}
-.sale-market{font-size:clamp(16px,1.8vw,24px);font-weight:600;color:rgba(255,255,255,0.7);letter-spacing:3px;text-transform:uppercase}
-.mls-flag{display:inline-block;font-size:clamp(13px,1.3vw,18px);font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#FF6B66;border:2px solid #C9302C;padding:4px 14px 2px}
+.sale-label{display:inline-block;font-size:clamp(40px,4.8vw,64px);font-weight:900;letter-spacing:10px;text-transform:uppercase;color:#010f2a;background:#FFD700;padding:10px 36px 6px}
 .sale-price{font-size:clamp(80px,12vw,160px);font-weight:900;line-height:1;color:#FFD700;letter-spacing:-2px;margin-bottom:16px}
 .sale-address{font-size:clamp(40px,5.5vw,72px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:6px}
 .sale-city{font-size:clamp(32px,4vw,54px);font-weight:400;color:rgba(255,255,255,0.6);margin-bottom:28px}
@@ -82,12 +80,11 @@ function buildSlides(){
     if (l.baths) metaParts.push(l.baths + ' Baths');
     if (l.sqft) metaParts.push(l.sqft + ' Sq Ft');
     var metaHtml = metaParts.map(function(p){ return '<div class="meta-pill">' + p + '</div>'; }).join('');
-    var mlsFlag = l.not_on_mls ? '<div class="mls-flag">Not on MLS &mdash; Verify</div>' : '';
     slide.innerHTML =
       '<div class="slide-photo" id="photo-' + i + '" style="background-image:url(\'' + l.photo + '\')"></div>' +
       '<div class="slide-overlay"></div>' +
       '<div class="slide-content">' +
-        '<div class="sale-header"><div class="sale-label">For Sale</div><div class="sale-market">' + l.market + '</div>' + mlsFlag + '</div>' +
+        '<div class="sale-header"><div class="sale-label">For Sale</div></div>' +
         '<div class="sale-price">' + l.price + '</div>' +
         '<div class="sale-address">' + l.address + '</div>' +
         '<div class="sale-city">' + l.city + '</div>' +
@@ -111,12 +108,9 @@ function buildSlides(){
   });
 }
 function buildTicker(){
-  var MSG = '<div class="ticker-item msg">&#10022; ANY AGENT MAY BRING A BUYER &mdash; THESE LEADS BELONG TO THE COMPANY &#10022;</div>';
-  var items = '';
-  LISTINGS.forEach(function(l, i){
-    if (i % 6 === 0) items += MSG;
-    items += '<div class="ticker-item">' + l.address + ', ' + l.city.split(',')[0] + ' &nbsp;&nbsp; <span>' + l.price + '</span> &nbsp;&nbsp; ' + l.agent + '</div>';
-  });
+  var items = LISTINGS.map(function(l){
+    return '<div class="ticker-item">' + l.address + ', ' + l.city.split(',')[0] + ' &nbsp;&nbsp; <span>' + l.price + '</span> &nbsp;&nbsp; ' + l.agent + '</div>';
+  }).join('');
   document.getElementById('tickerInner').innerHTML = items + items;
 }
 function goToSlide(idx){
