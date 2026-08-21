@@ -23,6 +23,12 @@ html,body{width:100%;height:100%;overflow:hidden;background:#010f2a;font-family:
 .meta-pill:last-child{border-right:none;padding-right:0;margin-right:0}
 .sale-agent-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .sale-agent{font-size:clamp(24px,3vw,42px);font-weight:700;color:#fff;letter-spacing:0.5px}
+.sale-phone{font-size:clamp(24px,3vw,42px);font-weight:500;color:rgba(255,255,255,0.75);letter-spacing:0.5px}
+.qr-card{position:absolute;bottom:210px;right:56px;z-index:10;background:#fff;border-radius:14px;padding:14px 14px 8px;display:none;flex-direction:column;align-items:center;gap:6px}
+.qr-card.show{display:flex}
+.qr-card .qr-box{width:170px;height:170px}
+.qr-card .qr-box img,.qr-card .qr-box canvas{width:170px!important;height:170px!important;display:block}
+.qr-label{font-size:15px;font-weight:800;letter-spacing:2px;color:#010f2a;text-transform:uppercase}
 .role-tag{display:inline-block;font-size:clamp(12px,1.2vw,16px);font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.55);margin-bottom:4px}
 .slide-logo{position:absolute;bottom:104px;right:56px;z-index:10;opacity:0.85}
 .slide-logo img{height:clamp(54px,6vw,84px);width:auto;display:block}
@@ -44,8 +50,15 @@ html,body{width:100%;height:100%;overflow:hidden;background:#010f2a;font-family:
 <div id="slide-stack"></div>
 <div class="ticker-bar"><div class="ticker-label">COMPANY LISTINGS</div><div class="ticker-track"><div class="ticker-inner" id="tickerInner"></div></div></div>
 <div class="preview-controls"><button onclick="prevSlide()">&#8592; Prev</button><button onclick="nextSlide()">Next &#8594;</button><button onclick="toggleAuto()" id="autoBtn">&#9646;&#9646; Pause</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
 /* Source: https://vrecompanylistings-team.netlify.app/ (updated Aug 12, 2026) + Zillow photo pass Aug 14, 2026 */
+
+/* ═══ AGENT FUB NUMBERS — Google Sheet feed (live: edit the sheet, TV updates on next reload) ═══
+   Tab "Agent FUB" on the Combined Public Dashboard sheet, two columns: Agent | FUB Number.
+   Replace PASTE_GID_HERE with the tab's gid (the number after #gid= in the sheet URL when
+   that tab is open). Until then the feature is dormant — board renders normally. */
+var FUB_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwTzLvb03DcU3y1-LeFTBwhwCIAaKXZojBxgQ8es37EBh3aC9DDwRs-IiCFWWQNxZaCVL-GxxMIr7y/pub?gid=PASTE_GID_HERE&single=true&output=csv';
 var LISTINGS = [
   {"photo":"https://photos.zillowstatic.com/fp/ebef6f84376a3fbb8b8ea8e049242a18-cc_ft_1536.jpg","photo_fb":"https://photos.zillowstatic.com/fp/ebef6f84376a3fbb8b8ea8e049242a18-p_c.jpg","price":"$299,000","address":"10426 Shady Preserve Drive","city":"Riverview, FL 33578","market":"Tampa","agent":"Amber Brown","beds":"","baths":"2","sqft":"1,580","not_on_mls":true},
   {"photo":"https://photos.zillowstatic.com/fp/48c802353c37c389858a123cb9a3876a-cc_ft_1536.jpg","photo_fb":"","price":"$374,999","address":"3196 Shadow Creek Road","city":"Jacksonville, FL 32226","market":"Tampa","agent":"Dee Brown","beds":"4","baths":"2","sqft":"2,236","not_on_mls":false},
@@ -90,8 +103,9 @@ function buildSlides(){
         '<div class="sale-city">' + l.city + '</div>' +
         '<div class="sale-meta">' + metaHtml + '</div>' +
         '<div class="role-tag">Listing Agent</div>' +
-        '<div class="sale-agent-row"><div class="sale-agent">' + l.agent + '</div></div>' +
+        '<div class="sale-agent-row"><div class="sale-agent">' + l.agent + '</div><div class="sale-phone" id="phone-' + i + '"></div></div>' +
       '</div>' +
+      '<div class="qr-card" id="qr-' + i + '"><div class="qr-box" id="qrbox-' + i + '"></div><div class="qr-label">Scan to Call</div></div>' +
       '<div class="slide-logo"><img src="https://drive.google.com/thumbnail?id=1G4nSxFHfV5OpdCyt67u0R7bhf2jW97Uc&sz=w400" alt="VRE"></div>' +
       '<div class="progress-dots">' + SLIDES.map(function(_, j){ return '<div class="dot' + (j === i ? ' active' : '') + '"></div>'; }).join('') + '</div>';
     stack.appendChild(slide);
@@ -129,5 +143,43 @@ function toggleAuto(){
   if (autoRunning){ clearInterval(autoTimer); autoRunning = false; btn.textContent = '▶ Play'; }
   else { resetAuto(); autoRunning = true; btn.textContent = '⏸ Pause'; }
 }
-buildSlides(); buildTicker(); resetAuto();
+/* ═══ Live agent FUB numbers from Firestore + dial-on-scan QR ═══ */
+function normName(s){ return String(s||'').toLowerCase().replace(/[^a-z ]/g,'').replace(/\s+/g,' ').trim(); }
+function fmtPhone(raw){
+  var d = String(raw||'').replace(/\D/g,'');
+  if (d.length === 11 && d.charAt(0) === '1') d = d.slice(1);
+  if (d.length !== 10) return null;
+  return { display: '(' + d.slice(0,3) + ') ' + d.slice(3,6) + '-' + d.slice(6), tel: 'tel:+1' + d };
+}
+function loadAgentNumbers(){
+  if (FUB_CSV_URL.indexOf('PASTE_GID_HERE') !== -1 || typeof QRCode === 'undefined') return;
+  fetch(FUB_CSV_URL).then(function(r){ return r.text(); }).then(function(csv){
+    var map = {};
+    csv.split(/\r?\n/).forEach(function(line, idx){
+      if (idx === 0) return;                            /* skip header row */
+      var cells = line.replace(/"/g,'').split(',');
+      var nm = (cells[0] || '').trim();
+      var ph = (cells.slice(1).join(',') || '').trim(); /* number may carry stray commas */
+      if (!nm || !ph) return;
+      var key = normName(nm);
+      map[key] = ph;
+      var parts = key.split(' ');                       /* first+last fallback key */
+      if (parts.length > 2) map[parts[0] + ' ' + parts[parts.length-1]] = ph;
+    });
+    SLIDES.forEach(function(l, i){
+      var key = normName(l.agent), parts = key.split(' ');
+      var raw = map[key] || (parts.length > 2 ? map[parts[0] + ' ' + parts[parts.length-1]] : null);
+      var p = fmtPhone(raw);
+      if (!p) return;
+      var phoneEl = document.getElementById('phone-' + i);
+      if (phoneEl) phoneEl.textContent = '· ' + p.display;
+      var box = document.getElementById('qrbox-' + i), card = document.getElementById('qr-' + i);
+      if (box && card){
+        new QRCode(box, { text: p.tel, width: 170, height: 170, correctLevel: QRCode.CorrectLevel.M });
+        card.classList.add('show');
+      }
+    });
+  }).catch(function(e){ /* silent — board still works without numbers */ });
+}
+buildSlides(); buildTicker(); resetAuto(); loadAgentNumbers();
 </script></body></html>
