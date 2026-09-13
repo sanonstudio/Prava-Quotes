@@ -52,14 +52,20 @@ html,body{width:100%;height:100%;overflow:hidden;background:#010f2a;font-family:
 <div class="preview-controls"><button onclick="prevSlide()">&#8592; Prev</button><button onclick="nextSlide()">Next &#8594;</button><button onclick="toggleAuto()" id="autoBtn">&#9646;&#9646; Pause</button></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
-/* Source: https://vrecompanylistings-team.netlify.app/ (updated Aug 12, 2026) + Zillow photo pass Aug 14, 2026 */
+/* Live source: ./listings.json, pushed into this repo by the OpChamp sync
+   (company-listings-sync.gs v1.1) every 15 minutes from Firestore
+   companyListings/current + listingPhotos. LISTINGS_FALLBACK below is the
+   Aug 12, 2026 snapshot and is used only if that fetch fails, so the screen
+   never goes blank. The page reloads itself every 15 minutes. */
+var LISTINGS_URL = './listings.json';
+var RELOAD_MS = 15 * 60 * 1000;
 
 /* ═══ AGENT FUB NUMBERS — Google Sheet feed (live: edit the sheet, TV updates on next reload) ═══
    Tab "Agent FUB" on the Combined Public Dashboard sheet, two columns: Agent | FUB Number.
    Replace PASTE_GID_HERE with the tab's gid (the number after #gid= in the sheet URL when
    that tab is open). Until then the feature is dormant — board renders normally. */
 var FUB_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwTzLvb03DcU3y1-LeFTBwhwCIAaKXZojBxgQ8es37EBh3aC9DDwRs-IiCFWWQNxZaCVL-GxxMIr7y/pub?gid=PASTE_GID_HERE&single=true&output=csv';
-var LISTINGS = [
+var LISTINGS_FALLBACK = [
   {"photo":"https://photos.zillowstatic.com/fp/ebef6f84376a3fbb8b8ea8e049242a18-cc_ft_1536.jpg","photo_fb":"https://photos.zillowstatic.com/fp/ebef6f84376a3fbb8b8ea8e049242a18-p_c.jpg","price":"$299,000","address":"10426 Shady Preserve Drive","city":"Riverview, FL 33578","market":"Tampa","agent":"Amber Brown","beds":"","baths":"2","sqft":"1,580","not_on_mls":true},
   {"photo":"https://photos.zillowstatic.com/fp/48c802353c37c389858a123cb9a3876a-cc_ft_1536.jpg","photo_fb":"","price":"$374,999","address":"3196 Shadow Creek Road","city":"Jacksonville, FL 32226","market":"Tampa","agent":"Dee Brown","beds":"4","baths":"2","sqft":"2,236","not_on_mls":false},
   {"photo":"https://photos.zillowstatic.com/fp/b39506066bcf00d8fd82eb3e4ddc843a-cc_ft_1536.jpg","photo_fb":"","price":"$250,000","address":"20367 Andover Ave","city":"Port Charlotte, FL 33954","market":"Tampa","agent":"Jonas Bridges","beds":"3","baths":"2","sqft":"1,008","not_on_mls":false},
@@ -80,8 +86,25 @@ var LISTINGS = [
   {"photo":"https://photos.zillowstatic.com/fp/cf95d34dbef1700c17b41b311a9f99e1-cc_ft_1536.jpg","photo_fb":"","price":"$220,000","address":"3425 NW 47th Ave 3191","city":"Coconut Creek, FL 33063","market":"South Florida","agent":"Samer Ortiz","beds":"2","baths":"2","sqft":"955","not_on_mls":false},
   {"photo":"https://photos.zillowstatic.com/fp/b9bf5fe6bcc779a5dbdb5401fd9b5122-cc_ft_1536.jpg","photo_fb":"","price":"$185,000","address":"8450 Lagos De Campo Blvd #107","city":"Tamarac, FL 33321","market":"South Florida","agent":"Samer Ortiz","beds":"2","baths":"2","sqft":"980","not_on_mls":false}
 ];
-var SLIDES = LISTINGS.filter(function(l){ return l.photo; }); /* listings with no photo are skipped from slides (kept in ticker) */
+var LISTINGS = LISTINGS_FALLBACK;
+var SLIDES = [];                 /* listings with no photo are skipped from slides (kept in ticker) */
 var currentIdx = 0, autoTimer = null, autoRunning = true, SLIDE_DURATION = 6500;
+/* listings.json row -> the shape this board renders */
+function mapFeedRow(r){
+  return {
+    photo:      r.photo || '',
+    photo_fb:   '',
+    price:      r.priceDisplay || '',
+    address:    r.address || '',
+    city:       r.city || '',
+    market:     r.market || '',
+    agent:      r.agent || '',
+    beds:       r.beds || '',
+    baths:      r.baths || '',
+    sqft:       r.sqft || '',
+    not_on_mls: !r.onMls
+  };
+}
 function buildSlides(){
   var stack = document.getElementById('slide-stack'); stack.innerHTML = '';
   SLIDES.forEach(function(l, i){
@@ -181,5 +204,30 @@ function loadAgentNumbers(){
     });
   }).catch(function(e){ /* silent — board still works without numbers */ });
 }
-buildSlides(); buildTicker(); resetAuto(); loadAgentNumbers();
+/* ═══ Boot: live listings.json, fallback to the baked-in snapshot ═══ */
+var booted = false;
+function startBoard(list){
+  if (booted) return;
+  booted = true;
+  LISTINGS = (list && list.length) ? list : LISTINGS_FALLBACK;
+  SLIDES = LISTINGS.filter(function(l){ return l.photo; });
+  currentIdx = 0;
+  buildSlides(); buildTicker(); resetAuto(); loadAgentNumbers();
+}
+function boot(){
+  setTimeout(function(){ location.reload(); }, RELOAD_MS);
+  if (typeof fetch !== 'function'){ startBoard(null); return; }
+  fetch(LISTINGS_URL, { cache: 'no-store' })
+    .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function(data){
+      var rows = (data && data.listings) || [];
+      if (!rows.length) throw new Error('feed is empty');
+      startBoard(rows.map(mapFeedRow));
+    })
+    .catch(function(e){
+      if (window.console) console.warn('listings.json unavailable, using the built-in snapshot:', e);
+      startBoard(null);
+    });
+}
+boot();
 </script></body></html>
