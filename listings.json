@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T15:25:45.022Z",
+  "updatedAt": "2026-09-16T18:56:00.221Z",
   "sourceUpdated": "September 16, 2026",
   "count": 24,
   "listings": [
@@ -43,7 +43,7 @@
       "priceDisplay": "$425,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/10144-Arbor-Run-Dr-116-Tampa-FL-33647_rb/",
-      "photo": "",
+      "photo": "https://photos.zillowstatic.com/fp/57ecbab8c3568d5bba982859cd3b0e30-cc_ft_1536.webp",
       "beds": "",
       "baths": "",
       "sqft": ""
@@ -208,10 +208,10 @@
       "priceDisplay": "$210,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/4915-Baymeadows-Rd-2H-Jacksonville-FL-32217_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/1fe5bc3e251d3af618cd91103d3de7b6-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1,456"
     },
     {
       "id": "2121-ne-42nd-ct-202c-lighthouse-point-fl-33064",
