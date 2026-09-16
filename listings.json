@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-13T20:20:37.365Z",
-  "sourceUpdated": "September 09, 2026",
-  "count": 22,
+  "updatedAt": "2026-09-16T14:25:46.362Z",
+  "sourceUpdated": "September 16, 2026",
+  "count": 24,
   "listings": [
     {
       "id": "10426-shady-preserve-drive-riverview-fl-33578",
@@ -41,12 +41,27 @@
       "agent": "Dee Brown",
       "price": 374999,
       "priceDisplay": "$374,999",
-      "onMls": false,
+      "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/3196-SHADOW-CREEK-Road-Jacksonville-FL-32226_rb/",
       "photo": "https://photos.zillowstatic.com/fp/48c802353c37c389858a123cb9a3876a-cc_ft_1536.jpg",
       "beds": "4",
       "baths": "2",
       "sqft": "2,236"
+    },
+    {
+      "id": "10144-arbor-run-dr-116-tampa-fl-33647",
+      "address": "10144 Arbor Run Dr 116",
+      "city": "Tampa, FL 33647",
+      "market": "Tampa",
+      "agent": "Jonas Bridges",
+      "price": 425000,
+      "priceDisplay": "$425,000",
+      "onMls": false,
+      "zillowUrl": "https://www.zillow.com/homes/10144-Arbor-Run-Dr-116-Tampa-FL-33647_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "20367-andover-ave-port-charlotte-fl-33954",
@@ -64,21 +79,6 @@
       "sqft": "1,008"
     },
     {
-      "id": "388-mangrove-shade-cir-apollo-beach-fl-33572",
-      "address": "388 Mangrove Shade Cir",
-      "city": "Apollo Beach, FL 33572",
-      "market": "Tampa",
-      "agent": "Lindsay Clemmons",
-      "price": 321000,
-      "priceDisplay": "$321,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/388-Mangrove-Shade-Cir-Apollo-Beach-FL-33572_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/6e40e26c4a751716846634965ebee45a-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "3",
-      "sqft": "1,802"
-    },
-    {
       "id": "18245-bridle-club-dr-unit-18245-tampa-fl-33647",
       "address": "18245 BRIDLE CLUB DR Unit#18245",
       "city": "Tampa, FL 33647",
@@ -92,6 +92,21 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1,335"
+    },
+    {
+      "id": "388-mangrove-shade-cir-apollo-beach-fl-33572",
+      "address": "388 Mangrove Shade Cir",
+      "city": "Apollo Beach, FL 33572",
+      "market": "Tampa",
+      "agent": "Lindsay Clemmons",
+      "price": 321000,
+      "priceDisplay": "$321,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/388-Mangrove-Shade-Cir-Apollo-Beach-FL-33572_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/6e40e26c4a751716846634965ebee45a-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "3",
+      "sqft": "1,802"
     },
     {
       "id": "18334-spencer-rd-odessa-fl-33556",
@@ -184,6 +199,21 @@
       "sqft": "2,395"
     },
     {
+      "id": "4915-baymeadows-rd-2h-jacksonville-fl-32217",
+      "address": "4915 Baymeadows Rd 2H",
+      "city": "Jacksonville, FL 32217",
+      "market": "Jacksonville",
+      "agent": "Scott McAnany",
+      "price": 210000,
+      "priceDisplay": "$210,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/4915-Baymeadows-Rd-2H-Jacksonville-FL-32217_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
+    },
+    {
       "id": "2121-ne-42nd-ct-202c-lighthouse-point-fl-33064",
       "address": "2121 NE 42nd Ct 202C",
       "city": "Lighthouse Point, FL 33064",
@@ -274,6 +304,21 @@
       "sqft": "3,564"
     },
     {
+      "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
+      "address": "1091 Northwest 33rd Court",
+      "city": "Pompano Beach, FL 33064",
+      "market": "South Florida",
+      "agent": "Samer Ortiz",
+      "price": 499000,
+      "priceDisplay": "$499,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/1091-Northwest-33rd-Court-Pompano-Beach-FL-33064_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/8f93ead7f3174df0854e21f0d6d5b6a5-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "3",
+      "sqft": "1,420"
+    },
+    {
       "id": "3100-nw-42nd-avenue-d401-coconut-creek-fl-33066",
       "address": "3100 NW 42nd Avenue D401",
       "city": "Coconut Creek, FL 33066",
@@ -302,21 +347,6 @@
       "beds": "2",
       "baths": "2",
       "sqft": "955"
-    },
-    {
-      "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
-      "address": "1091 Northwest 33rd Court",
-      "city": "Pompano Beach, FL 33064",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 499000,
-      "priceDisplay": "$499,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/1091-Northwest-33rd-Court-Pompano-Beach-FL-33064_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/8f93ead7f3174df0854e21f0d6d5b6a5-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "3",
-      "sqft": "1,420"
     },
     {
       "id": "8450-lagos-de-campo-blvd-107-tamarac-fl-33321",
