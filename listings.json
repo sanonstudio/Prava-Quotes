@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T14:25:46.362Z",
+  "updatedAt": "2026-09-16T15:25:45.022Z",
   "sourceUpdated": "September 16, 2026",
   "count": 24,
   "listings": [
@@ -34,21 +34,6 @@
       "sqft": "3,751"
     },
     {
-      "id": "3196-shadow-creek-road-jacksonville-fl-32226",
-      "address": "3196 SHADOW CREEK Road",
-      "city": "Jacksonville, FL 32226",
-      "market": "Tampa",
-      "agent": "Dee Brown",
-      "price": 374999,
-      "priceDisplay": "$374,999",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/3196-SHADOW-CREEK-Road-Jacksonville-FL-32226_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/48c802353c37c389858a123cb9a3876a-cc_ft_1536.jpg",
-      "beds": "4",
-      "baths": "2",
-      "sqft": "2,236"
-    },
-    {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
       "address": "10144 Arbor Run Dr 116",
       "city": "Tampa, FL 33647",
@@ -77,6 +62,21 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1,008"
+    },
+    {
+      "id": "3196-shadow-creek-road-jacksonville-fl-32226",
+      "address": "3196 SHADOW CREEK Road",
+      "city": "Jacksonville, FL 32226",
+      "market": "Tampa",
+      "agent": "Justin Hahn",
+      "price": 374999,
+      "priceDisplay": "$374,999",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/3196-SHADOW-CREEK-Road-Jacksonville-FL-32226_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/48c802353c37c389858a123cb9a3876a-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "2",
+      "sqft": "2,236"
     },
     {
       "id": "18245-bridle-club-dr-unit-18245-tampa-fl-33647",
@@ -334,21 +334,6 @@
       "sqft": "1,340"
     },
     {
-      "id": "3425-nw-47th-ave-3191-coconut-creek-fl-33063",
-      "address": "3425 NW 47th Ave 3191",
-      "city": "Coconut Creek, FL 33063",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 220000,
-      "priceDisplay": "$220,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/3425-NW-47th-Ave-3191-Coconut-Creek-FL-33063_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/cf95d34dbef1700c17b41b311a9f99e1-cc_ft_1536.jpg",
-      "beds": "2",
-      "baths": "2",
-      "sqft": "955"
-    },
-    {
       "id": "8450-lagos-de-campo-blvd-107-tamarac-fl-33321",
       "address": "8450 Lagos De Campo Blvd #107",
       "city": "Tamarac, FL 33321",
@@ -362,6 +347,21 @@
       "beds": "2",
       "baths": "2",
       "sqft": "980"
+    },
+    {
+      "id": "3425-nw-47th-ave-3191-coconut-creek-fl-33063",
+      "address": "3425 NW 47th Ave 3191",
+      "city": "Coconut Creek, FL 33063",
+      "market": "South Florida",
+      "agent": "Samer Ortiz",
+      "price": 220000,
+      "priceDisplay": "$220,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/3425-NW-47th-Ave-3191-Coconut-Creek-FL-33063_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/cf95d34dbef1700c17b41b311a9f99e1-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "955"
     }
   ]
 }
