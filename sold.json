@@ -1,22 +1,7 @@
 {
-  "updatedAt": "2026-09-17T21:16:02.233Z",
+  "updatedAt": "2026-09-18T15:07:12.036Z",
   "count": 100,
   "sales": [
-    {
-      "photo": "https://photos.zillowstatic.com/fp/08c57503591622fed46d71b21f9e9f6c-cc_ft_1536.jpg",
-      "price": "$410,000",
-      "address": "733 61ST Avenue NE",
-      "city": "Saint Petersburg, FL 33703",
-      "beds": 3,
-      "baths_str": "2",
-      "sqft": "1,434",
-      "agent": "DJ McEntire",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "September 15, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
     {
       "photo": "https://photos.zillowstatic.com/fp/3b980775a735e86fe561a6c6ca299abe-cc_ft_1536.jpg",
       "price": "$268,500",
@@ -26,6 +11,21 @@
       "baths_str": "2",
       "sqft": "1,451",
       "agent": "Lindsay Clemmons",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "September 15, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
+    {
+      "photo": "https://photos.zillowstatic.com/fp/08c57503591622fed46d71b21f9e9f6c-cc_ft_1536.jpg",
+      "price": "$410,000",
+      "address": "733 61ST Avenue NE",
+      "city": "Saint Petersburg, FL 33703",
+      "beds": 3,
+      "baths_str": "2",
+      "sqft": "1,434",
+      "agent": "DJ McEntire",
       "has_agent": true,
       "role": "Buyer's Agent",
       "date": "September 15, 2026",
