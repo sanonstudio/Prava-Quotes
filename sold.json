@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T15:07:12.036Z",
+  "updatedAt": "2026-09-19T21:26:13.481Z",
   "count": 100,
   "sales": [
     {
@@ -858,6 +858,21 @@
       "is_both_sides_vre": false
     },
     {
+      "photo": "https://photos.zillowstatic.com/fp/15753b3d47a362988b35037ffc57b84b-cc_ft_1536.jpg",
+      "price": "$270,000",
+      "address": "1031 Brenton Leaf Drive",
+      "city": "Ruskin, FL 33570",
+      "beds": 3,
+      "baths_str": "2",
+      "sqft": "1,303",
+      "agent": "Edgar Palacios",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "July 15, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
+    {
       "photo": "https://photos.zillowstatic.com/fp/859ab364172079274b93c040cdcac33b-cc_ft_1536.jpg",
       "price": "$980,000",
       "address": "17739 SW 54th Street",
@@ -881,21 +896,6 @@
       "baths_str": "3",
       "sqft": "3,234",
       "agent": "Johnathan Fuller",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "July 15, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
-      "photo": "https://photos.zillowstatic.com/fp/15753b3d47a362988b35037ffc57b84b-cc_ft_1536.jpg",
-      "price": "$270,000",
-      "address": "1031 Brenton Leaf Drive",
-      "city": "Ruskin, FL 33570",
-      "beds": 3,
-      "baths_str": "2",
-      "sqft": "1,303",
-      "agent": "Edgar Palacios",
       "has_agent": true,
       "role": "Buyer's Agent",
       "date": "July 15, 2026",
