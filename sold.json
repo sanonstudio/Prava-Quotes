@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-09-19T21:26:13.481Z",
+  "updatedAt": "2026-09-21T21:07:03.483Z",
   "count": 100,
   "sales": [
+    {
+      "photo": "https://photos.zillowstatic.com/fp/b7fd0259fa138cf77bb91b49321d4c2e-cc_ft_1536.jpg",
+      "price": "$275,000",
+      "address": "10950 NW 82nd St Unit 115",
+      "city": "Doral, FL 33178",
+      "beds": 1,
+      "baths_str": "1",
+      "sqft": "838",
+      "agent": "Vanessa Hernandez",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "September 18, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
     {
       "photo": "https://photos.zillowstatic.com/fp/3b980775a735e86fe561a6c6ca299abe-cc_ft_1536.jpg",
       "price": "$268,500",
@@ -59,21 +74,6 @@
       "has_agent": true,
       "role": "Buyer's Agent",
       "date": "September 15, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
-      "photo": "https://photos.zillowstatic.com/fp/53084df6f9a2c5df4d308889ae860616-cc_ft_1536.jpg",
-      "price": "$1,461,000",
-      "address": "814 W Amelia Avenue",
-      "city": "Tampa, FL 33602",
-      "beds": 4,
-      "baths_str": "4",
-      "sqft": "3,159",
-      "agent": "Lucas Sadowski",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "September 10, 2026",
       "year_built": null,
       "is_both_sides_vre": false
     },
