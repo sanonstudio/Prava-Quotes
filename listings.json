@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-16T18:56:00.221Z",
-  "sourceUpdated": "September 16, 2026",
-  "count": 24,
+  "updatedAt": "2026-09-23T12:25:48.114Z",
+  "sourceUpdated": "September 23, 2026",
+  "count": 25,
   "listings": [
     {
       "id": "10426-shady-preserve-drive-riverview-fl-33578",
@@ -41,7 +41,7 @@
       "agent": "Jonas Bridges",
       "price": 425000,
       "priceDisplay": "$425,000",
-      "onMls": false,
+      "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/10144-Arbor-Run-Dr-116-Tampa-FL-33647_rb/",
       "photo": "https://photos.zillowstatic.com/fp/57ecbab8c3568d5bba982859cd3b0e30-cc_ft_1536.webp",
       "beds": "",
@@ -154,6 +154,21 @@
       "sqft": "1,521"
     },
     {
+      "id": "7252-old-kings-road-jacksonville-fl-32217",
+      "address": "7252 OLD KINGS Road",
+      "city": "Jacksonville, FL 32217",
+      "market": "Jacksonville",
+      "agent": "Justin Hahn",
+      "price": 289900,
+      "priceDisplay": "$289,900",
+      "onMls": false,
+      "zillowUrl": "https://www.zillow.com/homes/7252-OLD-KINGS-Road-Jacksonville-FL-32217_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/d735a162046977203baabb1f56e9101d-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1,412"
+    },
+    {
       "id": "0-hogan-road-jacksonville-fl-32216",
       "address": "0 HOGAN Road",
       "city": "Jacksonville, FL 32216",
@@ -169,19 +184,19 @@
       "sqft": "700"
     },
     {
-      "id": "7252-old-kings-road-jacksonville-fl-32217",
-      "address": "7252 OLD KINGS Road",
-      "city": "Jacksonville, FL 32217",
+      "id": "9-big-bear-lane-palm-coast-fl-32137",
+      "address": "9 Big Bear Lane",
+      "city": "Palm Coast, FL 32137",
       "market": "Jacksonville",
       "agent": "Justin Hahn",
-      "price": 289900,
-      "priceDisplay": "$289,900",
+      "price": 379900,
+      "priceDisplay": "$379,900",
       "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/7252-OLD-KINGS-Road-Jacksonville-FL-32217_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/d735a162046977203baabb1f56e9101d-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1,412"
+      "zillowUrl": "https://www.zillow.com/homes/9-Big-Bear-Lane-Palm-Coast-FL-32137_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "201-peace-river-rd-st-johns-fl-32259",
@@ -244,6 +259,21 @@
       "sqft": "2,739"
     },
     {
+      "id": "141-lexington-dr-royal-palm-beach-fl-33411",
+      "address": "141 Lexington Dr",
+      "city": "Royal Palm Beach, FL 33411",
+      "market": "South Florida",
+      "agent": "Jennifer Calvoni",
+      "price": 589900,
+      "priceDisplay": "$589,900",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/141-Lexington-Dr-Royal-Palm-Beach-FL-33411_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
+    },
+    {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
       "address": "1779 Palisades Drive",
       "city": "West Palm Beach, FL 33411",
@@ -257,21 +287,6 @@
       "beds": "5",
       "baths": "3",
       "sqft": "3,484"
-    },
-    {
-      "id": "560-st-tropez-margate-fl-33068",
-      "address": "560 St Tropez",
-      "city": "Margate, FL 33068",
-      "market": "South Florida",
-      "agent": "Jessica Babcock",
-      "price": 409000,
-      "priceDisplay": "$409,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/560-St-Tropez-Margate-FL-33068_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/80d57dd9d68907c61aa2f022ef03083d-cc_ft_1536.webp",
-      "beds": "3",
-      "baths": "3",
-      "sqft": "1356"
     },
     {
       "id": "2025-oysterwood-lane-riviera-beach-fl-33410",
@@ -334,21 +349,6 @@
       "sqft": "1,340"
     },
     {
-      "id": "8450-lagos-de-campo-blvd-107-tamarac-fl-33321",
-      "address": "8450 Lagos De Campo Blvd #107",
-      "city": "Tamarac, FL 33321",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 185000,
-      "priceDisplay": "$185,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/8450-Lagos-De-Campo-Blvd-107-Tamarac-FL-33321_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/b9bf5fe6bcc779a5dbdb5401fd9b5122-cc_ft_1536.jpg",
-      "beds": "2",
-      "baths": "2",
-      "sqft": "980"
-    },
-    {
       "id": "3425-nw-47th-ave-3191-coconut-creek-fl-33063",
       "address": "3425 NW 47th Ave 3191",
       "city": "Coconut Creek, FL 33063",
@@ -362,6 +362,21 @@
       "beds": "2",
       "baths": "2",
       "sqft": "955"
+    },
+    {
+      "id": "8450-lagos-de-campo-blvd-107-tamarac-fl-33321",
+      "address": "8450 Lagos De Campo Blvd #107",
+      "city": "Tamarac, FL 33321",
+      "market": "South Florida",
+      "agent": "Samer Ortiz",
+      "price": 185000,
+      "priceDisplay": "$185,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/8450-Lagos-De-Campo-Blvd-107-Tamarac-FL-33321_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/b9bf5fe6bcc779a5dbdb5401fd9b5122-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "980"
     }
   ]
 }
