@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T12:25:48.114Z",
+  "updatedAt": "2026-09-23T13:25:45.350Z",
   "sourceUpdated": "September 23, 2026",
   "count": 25,
   "listings": [
@@ -193,10 +193,10 @@
       "priceDisplay": "$379,900",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/9-Big-Bear-Lane-Palm-Coast-FL-32137_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/6a63875ace9ca2d280706ba80ea70c70-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "3",
+      "sqft": "1,772"
     },
     {
       "id": "201-peace-river-rd-st-johns-fl-32259",
@@ -268,10 +268,10 @@
       "priceDisplay": "$589,900",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/141-Lexington-Dr-Royal-Palm-Beach-FL-33411_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/38cb63f54616117b26bba75fbdd6fa71-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "2,098"
     },
     {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
