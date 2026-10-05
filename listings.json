@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-09-23T13:25:45.350Z",
-  "sourceUpdated": "September 23, 2026",
-  "count": 25,
+  "updatedAt": "2026-10-05T22:18:55.406Z",
+  "sourceUpdated": "October 5, 2026",
+  "count": 20,
   "listings": [
-    {
-      "id": "10426-shady-preserve-drive-riverview-fl-33578",
-      "address": "10426 Shady Preserve Drive",
-      "city": "Riverview, FL 33578",
-      "market": "Tampa",
-      "agent": "Amber Brown",
-      "price": 299000,
-      "priceDisplay": "$299,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homedetails/10426-Shady-Preserve-Dr-Riverview-FL-33578/366573287_zpid/",
-      "photo": "https://photos.zillowstatic.com/fp/ebef6f84376a3fbb8b8ea8e049242a18-cc_ft_1536.jpg",
-      "beds": "",
-      "baths": "2",
-      "sqft": "1,580"
-    },
-    {
-      "id": "14242-blue-dasher-dr-riverview-fl-33569",
-      "address": "14242 Blue Dasher Dr",
-      "city": "Riverview, FL 33569",
-      "market": "Tampa",
-      "agent": "DJ McEntire",
-      "price": 500000,
-      "priceDisplay": "$500,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/14242-Blue-Dasher-Dr-Riverview-FL-33569_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/226f61e75e7ee531d433a3c218f54fa1-cc_ft_1536.jpg",
-      "beds": "5",
-      "baths": "4",
-      "sqft": "3,751"
-    },
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
       "address": "10144 Arbor Run Dr 116",
@@ -62,6 +32,21 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1,008"
+    },
+    {
+      "id": "18334-spencer-rd-odessa-fl-33556",
+      "address": "18334 Spencer Rd",
+      "city": "Odessa, FL 33556",
+      "market": "Tampa",
+      "agent": "Justin Hahn",
+      "price": 400000,
+      "priceDisplay": "$400,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/18334-Spencer-Rd-Odessa-FL-33556_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/8d172b52a3f7076ddf58b349dbca3052-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1,935"
     },
     {
       "id": "3196-shadow-creek-road-jacksonville-fl-32226",
@@ -109,21 +94,6 @@
       "sqft": "1,802"
     },
     {
-      "id": "18334-spencer-rd-odessa-fl-33556",
-      "address": "18334 Spencer Rd",
-      "city": "Odessa, FL 33556",
-      "market": "Tampa",
-      "agent": "Noelle McEntire",
-      "price": 400000,
-      "priceDisplay": "$400,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/18334-Spencer-Rd-Odessa-FL-33556_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/8d172b52a3f7076ddf58b349dbca3052-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1,935"
-    },
-    {
       "id": "11434-stone-pine-street-riverview-fl-33569",
       "address": "11434 Stone Pine Street",
       "city": "Riverview, FL 33569",
@@ -152,21 +122,6 @@
       "beds": "4",
       "baths": "3",
       "sqft": "1,521"
-    },
-    {
-      "id": "7252-old-kings-road-jacksonville-fl-32217",
-      "address": "7252 OLD KINGS Road",
-      "city": "Jacksonville, FL 32217",
-      "market": "Jacksonville",
-      "agent": "Justin Hahn",
-      "price": 289900,
-      "priceDisplay": "$289,900",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/7252-OLD-KINGS-Road-Jacksonville-FL-32217_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/d735a162046977203baabb1f56e9101d-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1,412"
     },
     {
       "id": "0-hogan-road-jacksonville-fl-32216",
@@ -244,34 +199,19 @@
       "sqft": "890"
     },
     {
-      "id": "1806-sw-23rd-st-fort-lauderdale-fl-33315",
-      "address": "1806 SW 23rd St",
+      "id": "1806-sw-23rd-st-o-fort-lauderdale-fl-33315",
+      "address": "1806 SW 23rd St O",
       "city": "Fort Lauderdale, FL 33315",
       "market": "South Florida",
       "agent": "Jacqueline Wellington",
-      "price": 699000,
-      "priceDisplay": "$699,000",
+      "price": 634000,
+      "priceDisplay": "$634,000",
       "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homedetails/1806-SW-23rd-St-Fort-Lauderdale-FL-33315/83891772_zpid/",
-      "photo": "https://photos.zillowstatic.com/fp/b03426b60b9cc26655acbad77b6b7175-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "3",
-      "sqft": "2,739"
-    },
-    {
-      "id": "141-lexington-dr-royal-palm-beach-fl-33411",
-      "address": "141 Lexington Dr",
-      "city": "Royal Palm Beach, FL 33411",
-      "market": "South Florida",
-      "agent": "Jennifer Calvoni",
-      "price": 589900,
-      "priceDisplay": "$589,900",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/141-Lexington-Dr-Royal-Palm-Beach-FL-33411_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/38cb63f54616117b26bba75fbdd6fa71-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "2,098"
+      "zillowUrl": "https://www.zillow.com/homes/1806-SW-23rd-St-O-Fort-Lauderdale-FL-33315_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
@@ -304,28 +244,13 @@
       "sqft": "1,606"
     },
     {
-      "id": "2415-westmont-dr-royal-palm-beach-fl-33411",
-      "address": "2415 Westmont Dr",
-      "city": "Royal Palm Beach, FL 33411",
-      "market": "South Florida",
-      "agent": "Jessica Babcock",
-      "price": 849000,
-      "priceDisplay": "$849,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/2415-Westmont-Dr-Royal-Palm-Beach-FL-33411_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/ffd9ad2149972aedaac7861e8f7ad402-cc_ft_1536.jpg",
-      "beds": "6",
-      "baths": "3",
-      "sqft": "3,564"
-    },
-    {
       "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
       "address": "1091 Northwest 33rd Court",
       "city": "Pompano Beach, FL 33064",
       "market": "South Florida",
       "agent": "Samer Ortiz",
-      "price": 499000,
-      "priceDisplay": "$499,000",
+      "price": 489000,
+      "priceDisplay": "$489,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/1091-Northwest-33rd-Court-Pompano-Beach-FL-33064_rb/",
       "photo": "https://photos.zillowstatic.com/fp/8f93ead7f3174df0854e21f0d6d5b6a5-cc_ft_1536.jpg",
