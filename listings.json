@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T22:18:55.406Z",
+  "updatedAt": "2026-10-05T23:55:51.365Z",
   "sourceUpdated": "October 5, 2026",
   "count": 20,
   "listings": [
@@ -208,10 +208,10 @@
       "priceDisplay": "$634,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/1806-SW-23rd-St-O-Fort-Lauderdale-FL-33315_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/e20f6c8a9afda0c9daf1bc9c1bc6563a-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "3",
+      "sqft": "2,739"
     },
     {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
