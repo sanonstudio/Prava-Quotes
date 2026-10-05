@@ -1,0 +1,187 @@
+{
+  "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
+  "updatedAt": "2026-10-05T22:18:55.566Z",
+  "count": 20,
+  "listings": [
+    {
+      "id": "10144-arbor-run-dr-116-tampa-fl-33647",
+      "address": "10144 Arbor Run Dr 116",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33647",
+      "agent": "Jonas Bridges",
+      "region": "Tampa"
+    },
+    {
+      "id": "20367-andover-ave-port-charlotte-fl-33954",
+      "address": "20367 Andover Ave",
+      "city": "Port Charlotte",
+      "state": "FL",
+      "zip": "33954",
+      "agent": "Jonas Bridges",
+      "region": "Tampa"
+    },
+    {
+      "id": "18334-spencer-rd-odessa-fl-33556",
+      "address": "18334 Spencer Rd",
+      "city": "Odessa",
+      "state": "FL",
+      "zip": "33556",
+      "agent": "Justin Hahn",
+      "region": "Tampa"
+    },
+    {
+      "id": "3196-shadow-creek-road-jacksonville-fl-32226",
+      "address": "3196 SHADOW CREEK Road",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32226",
+      "agent": "Justin Hahn",
+      "region": "Tampa"
+    },
+    {
+      "id": "18245-bridle-club-dr-unit-18245-tampa-fl-33647",
+      "address": "18245 BRIDLE CLUB DR Unit#18245",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33647",
+      "agent": "Lindsay Clemmons",
+      "region": "Tampa"
+    },
+    {
+      "id": "388-mangrove-shade-cir-apollo-beach-fl-33572",
+      "address": "388 Mangrove Shade Cir",
+      "city": "Apollo Beach",
+      "state": "FL",
+      "zip": "33572",
+      "agent": "Lindsay Clemmons",
+      "region": "Tampa"
+    },
+    {
+      "id": "11434-stone-pine-street-riverview-fl-33569",
+      "address": "11434 Stone Pine Street",
+      "city": "Riverview",
+      "state": "FL",
+      "zip": "33569",
+      "agent": "Rick Schulz",
+      "region": "Tampa"
+    },
+    {
+      "id": "2229-marcel-drive-orange-park-fl-32073",
+      "address": "2229 Marcel Drive",
+      "city": "Orange Park",
+      "state": "FL",
+      "zip": "32073",
+      "agent": "Amber Brown",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "0-hogan-road-jacksonville-fl-32216",
+      "address": "0 HOGAN Road",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32216",
+      "agent": "Justin Hahn",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "9-big-bear-lane-palm-coast-fl-32137",
+      "address": "9 Big Bear Lane",
+      "city": "Palm Coast",
+      "state": "FL",
+      "zip": "32137",
+      "agent": "Justin Hahn",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "201-peace-river-rd-st-johns-fl-32259",
+      "address": "201 Peace River Rd",
+      "city": "St. Johns",
+      "state": "FL",
+      "zip": "32259",
+      "agent": "Scott McAnany",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "4915-baymeadows-rd-2h-jacksonville-fl-32217",
+      "address": "4915 Baymeadows Rd 2H",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32217",
+      "agent": "Scott McAnany",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "2121-ne-42nd-ct-202c-lighthouse-point-fl-33064",
+      "address": "2121 NE 42nd Ct 202C",
+      "city": "Lighthouse Point",
+      "state": "FL",
+      "zip": "33064",
+      "agent": "Deron Baugh",
+      "region": "South Florida"
+    },
+    {
+      "id": "1806-sw-23rd-st-o-fort-lauderdale-fl-33315",
+      "address": "1806 SW 23rd St O",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "zip": "33315",
+      "agent": "Jacqueline Wellington",
+      "region": "South Florida"
+    },
+    {
+      "id": "1779-palisades-drive-west-palm-beach-fl-33411",
+      "address": "1779 Palisades Drive",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "zip": "33411",
+      "agent": "Jennifer Calvoni",
+      "region": "South Florida"
+    },
+    {
+      "id": "2025-oysterwood-lane-riviera-beach-fl-33410",
+      "address": "2025 Oysterwood Lane",
+      "city": "Riviera Beach",
+      "state": "FL",
+      "zip": "33410",
+      "agent": "Jessica Babcock",
+      "region": "South Florida"
+    },
+    {
+      "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
+      "address": "1091 Northwest 33rd Court",
+      "city": "Pompano Beach",
+      "state": "FL",
+      "zip": "33064",
+      "agent": "Samer Ortiz",
+      "region": "South Florida"
+    },
+    {
+      "id": "3100-nw-42nd-avenue-d401-coconut-creek-fl-33066",
+      "address": "3100 NW 42nd Avenue D401",
+      "city": "Coconut Creek",
+      "state": "FL",
+      "zip": "33066",
+      "agent": "Samer Ortiz",
+      "region": "South Florida"
+    },
+    {
+      "id": "3425-nw-47th-ave-3191-coconut-creek-fl-33063",
+      "address": "3425 NW 47th Ave 3191",
+      "city": "Coconut Creek",
+      "state": "FL",
+      "zip": "33063",
+      "agent": "Samer Ortiz",
+      "region": "South Florida"
+    },
+    {
+      "id": "8450-lagos-de-campo-blvd-107-tamarac-fl-33321",
+      "address": "8450 Lagos De Campo Blvd #107",
+      "city": "Tamarac",
+      "state": "FL",
+      "zip": "33321",
+      "agent": "Samer Ortiz",
+      "region": "South Florida"
+    }
+  ]
+}
