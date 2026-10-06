@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-10-05T22:18:55.566Z",
-  "count": 20,
+  "updatedAt": "2026-10-06T00:09:56.546Z",
+  "count": 21,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -67,15 +67,6 @@
       "region": "Tampa"
     },
     {
-      "id": "2229-marcel-drive-orange-park-fl-32073",
-      "address": "2229 Marcel Drive",
-      "city": "Orange Park",
-      "state": "FL",
-      "zip": "32073",
-      "agent": "Amber Brown",
-      "region": "Jacksonville"
-    },
-    {
       "id": "0-hogan-road-jacksonville-fl-32216",
       "address": "0 HOGAN Road",
       "city": "Jacksonville",
@@ -130,6 +121,15 @@
       "region": "South Florida"
     },
     {
+      "id": "141-lexington-dr-royal-palm-beach-fl-33411",
+      "address": "141 Lexington Dr",
+      "city": "Royal Palm Beach",
+      "state": "FL",
+      "zip": "33411",
+      "agent": "Jennifer Calvoni",
+      "region": "South Florida"
+    },
+    {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
       "address": "1779 Palisades Drive",
       "city": "West Palm Beach",
@@ -144,6 +144,15 @@
       "city": "Riviera Beach",
       "state": "FL",
       "zip": "33410",
+      "agent": "Jessica Babcock",
+      "region": "South Florida"
+    },
+    {
+      "id": "2415-westmont-dr-royal-palm-beach-fl-33411",
+      "address": "2415 Westmont Dr",
+      "city": "Royal Palm Beach",
+      "state": "FL",
+      "zip": "33411",
       "agent": "Jessica Babcock",
       "region": "South Florida"
     },
