@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-05T23:55:51.365Z",
+  "updatedAt": "2026-10-06T00:09:56.386Z",
   "sourceUpdated": "October 5, 2026",
-  "count": 20,
+  "count": 21,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -109,21 +109,6 @@
       "sqft": "2,260"
     },
     {
-      "id": "2229-marcel-drive-orange-park-fl-32073",
-      "address": "2229 Marcel Drive",
-      "city": "Orange Park, FL 32073",
-      "market": "Jacksonville",
-      "agent": "Amber Brown",
-      "price": 499000,
-      "priceDisplay": "$499,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/2229-Marcel-Drive-Orange-Park-FL-32073_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/d2824b623e0450ca2a5118173c6d9e39-cc_ft_1536.jpg",
-      "beds": "4",
-      "baths": "3",
-      "sqft": "1,521"
-    },
-    {
       "id": "0-hogan-road-jacksonville-fl-32216",
       "address": "0 HOGAN Road",
       "city": "Jacksonville, FL 32216",
@@ -214,6 +199,21 @@
       "sqft": "2,739"
     },
     {
+      "id": "141-lexington-dr-royal-palm-beach-fl-33411",
+      "address": "141 Lexington Dr",
+      "city": "Royal Palm Beach, FL 33411",
+      "market": "South Florida",
+      "agent": "Jennifer Calvoni",
+      "price": 589900,
+      "priceDisplay": "$589,900",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/141-Lexington-Dr-Royal-Palm-Beach-FL-33411_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/38cb63f54616117b26bba75fbdd6fa71-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "2,098"
+    },
+    {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
       "address": "1779 Palisades Drive",
       "city": "West Palm Beach, FL 33411",
@@ -242,6 +242,21 @@
       "beds": "3",
       "baths": "3",
       "sqft": "1,606"
+    },
+    {
+      "id": "2415-westmont-dr-royal-palm-beach-fl-33411",
+      "address": "2415 Westmont Dr",
+      "city": "Royal Palm Beach, FL 33411",
+      "market": "South Florida",
+      "agent": "Jessica Babcock",
+      "price": 849000,
+      "priceDisplay": "$849,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/2415-Westmont-Dr-Royal-Palm-Beach-FL-33411_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/ffd9ad2149972aedaac7861e8f7ad402-cc_ft_1536.jpg",
+      "beds": "6",
+      "baths": "3",
+      "sqft": "3,564"
     },
     {
       "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
