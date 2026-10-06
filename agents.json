@@ -1,0 +1,727 @@
+{
+  "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
+  "updatedAt": "2026-10-06T18:50:08.510Z",
+  "count": 42,
+  "agents": [
+    {
+      "slug": "beena-kokeram",
+      "fullName": "Beena Kokeram",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Scott McAnany",
+      "email": "beena@vreelandre.com",
+      "phone": "(813) 519-3935",
+      "licenseNumber": "SL3351655",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1Iqm6NFldD3jZE6t59QX6CmvNy87q4g_3&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "brendon-baugh",
+      "fullName": "Brendon Baugh",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "Jessica Babcock",
+      "email": "brendon@vreelandre.com",
+      "phone": "(954) 833-6729",
+      "licenseNumber": "SL3641656",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1PQ8ysC3gcpieWMmi7EJqkyuXv7R0N4wX&sz=w600",
+      "bio": [
+        "I’m Brendon Baugh, a proud college graduate with a bachelor’s degree and former college football player who now brings that same drive and determination to real estate. As a dedicated high school football coach, I value teamwork, communication, and leadership, skills I use to guide my clients with confidence. I’m passionate about building strong relationships and making the buying or selling process as smooth and stress-free as possible. Above all, I’m committed to delivering 5-star service every time, ensuring my clients feel fully supported from start to finish."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "brianna-dean",
+      "fullName": "Brianna Dean",
+      "title": "Realtor",
+      "market": "Jacksonville",
+      "teamLead": "Jessica Babcock",
+      "email": "brianna@vreelandre.com",
+      "phone": "(904) 664-0023",
+      "licenseNumber": "SL3627394",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1gBbszZzi8W8StDImnfaruaUL_QDd-uh6&sz=w600",
+      "bio": [
+        "Hi! My name is Brianna Dean and I am a Realtor located in Jacksonville Florida. I serve all surrounding counties outside of Jacksonville as well. Not only do I help guide you through the Home Buying process, I create friendships and true life bonds with my clients and the people I have the pleasure to assist. The bond we create helps my clients to not only feel seen but heard, along with a sense of trust! My clients know when they come to me for help that they can relax and put their utmost trust in me to get the job done. That trust alone opens the door to their new home! If you are in search of a new home no matter how big or small, please do not hesitate to reach out to me. Not only am I waiting for your call, I'm expecting it and I am available with undivided attention! I look forward to meeting you, laughing with you and celebrating with you as you embark on this amazing road to your new home, business or investment! See you soon!"
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "carolina-suarez-rivas",
+      "fullName": "Carolina Suárez Rivas",
+      "title": "Realtor",
+      "market": "Miami",
+      "teamLead": "",
+      "email": "carolina@vreelandre.com",
+      "phone": "",
+      "licenseNumber": "3336060",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1lNeauYUJeU3jMD7-l0uqLvHPiKcgSc3Z&sz=w600",
+      "bio": [
+        "Carolina Suárez Rivas is a top Miami Realtor with deep roots in the community and a passion for helping people find their perfect place in the city she proudly calls home. A Miami native with over a decade of experience, Carolina brings unmatched knowledge of neighborhoods like Brickell, Coral Gables, Downtown, Edgewater, Kendall, Westchester, and Doral.",
+        "Known for her responsiveness, strong communication, and full-time commitment to her clients, Carolina goes the extra mile to make the buying or selling process feel smooth and stress-free. Whether you're buying your first home or selling a property in Miami, she brings both the market insight and the strategic negotiation skills you need to succeed. Carolina holds a Bachelor's in Business Administration and a Master's in Strategic Negotiations from Florida International University. Her business background gives her clients a competitive edge in Miami’s fast-paced real estate market.",
+        "If you're looking to buy a home in Coral Gables, sell a home in Kendall, or explore real estate opportunities across South Florida, Carolina Suarez Rivas is the real estate agent who will put your goals first and get results."
+      ],
+      "carriedOver": true,
+      "legacySlugs": [
+        "carolina-surez-rivas"
+      ]
+    },
+    {
+      "slug": "charlotte-lapina",
+      "fullName": "Charlotte Lapina",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "Scott McAnany",
+      "email": "charlotte@vreelandre.com",
+      "phone": "(754) 654-9111",
+      "licenseNumber": "SL3630510",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1VH1_W1Gb50ozRWgHZreCkEeteBPUwsbX&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "christopher-peck",
+      "fullName": "Christopher Peck",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "Jessica Babcock",
+      "email": "cpeck@vreelandre.com",
+      "phone": "(561) 652-6749",
+      "licenseNumber": "SL3655247",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1HIGPcQt7UMeWQSvZVVC4u6ZoZy6M3KNk&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "deron-baugh",
+      "fullName": "Deron Baugh",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "Jessica Babcock",
+      "email": "deron@vreelandre.com",
+      "phone": "(754) 334-0173",
+      "licenseNumber": "SL3646364",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1qi5rbMYeRUfIaYWBpjRlg_zhar2BYVZ-&sz=w600",
+      "bio": [
+        "As a South Florida real estate professional, I bring drive, integrity, and local insight to every client relationship. Whether you’re buying your first condo, upgrading to a dream home, or investing for long-term growth, my focus is on clear communication, honest advice, and smooth results.",
+        "Before real estate, I built a career in high-level sales and negotiation skills that now help my clients get the best possible deal while staying stress-free through every step of the process. I understand that real estate isn’t just about property, it’s about people, timing, and strategy.",
+        "Working out of Broward County and surrounding areas, I combine strong market analytics with real-world experience to help my clients make smart, confident decisions. If you’re ready for a knowledgeable, responsive agent who treats your goals like his own, let’s connect and make it happen."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "edgar-palacios",
+      "fullName": "Edgar Palacios",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Justin Hahn",
+      "email": "edgar@vreelandre.com",
+      "phone": "(813) 522-3725",
+      "licenseNumber": "SL3560183",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1q4NKq9zt6IojlrKC5uDpGOZVOkTkvJWo&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "flynn-nolan",
+      "fullName": "Flynn Nolan",
+      "title": "REALTOR®",
+      "market": "Broward",
+      "teamLead": "",
+      "email": "flynn@vreelandre.com",
+      "phone": "(954) 335-6504",
+      "licenseNumber": "SL3390060",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1sUD3pVB2M_3OBGB6lxNurhJw7FZAv4oY&sz=w600",
+      "bio": [
+        "Flynn Nolan is a South Florida Realtor helping buyers, sellers, and investors move smart in one of the most competitive markets in the country. As a full-time agent with Vreeland Real Estate and a Zillow Premier Agent, Flynn combines deep local knowledge with digital marketing expertise to give his clients a serious edge.",
+        "Born and raised in South Florida, Flynn understands what makes each neighborhood unique. Whether you're buying your first home, upgrading to a luxury property, or investing in South Florida real estate, he delivers honest advice, sharp negotiation, and a personalized strategy tailored to your goals. With a background in digital marketing, Flynn knows how to make listings stand out and how to find the properties others miss. He keeps the process clear, efficient, and focused on results.",
+        "Looking to buy or sell in South Florida? Reach out to Flynn Nolan today and work with an agent who treats every transaction like his own."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "gabriel-fenelon",
+      "fullName": "Gabriel Fenelon",
+      "title": "REALTOR®",
+      "market": "Miami",
+      "teamLead": "",
+      "email": "gabriel@vreelandre.com",
+      "phone": "(954) 738-4969",
+      "licenseNumber": "SL3620199",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1aIRiXi_SNPvgzNiixuLt8aySgqmgQm7a&sz=w600",
+      "bio": [
+        "Gabriel Fenelon is a real estate agent helping clients buy and sell homes across Broward County, including Fort Lauderdale, Hollywood, and Pompano Beach. With a strong focus on local market knowledge and a commitment to client success, Gabriel makes sure every deal feels clear, well-informed, and handled with care.",
+        "Whether you're buying a condo in Fort Lauderdale, selling a home in Hollywood, or searching for investment property in Pompano Beach, Gabriel offers the strategy, communication, and service you need to make smart moves in South Florida's fast-paced market. Clients appreciate his approachable style, honest advice, and ability to keep the process moving without the stress.",
+        "Ready to buy or sell in Broward County? Reach out to Gabriel Fenelon today and work with a local agent who knows the area and puts your goals first."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "giselle-guia",
+      "fullName": "Giselle Guia",
+      "title": "REALTOR®",
+      "market": "Miami",
+      "teamLead": "",
+      "email": "",
+      "phone": "",
+      "licenseNumber": "SL3490230",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1tl_H85gLSK1Ow36S1-5w7GGBEE5dy0Wk&sz=w600",
+      "bio": [
+        "Giselle Guia is a top South Florida real estate agent helping clients buy and sell homes across Homestead, Palmetto Bay, Miami, and Lauderhill. She brings sharp local knowledge, strong negotiation skills, and a results-driven mindset to every deal.",
+        "Giselle specializes in helping first-time buyers, relocation clients, and luxury home seekers find the right fit in today’s competitive market. Whether you're buying a home in Homestead or listing a property in Miami, she moves quickly, communicates clearly, and always puts your goals first.",
+        "With a background in new construction and a reputation for delivering smooth, high-value closings, Giselle knows how to position her clients for success. If you’re serious about making moves in South Florida, you want her on your side."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "hannah-thorn",
+      "fullName": "Hannah Thorn",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Kris Nelson",
+      "email": "hthorn@vreelandre.com",
+      "phone": "(813) 544-3905",
+      "licenseNumber": "SL3531819",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1qyNB53jXTzyIJUkfNd1Cf8t9rHOGYlD7&sz=w600",
+      "bio": [
+        "My name is Hannah Thorn, I am a Real Estate Agent and Mortgage Loan Originator with Vreeland Real Estate / 14 Days To Close. I specialize in residential home purchases in Florida, and am based out of Tampa."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "helena-caillot",
+      "fullName": "Helena Caillot",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "Jessica Babcock",
+      "email": "helena@vreelandre.com",
+      "phone": "(561) 220-0912",
+      "licenseNumber": "SL3595346",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1wIXGmyQ_mojpNtnHGKT6kQtOX1wctGaL&sz=w600",
+      "bio": [
+        "Whether you are looking to find the perfect home, sell your property at the best value, I am here to assist you. Feel free to reach out at any time for a personalized and consultative approach to your real estate needs."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "hunter-smith",
+      "fullName": "Hunter Smith",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Jessica Babcock",
+      "email": "hunters@vreelandre.com",
+      "phone": "(813) 536-3681",
+      "licenseNumber": "SL3662405",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1fQfa7yglR_MgwxhXPf9EHLUvqSWG4Hdt&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "jacqueline-wellington",
+      "fullName": "Jacqueline Wellington",
+      "title": "REALTOR®",
+      "market": "Broward",
+      "teamLead": "Scott McAnany",
+      "email": "jacqueline@vreelandre.com",
+      "phone": "(954) 807-3456",
+      "licenseNumber": "SL3214396",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1j3xZbEBDZg5MXnvJCK73J9kmAUGx4MWh&sz=w600",
+      "bio": [
+        "Jacqueline Wellington is a Fort Lauderdale real estate agent with over 17 years of experience helping buyers and sellers achieve lasting results. Her top priority is client satisfaction, and she treats every transaction with the care, respect, and attention she would expect herself.",
+        "Jacqueline combines market knowledge with strategic communication, high-impact marketing, and proven negotiation skills to help clients buy and sell with confidence. Whether you’re buying a home in Fort Lauderdale or listing a property in a competitive market, she brings the creativity, tech-savvy, and drive to make sure your goals are met. She works tirelessly to promote her clients, protect their interests, and help them reach a higher level of financial security and long-term success. Her clients don’t just feel supported, they feel empowered.",
+        "Looking to buy or sell in Fort Lauderdale? Work with Jacqueline Wellington and experience the difference of a client-first, results-driven approach."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "jennifer-calvoni",
+      "fullName": "Jennifer Calvoni",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "Jessica Babcock",
+      "email": "jcalvoni@vreelandre.com",
+      "phone": "(561) 560-6704",
+      "licenseNumber": "SL3647293",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1IPDfv9yEv_919x-rg7cAlOR2Q0RqBe3J&sz=w600",
+      "bio": [
+        "I believe buying or selling a home should feel exciting, not stressful. My goal is to make the process as easy and straightforward as possible, while keeping you confident every step of the way.",
+        "At Vreeland Real Estate, I’m part of a family team with many years of combined experience and a shared passion for helping people. Working together means our clients get the benefit of multiple agents, different perspectives, and the collective dedication of a team that truly cares.",
+        "I don’t believe in pushy sales tactics or cookie-cutter advice. I listen first, explain everything clearly, and fight hard for my clients’ best interests. Whether you’re buying your first home, upgrading, or investing, I’ll make sure you feel informed and supported from start to finish.",
+        "Real estate isn’t just my career, it’s my passion. I love helping people find that “this is it” feeling when they walk into the right home. If you’re ready to make a move, I’d love to be the person, and part of the team, in your corner."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "jessica-babcock",
+      "fullName": "Jessica Babcock",
+      "title": "REALTOR®",
+      "market": "Palm Beach",
+      "teamLead": "Jessica Babcock",
+      "email": "jessicababcock@vreelandre.com",
+      "phone": "(561) 556-2933",
+      "licenseNumber": "3229677",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1b4m3-broc0ogAq1jb3fvJw15EFyMDmi2&sz=w600",
+      "bio": [
+        "Buying or selling a home in South Florida is a big deal. You deserve an agent who knows what they’re doing, listens to your goals, and knows how to get results. Jessica Babcock brings over 14 years of experience helping clients across Palm Beach County, Broward County, Miami-Dade County, Martin County, and Saint Lucie County move with confidence.",
+        "Since 2010, Jessica has helped people at every stage of life buy, sell, relocate, or invest in real estate. Her approach is hands-on, honest, and always focused on what matters most to you. She backs every decision with local insight, market strategy, and clear communication from beginning to end. Jessica works closely with her husband and business partner, Joe Babcock. Together, they combine real estate experience and financial know-how to deliver high-level support that makes a difference.",
+        "If you are looking to buy a home in Broward County, sell in Palm Beach County, or invest in Miami-Dade, Jessica is ready to help you take the next step."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "jo-anne-hargis",
+      "fullName": "Jo-Anne Hargis",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "Scott McAnany",
+      "email": "jo-anne@vreelandre.com",
+      "phone": "(754) 347-0669",
+      "licenseNumber": "SL3638291",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1gOBufrdcpBK60AP8YqK366lAgfIrOS5l&sz=w600",
+      "bio": [
+        "Maximize your Ft. Lauderdale home sale and move with strategic representation.",
+        "Real estate isn’t just about changing homes. It’s about changing how you live. Most of the people I work with are not moving because they have to. They are moving because they are ready for something that better fits their lifestyle: Closer to the water, restaurants, and culture, less time in traffic, the beach as their backyard, and more time actually enjoying where they live.",
+        "Fort Lauderdale offers that, but not every neighborhood delivers the same experience. Areas that look similar online can feel completely different in person. That’s why it’s important to have a strategic guide to help execute a plan that gets you the maximum sale price and the best home for you.",
+        "That’s where I come in.",
+        "What sets me apart is how I approach the process. I am not focused on volume or quick transactions. I prefer to work thoughtfully and strategically with clients who want clear information, honest advice, and strong representation.",
+        "I am detail-oriented, highly responsive, and comfortable handling complex situations, including relocation, timing challenges, or transactions that involve many moving parts. I am also multilingual, which allows me to communicate comfortably with a broader range of buyers and sellers and to navigate international or out-of-state situations with greater ease.",
+        "Specialized guidance. Optimized outcome.",
+        "I work primarily in Fort Lauderdale’s urban and coastal neighborhoods, including areas near Las Olas, Tarpon River, Victoria Park, and surrounding communities. These areas often attract people who value convenience, energy, and long term value, and who want a home that reflects where they are now, not where they were years ago.",
+        "For sellers, presentation and exposure matter enormously. I make sure each home is marketed using high-quality photography and video so buyers can truly experience the property, not just scroll past it. I also ensure your home reaches qualified buyers beyond the local market, including national and international audiences who actively look to South Florida for lifestyle properties and second homes.",
+        "Whether you are buying, selling, or both, there are many decisions to make along the way: pricing, negotiations, inspections, insurance considerations, and timing all matter. My role is to keep the process organized and calm while protecting your interests at every stage. You will always know what is happening, what your options are, and what I recommend.",
+        "The goal is a smooth, intelligent transaction and an outcome you feel good about long after closing.",
+        "If you are considering a move, even if you are still early in the process, I am happy to have a conversation and help you sort through what makes sense: (954) 649-0614",
+        "We can talk about your goals, your timeline, and whether now is the right time to move or simply the right time to start planning."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "joe-babcock",
+      "fullName": "Joe Babcock",
+      "title": "REALTOR®",
+      "market": "Palm Beach",
+      "teamLead": "",
+      "email": "",
+      "phone": "",
+      "licenseNumber": "3628996",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1x4sOsASyPjkr4qaqa5UzBPW5HqGjaHvn&sz=w600",
+      "bio": [
+        "Joe Babcock is a South Florida real estate advisor who brings a rare combination of financial expertise and deep local knowledge to every client he serves. Based in Broward County and with decades of experience in sales, finance, and real estate, Joe helps buyers and sellers navigate the South Florida market with strategy, confidence, and care.",
+        "Since starting his career at age 19, Joe has owned and operated multiple financial firms, giving him a unique understanding of complex deals and investment-driven transactions. He uses this background to guide clients through buying or selling a home in Palm Beach County, investing in South Florida real estate, or relocating to Broward County. Joe works closely with his wife, Jessica, a top-producing Realtor with more than 15 years of experience. Together, they offer a full-service, client-first approach built on trust, communication, and a clear focus on results.",
+        "Originally from Toronto and a Florida resident since 1990, Joe knows the neighborhoods, the trends, and what it takes to succeed in the competitive South Florida real estate market. He is especially known for his calm professionalism, community involvement, and ability to make complex decisions feel manageable. Outside of work, Joe is a devoted husband and father of two daughters. A lifelong athlete, he grew up playing hockey and now enjoys golfing and connecting with his community through private club membership and local events.",
+        "If you are buying or selling a home in Broward County or Palm Beach County, Joe Babcock is ready to provide expert support and personalized guidance to help you move forward with confidence."
+      ],
+      "carriedOver": true,
+      "legacySlugs": [
+        "joseph-babcock"
+      ]
+    },
+    {
+      "slug": "johnathan-fuller",
+      "fullName": "Johnathan Fuller",
+      "title": "REALTOR®",
+      "market": "Tampa",
+      "teamLead": "",
+      "email": "jfuller@vreelandre.com",
+      "phone": "(813) 519-6379",
+      "licenseNumber": "SL3594203",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1qH3CcQKFCMEr6JTFuliWcsxWX7IB49xS&sz=w600",
+      "bio": [
+        "Johnathan Fuller is a Tampa real estate agent who helps buyers and sellers make smart, confident moves across Ruskin, Clearwater, Port Charlotte, and Brandon. With a strong focus on service and local market insight, he works to understand each client’s needs and guide them through a smooth, successful transaction.",
+        "Whether you're buying a home in Ruskin or selling a property in Clearwater, Johnathan takes a hands-on approach that keeps things clear and stress-free. His knowledge of the Tampa Bay and Gulf Coast areas helps clients find the right fit in the right neighborhood, at the right price. If you're ready to buy or sell in Tampa or nearby communities, Johnathan Fuller is ready to help you take the next step."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "jonas-bridges",
+      "fullName": "Jonas Bridges",
+      "title": "REALTOR®",
+      "market": "Tampa",
+      "teamLead": "Jessica Babcock",
+      "email": "jonas@vreelandre.com",
+      "phone": "(813) 592-7493",
+      "licenseNumber": "SL3630121",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=11jvw8JUxQkrcRnCuVf081c5h_kQAqeOs&sz=w600",
+      "bio": [
+        "Jonas Bridges is a Florida real estate agent helping buyers and sellers across some of the state’s most popular areas, including Tampa, Sarasota, Riverview, Clearwater, and beyond. Whether you're buying your first home or getting ready to sell, Jonas is here to help you make a smart, confident move.",
+        "He believes everyone deserves a home they feel comfortable in. That’s why he takes the time to understand what matters most to you and works hard to find a property that truly fits your lifestyle. For sellers, Jonas brings creative strategies, local insight, and serious hustle to help you sell your home as quickly and smoothly as possible.",
+        "Friendly, approachable, and always honest, Jonas is proud to serve clients across Orange Park, North Port, and service areas including Anna Maria, Apollo Beach, Wesley Chapel, St. Petersburg, Land O Lakes, Ruskin, Bradenton, and more.",
+        "Ready to buy or sell in the Sunshine State? Reach out to Jonas Bridges and let’s get you where you want to go."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "justin-hahn",
+      "fullName": "Justin Hahn",
+      "title": "Realtor",
+      "market": "Jacksonville",
+      "teamLead": "Justin Hahn",
+      "email": "justinh@vreelandre.com",
+      "phone": "(904) 599-3877",
+      "licenseNumber": "SL3356793",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1OAbmZrZ60MRNethCHV8aftms9bzNBpfY&sz=w600",
+      "bio": [
+        "If you’re searching for a top Jacksonville Realtor or trusted St. Augustine real estate agent, look no further than Justin Hahn. As a leading Realtor in Northeast Florida and team lead at Vreeland Real Estate, Justin brings over 9+ years of experience, high-energy service, and fierce negotiation skills to help you succeed in today’s market.",
+        "Originally from West Michigan, Justin has become one of the top real estate agents in Jacksonville and St. Augustine by consistently delivering results for his clients. Whether you're buying your first home, upgrading, or selling a property, Justin’s expertise ensures you get the most out of your real estate experience.",
+        "His in-depth local knowledge spans neighborhoods across Jacksonville, St. Augustine, and the surrounding areas, making him your go-to resource for smart home buying or selling decisions. With Justin Hahn you’re working with a top Jacksonville Realtor who’s committed to being #HAHNyourside every step of the way. Get in touch with him today!"
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "katie-gale",
+      "fullName": "Katie Gale",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "Justin Hahn",
+      "email": "katieg@vreelandre.com",
+      "phone": "(561) 220-3884",
+      "licenseNumber": "BK3335689",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1dkpOSud0PTAlps2Wf-wFJUSv5hyOyhyr&sz=w600",
+      "bio": [
+        "Katherine Gale is an enthusiastic and confident real estate agent who takes great pride in finding her clientele spectacular homes and great investments. Ms. Gale has experience in the hospitality and real estate industries in Florida, New York, and Asia. Katherine Gale is the fourth generation of a real estate family whose legacy stretches back to 1922. She is the great-granddaughter of Daniel Gale, founder of Daniel Gale Sotheby’s International Realty and daughter of international real estate developer Stan Gale, chairman and managing partner of Gale International, an integrated real estate development company dedicated to the creation of city-scale living and working environments. Actively involved in her family’s numerous enterprises, Ms. Gale has been engaged in the marketing and promotion of Songdo International Business District, a $35 billion city-scale development rising on the western coast of the Korean peninsula. Songdo IBD, currently 40% complete and with a completion date slated for 2016, is touted as one of the world’s first sustainable, connected, smart cities. Ms. Gale received her Bachelor of Science degree in Business Administration and her Master of Business Administration degree, specializing in mass media and communication, from Lynn University in Boca Raton, FL. In addition she also oversaw the opening and management of a luxury boutique hotel in Delray Beach, FL. Previously Ms. Gale was in Manhattan perusing her real estate career with the fastest growing and innovatively savvy company Nest Seekers International. She was a member and director of operations on one of the most noteworthy and successful Teams within the firm. Specializing in Manhattan luxury sales market, working with buyers, sellers and brokers alike quickly became second nature to Ms. Gale. After her success in the New York City market, she has made the decision to continue her real estate career on Long Island. Ms. Gale has joined non-other than Long Island’s premier and established Real Estate Agency, Daniel Gale Sotheby’s International Realty to continue her own legacy of creating dynamic living and working environments for communities around the world."
+      ],
+      "carriedOver": true,
+      "legacySlugs": [
+        "katherine-gale"
+      ]
+    },
+    {
+      "slug": "kianna-woods",
+      "fullName": "Kianna Woods",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "Jessica Babcock",
+      "email": "kianna@vreelandre.com",
+      "phone": "(954) 908-6505",
+      "licenseNumber": "SL3492636",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=19T7jLVfPhP2WgUglNg3yCwbj-w7zEXRV&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "kris-nelson",
+      "fullName": "Kris Nelson",
+      "title": "REALTOR®",
+      "market": "Tampa",
+      "teamLead": "Kris Nelson",
+      "email": "kris@vreelandre.com",
+      "phone": "(813) 945-8415",
+      "licenseNumber": "SL3560786",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1Y_V-YFKV8oiHsUHLB0spazysDllUtYZw&sz=w600",
+      "bio": [
+        "Kris Nelson is a top Tampa Bay Realtor known for delivering exceptional results in the luxury real estate market. With over 16 years of experience and a reputation built on trust, service, and precision, he’s the go-to expert for buying and selling high-end homes across Tampa, St. Petersburg, Plant City, Palmetto, and Ruskin.",
+        "From private estates to waterfront properties and exclusive communities, Kris brings expert-level knowledge of the Tampa Bay luxury market. Clients rely on his strategic approach, attention to detail, and commitment to high-touch, personalized service. His deep understanding of the local real estate landscape helps buyers find the perfect property and sellers command premium value.",
+        "He really takes pride in building strong relationships while guiding clients through every step of the process with discretion, integrity, and professionalism.",
+        "If you’re buying or selling a luxury home in Tampa Bay, Kris Nelson is the Realtor who knows how to get it done right."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "lee-aljarboua",
+      "fullName": "Lee Aljarboua",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "Scott McAnany",
+      "email": "leea@vreelandre.com",
+      "phone": "(561) 810-2259",
+      "licenseNumber": "SL3640881",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1dGZqf9qNjfgcYd6M09imPKdok6BG6oUS&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "leo-boodie",
+      "fullName": "Leo Boodie",
+      "title": "Realtor",
+      "market": "Miami",
+      "teamLead": "Justin Hahn",
+      "email": "leoboodie@vreelandre.com",
+      "phone": "(786) 833-9787",
+      "licenseNumber": "SL3415614",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1A1vfZBDZ-RnfTiL5It_xMSfMWg7KbGz1&sz=w600",
+      "bio": [
+        "Leo Boodie is a dedicated real estate professional with a passion for helping clients turn their real estate goals into reality. With a reputation for integrity, market expertise, and a client-first mindset, Leo brings both confidence and clarity to every step of the buying or selling process.Whether you're a first-time buyer, seasoned investor, or looking to sell your home for top value, Leo combines deep local knowledge with a strong commitment to personalized service. He understands that real estate isn't just about properties, it's about people, decisions, and dreams. That’s why Leo takes the time to truly listen, offering clear guidance, smart strategy, and honest communication every step of the way.Known for his professionalism, attention to detail, and ability to build lasting relationships, Leo Boodie is the agent you want in your corner, no matter where your real estate journey takes you."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "lindsay-clemmons",
+      "fullName": "Lindsay Clemmons",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Justin Hahn",
+      "email": "lclemmons@vreelandre.com",
+      "phone": "(813) 819-7876",
+      "licenseNumber": "SL3628156",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=19tUTQT908yjLLs1856CWETSjqqizpUv1&sz=w600",
+      "bio": [
+        "As a dedicated Florida real estate professional with Vreeland Real Estate, I’m committed to delivering exceptional service, strong negotiation, and a smooth experience from start to finish.",
+        "Whether you're buying your first home, relocating, investing, or selling a property, I bring local market knowledge, clear communication, and a results-driven approach to every transaction. Florida’s market moves fast, and having an agent who is proactive, responsive, and strategic makes all the difference.",
+        "My goal is simple: to protect your interests, maximize your investment, and make the process as seamless and stress-free as possible. I pride myself on honesty, attention to detail, and building long-term relationships, not just closing deals.",
+        "When you work with me, you can expect: • Prompt communication • Skilled negotiation • Strategic marketing for sellers • Personalized guidance for buyers • A smooth, well-managed transaction from contract to close",
+        "If you’re considering buying or selling in Florida, I’d love the opportunity to help you achieve your real estate goals. Let’s connect and get started."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "lucas-sadowski",
+      "fullName": "Lucas Sadowski",
+      "title": "REALTOR®",
+      "market": "Tampa",
+      "teamLead": "",
+      "email": "lucas@vreelandre.com",
+      "phone": "(813) 491-7140",
+      "licenseNumber": "SL3503232",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1nCkRbI4VoZOmsA4E5NbnpKvtLWju_57D&sz=w600",
+      "bio": [
+        "Military Police Army Veteran. Started investing in Real Estate after my deployment to Guantanmo Bay, Cuba. I strive to help my clients get the best deal possible by working diligently and effectively."
+      ],
+      "carriedOver": true,
+      "legacySlugs": [
+        "lucas-sadwoski"
+      ]
+    },
+    {
+      "slug": "natalia-harrison",
+      "fullName": "Natalia Harrison",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "Jessica Babcock",
+      "email": "nharrison@vreelandre.com",
+      "phone": "(561) 621-3805",
+      "licenseNumber": "BK3644065",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1eCYrhX91p5DKzYO7PL6dkNiuEKdE2wEI&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "rebecca-martin-hakola",
+      "fullName": "Rebecca Martin Hakola",
+      "title": "REALTOR®",
+      "market": "Tampa",
+      "teamLead": "Justin Hahn",
+      "email": "rebeccamh@vreelandre.com",
+      "phone": "(813) 544-2504",
+      "licenseNumber": "SL3622017",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1r4fdThrqeHtQ9lUETb2zVY3Sx0KvyOwr&sz=w600",
+      "bio": [
+        "Rebecca Hakola is a top-producing real estate agent with nearly 20 years of experience serving buyers, sellers, and military families across Tampa, Hillsborough County, Sarasota County, and Pinellas County. As a Senior Real Estate Advisor and proud active duty military spouse, Rebecca offers unmatched insight, dedication, and support throughout every stage of the real estate journey.",
+        "She understands firsthand the demands of military life and the unique timelines and logistics that come with relocation. Whether you’re PCSing to MacDill Air Force Base or transitioning to a more permanent home in the Tampa Bay area, Rebecca brings clarity, strategy, and care to the entire process. Rebecca specializes in helping families find homes that check all the boxes. Her clients value her honesty, attention to detail, and strong communication skills that keep things on track and stress to a minimum.",
+        "If you're buying a home in Sarasota County, selling in Pinellas County, or relocating to Tampa, Rebecca Hakola is the trusted real estate advisor who understands your needs and puts your goals first."
+      ],
+      "carriedOver": true,
+      "legacySlugs": [
+        "rebecca-hakola"
+      ]
+    },
+    {
+      "slug": "richard-edwards",
+      "fullName": "Richard Edwards",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "Kris Nelson",
+      "email": "richardedwards@vreelandre.com",
+      "phone": "(754) 654-8628",
+      "licenseNumber": "SL3494537",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1pOnCQihww6s10MsN2TeC1u1gYD7udYgA&sz=w600",
+      "bio": [
+        "Richard was born and raised in Hungary, Europe. He and his wife, Destiny moved to South Florida in 2020. Since he is relatively new to the area, he loves discovering new parts of it and taking advantage of everything that South Florida has to offer.",
+        "After working almost 10 years in the hospitality industry, He has a knack for understanding the needs of his clients. As a Certified Expert Buyer’s Agent, Richard is dedicated to finding the most fitting property for anybody willing to give him a chance.",
+        "Richard also a property manager of short-term vacation rentals and specializes in income-producing properties.",
+        "Besides Real Estate, Richard’s also a foodie and coffee connoisseur, so He knows the best places to eat, drink and have a great time.",
+        "Richard’s motto is “Live where others Vacation” and he can certainly help you make this a reality for you."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "rick-schulz",
+      "fullName": "Rick Schulz",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Jessica Babcock",
+      "email": "ricks@vreelandre.com",
+      "phone": "(813) 694-5346",
+      "licenseNumber": "BK533899",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=13pNoojIpoTQVYD3J3YaLJwLdUFGmoqwR&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": [
+        "richard-schulz"
+      ]
+    },
+    {
+      "slug": "rod-oliveira",
+      "fullName": "Rod Oliveira",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Jessica Babcock",
+      "email": "rod@vreelandre.com",
+      "phone": "(656) 206-6807",
+      "licenseNumber": "SL3489811",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=16VmwmQL7nYjjzymklgGI7um_vo8pue5A&sz=w600",
+      "bio": [
+        "Hello and welcome! I’m a dedicated REALTOR® proudly serving both the Tampa Bay area and Central Florida, committed to delivering a seamless and results-driven real estate experience. My passion is helping clients navigate the market with confidence whether you're searching for your dream home, selling for top dollar, or building a strong investment portfolio. With in-depth knowledge of local markets including St. Petersburg, Tampa, Orlando, and surrounding areas, I provide strategic guidance, strong negotiation skills, and a personalized approach tailored to your goals. Whether you're relocating, upgrading, downsizing, or investing, I ensure every step is handled with professionalism, transparency, and attention to detail. Buying, Selling, or Investing in Florida? Let’s make your next move a successful one. Contact me today for a complimentary consultation. I look forward to earning your trust and exceeding your expectations."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "samer-ortiz",
+      "fullName": "Samer Ortiz",
+      "title": "REALTOR®",
+      "market": "Broward",
+      "teamLead": "Kris Nelson",
+      "email": "samer@vreelandre.com",
+      "phone": "(561) 782-3112",
+      "licenseNumber": "SL3593417",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1wyV_8dy44vxuUlILDzVEScoGEYQWsB6F&sz=w600",
+      "bio": [
+        "Samer Ortiz is a Palm Beach real estate agent who brings energy, heart, and local focus to every transaction. Originally from Venezuela and now proud to call South Florida home, Samer chose real estate because he loves helping people make smarter decisions when it matters most.",
+        "With a background in real estate knowledge and a strong connection to the tennis community, Samer works with buyers and sellers across Palm Beach to provide honest advice, clear communication, and consistent follow-through. Whether you're buying your first home or looking to sell, he’s focused on making the process simple, informed, and successful.",
+        "Ready to buy or sell in Palm Beach? Contact Samer Ortiz today and work with an agent who’s driven by helping people and built for results.",
+        "Samer Ortiz es un asesor inmobiliario en Palm Beach que aporta energía, compromiso y un enfoque cercano a cada operación.",
+        "Nacido en Venezuela y hoy orgulloso de llamar hogar al sur de la Florida, Samer se dedicó al mundo inmobiliario porque disfruta ayudar a las personas a tomar decisiones acertadas en momentos clave de sus vidas.",
+        "Con una base sólida en el sector de bienes raíces y una conexión muy especial con la comunidad del tenis, Samer acompaña a compradores y vendedores en todo Palm Beach, brindando orientación honesta, comunicación clara y un seguimiento constante. Ya sea que estés comprando tu primera propiedad o pensando en vender, su objetivo es hacer que el proceso sea sencillo, bien informado y exitoso.",
+        "¿Estás listo para comprar o vender en Palm Beach? Ponte en contacto con Samer Ortiz y trabaja con un agente que se mueve por vocación de servicio y está enfocado en obtener resultados."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "scott-mcanany",
+      "fullName": "Scott McAnany",
+      "title": "REALTOR®",
+      "market": "Jacksonville",
+      "teamLead": "Scott McAnany",
+      "email": "scott@vreelandre.com",
+      "phone": "(904) 842-4257",
+      "licenseNumber": "BK3233628",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1WjoaL0tcZuZ_jsPO0BJPHMNdAvzx7-A_&sz=w600",
+      "bio": [
+        "Scott McAnany is a top Florida real estate agent and one of the most trusted names in the Jacksonville area. As the broker of Vreeland Real Estate, he brings over a decade of experience helping buyers make smart, confident moves in Jacksonville, Atlantic Beach, St. Johns, and Plantation.",
+        "Known for his sharp negotiating skills and deep market knowledge, Scott is the go-to advisor for clients who want to win in competitive markets. He consistently secures seller concessions and crafts offers that stand out, giving his clients the edge they need in fast-moving transactions.",
+        "Whether you’re buying a home in Jacksonville, looking for the right fit in St. Johns, or exploring properties in Atlantic Beach or Plantation, Scott brings clarity, strategy, and a commitment to your success."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "sheree-larkins",
+      "fullName": "Sheree Larkins",
+      "title": "Realtor",
+      "market": "Jacksonville",
+      "teamLead": "Justin Hahn",
+      "email": "sheree@vreelandre.com",
+      "phone": "(904) 801-1440",
+      "licenseNumber": "SL3654316",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1N4a97BXLjKDEdLWlALw-R3065AUGICCL&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "tai-vo",
+      "fullName": "Tai Vo",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "",
+      "email": "tai@vreelandre.com",
+      "phone": "(561) 861-1700",
+      "licenseNumber": "SL3604390",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1MjdWBl3NFh1OAou0uEwa9gyb7KWVZCvj&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "tiana-newman",
+      "fullName": "Tiana Newman",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Justin Hahn",
+      "email": "tiana@vreelandre.com",
+      "phone": "(813) 578-0346",
+      "licenseNumber": "SL3657747",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1OoJ3es1kXKEw6eqEAiIDkxZm-fTQKtTR&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "vanessa-hernandez",
+      "fullName": "Vanessa Hernandez",
+      "title": "Realtor",
+      "market": "Miami",
+      "teamLead": "Kris Nelson",
+      "email": "vhernandez@vreelandre.com",
+      "phone": "(786) 475-7353",
+      "licenseNumber": "BK3059919",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1sxLcgClR47me3TQcy3XU32bfZAYH_L6d&sz=w600",
+      "bio": [
+        "Vanessa Hernandez has been selling real estate in South Florida since 2003. She focuses on providing a customer service approach where the customer's needs are always the top priority.",
+        "She understands that buying or selling a home is more than just a transaction: it's a life-changing experience. That's why our team of highly-seasoned real estate professionals is dedicated to providing exceptional, personalized service for all of our clients. We take great pride in the relationships we build and always work relentlessly on the client's behalf to help them achieve their real estate goals.",
+        "Our team of experts represents the best and brightest in the industry, and we're always striving to lead the field in research, innovation, and consumer education. Today's buyers and sellers need a trusted resource that can guide them through the complex world of real estate. With our extensive knowledge and commitment to providing only the best and most timely information to our clients, we are your go-to source for real estate industry insight and advice.",
+        "Our Mission Statement: Our philosophy is simple: clients come first. We pledge to be in constant communication with our clients, keeping them fully informed throughout the entire buying or selling process. We believe that if you're not left with an amazing experience, we haven't done our job. We don't measure success through achievements or awards, but through the satisfaction of our clients."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "vitaly-suslov",
+      "fullName": "Vitaly Suslov",
+      "title": "Realtor",
+      "market": "Miami",
+      "teamLead": "Scott McAnany",
+      "email": "vitaly@vreelandre.com",
+      "phone": "(786) 686-0767",
+      "licenseNumber": "SL3629646",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=19x60Q4MLm5BV3B831yZ0jf1wkB_Q4ZhT&sz=w600",
+      "bio": [],
+      "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "zach-smith",
+      "fullName": "Zach Smith",
+      "title": "Realtor",
+      "market": "Jacksonville",
+      "teamLead": "Justin Hahn",
+      "email": "zachs@vreelandre.com",
+      "phone": "(904) 944-7896",
+      "licenseNumber": "SL3648032",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1GtvLCWUwiHA-0zG4Ggjjw0sqGYFp8Tl7&sz=w600",
+      "bio": [
+        "As a proud Jacksonville-area real estate professional, Zach is committed to helping buyers and sellers achieve their real estate goals throughout Northeast Florida. Whether you're purchasing your first home, searching for a luxury waterfront property, building on residential land, or preparing to sell, Zach is dedicated to providing exceptional service, clear communication, and trusted guidance every step of the way. For sellers, he understands your home is often one of your largest financial assets. Zach's goal is to strategically position your property through thoughtful pricing, targeted marketing, and skilled negotiation to maximize its value while making the process as smooth and stress-free as possible. For buyers, he's committed to helping you find the right property for your lifestyle, needs, and future. Built on integrity, professionalism, and lasting relationships, Zach is here to make every move a successful one."
+      ],
+      "carriedOver": true,
+      "legacySlugs": []
+    }
+  ]
+}
