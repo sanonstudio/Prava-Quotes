@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-07T14:10:46.742Z",
+  "updatedAt": "2026-10-07T14:55:51.258Z",
   "sourceUpdated": "October 7, 2026",
-  "count": 21,
+  "count": 20,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -73,10 +73,10 @@
       "priceDisplay": "$195,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/18245-BRIDLE-CLUB-DR-Tampa-FL-33647_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/fc693a056ee1ef65069ef7fcac9f0f53-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1,335"
     },
     {
       "id": "388-mangrove-shade-cir-apollo-beach-fl-33572",
@@ -137,21 +137,6 @@
       "beds": "4",
       "baths": "3",
       "sqft": "1,772"
-    },
-    {
-      "id": "201-peace-river-rd-st-johns-fl-32259",
-      "address": "201 Peace River Rd",
-      "city": "St. Johns, FL 32259",
-      "market": "Jacksonville",
-      "agent": "Scott McAnany",
-      "price": 600000,
-      "priceDisplay": "$600,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/201-Peace-River-Rd-St-Johns-FL-32259_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/39aedc46c7bd482ce92b4b79216748c2-cc_ft_1536.jpg",
-      "beds": "4",
-      "baths": "3",
-      "sqft": "2,395"
     },
     {
       "id": "4915-baymeadows-rd-2h-jacksonville-fl-32217",
@@ -281,7 +266,7 @@
       "agent": "Samer Ortiz",
       "price": 220000,
       "priceDisplay": "$220,000",
-      "onMls": true,
+      "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/3100-NW-42nd-Avenue-D401-Coconut-Creek-FL-33066_rb/",
       "photo": "https://photos.zillowstatic.com/fp/533ba802f2abad38f8b7e5bc02b6b507-cc_ft_1536.jpg",
       "beds": "2",
@@ -296,7 +281,7 @@
       "agent": "Samer Ortiz",
       "price": 220000,
       "priceDisplay": "$220,000",
-      "onMls": true,
+      "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/3425-NW-47th-Ave-3191-Coconut-Creek-FL-33063_rb/",
       "photo": "https://photos.zillowstatic.com/fp/cf95d34dbef1700c17b41b311a9f99e1-cc_ft_1536.jpg",
       "beds": "2",
