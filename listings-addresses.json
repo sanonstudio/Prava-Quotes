@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-10-07T11:55:46.128Z",
-  "count": 20,
+  "updatedAt": "2026-10-07T14:10:46.930Z",
+  "count": 21,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -37,6 +37,15 @@
       "state": "FL",
       "zip": "32226",
       "agent": "Justin Hahn",
+      "region": "Tampa"
+    },
+    {
+      "id": "18245-bridle-club-dr-tampa-fl-33647",
+      "address": "18245 BRIDLE CLUB DR",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33647",
+      "agent": "Lindsay Clemmons",
       "region": "Tampa"
     },
     {
