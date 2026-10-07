@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-06T00:09:56.386Z",
-  "sourceUpdated": "October 5, 2026",
-  "count": 21,
+  "updatedAt": "2026-10-07T11:55:45.957Z",
+  "sourceUpdated": "October 7, 2026",
+  "count": 20,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -62,21 +62,6 @@
       "beds": "4",
       "baths": "2",
       "sqft": "2,236"
-    },
-    {
-      "id": "18245-bridle-club-dr-unit-18245-tampa-fl-33647",
-      "address": "18245 BRIDLE CLUB DR Unit#18245",
-      "city": "Tampa, FL 33647",
-      "market": "Tampa",
-      "agent": "Lindsay Clemmons",
-      "price": 225000,
-      "priceDisplay": "$225,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/18245-BRIDLE-CLUB-DR-Unit18245-Tampa-FL-33647_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/fc693a056ee1ef65069ef7fcac9f0f53-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1,335"
     },
     {
       "id": "388-mangrove-shade-cir-apollo-beach-fl-33572",
