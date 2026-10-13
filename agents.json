@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-06T18:50:08.510Z",
-  "count": 42,
+  "updatedAt": "2026-10-13T00:47:41.709Z",
+  "count": 41,
   "agents": [
     {
       "slug": "beena-kokeram",
@@ -78,7 +78,7 @@
       "email": "charlotte@vreelandre.com",
       "phone": "(754) 654-9111",
       "licenseNumber": "SL3630510",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1VH1_W1Gb50ozRWgHZreCkEeteBPUwsbX&sz=w600",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1czqghwcwkPK3BINsjqTP0tzME5E7cADZ&sz=w600",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
@@ -541,26 +541,6 @@
       ]
     },
     {
-      "slug": "richard-edwards",
-      "fullName": "Richard Edwards",
-      "title": "Realtor",
-      "market": "Broward",
-      "teamLead": "Kris Nelson",
-      "email": "richardedwards@vreelandre.com",
-      "phone": "(754) 654-8628",
-      "licenseNumber": "SL3494537",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1pOnCQihww6s10MsN2TeC1u1gYD7udYgA&sz=w600",
-      "bio": [
-        "Richard was born and raised in Hungary, Europe. He and his wife, Destiny moved to South Florida in 2020. Since he is relatively new to the area, he loves discovering new parts of it and taking advantage of everything that South Florida has to offer.",
-        "After working almost 10 years in the hospitality industry, He has a knack for understanding the needs of his clients. As a Certified Expert Buyer’s Agent, Richard is dedicated to finding the most fitting property for anybody willing to give him a chance.",
-        "Richard also a property manager of short-term vacation rentals and specializes in income-producing properties.",
-        "Besides Real Estate, Richard’s also a foodie and coffee connoisseur, so He knows the best places to eat, drink and have a great time.",
-        "Richard’s motto is “Live where others Vacation” and he can certainly help you make this a reality for you."
-      ],
-      "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
       "slug": "rick-schulz",
       "fullName": "Rick Schulz",
       "title": "Realtor",
@@ -702,7 +682,7 @@
       "email": "vitaly@vreelandre.com",
       "phone": "(786) 686-0767",
       "licenseNumber": "SL3629646",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=19x60Q4MLm5BV3B831yZ0jf1wkB_Q4ZhT&sz=w600",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1ivD_7ITgiHKNUTdMWtO2UY4AyWIJNkA5&sz=w600",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
