@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T14:25:51.241Z",
+  "updatedAt": "2026-10-14T14:40:48.297Z",
   "sourceUpdated": "October 14, 2026",
   "count": 21,
   "listings": [
@@ -253,10 +253,10 @@
       "priceDisplay": "$597,612",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/2255-Habersham-Dr-Clearwater-FL-33764_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/4bb70bbe23e5bedcedb2282d48a24946-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "3",
+      "sqft": "2,028"
     },
     {
       "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
