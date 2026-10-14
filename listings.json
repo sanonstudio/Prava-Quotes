@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-07T14:55:51.258Z",
-  "sourceUpdated": "October 7, 2026",
-  "count": 20,
+  "updatedAt": "2026-10-14T14:25:51.241Z",
+  "sourceUpdated": "October 14, 2026",
+  "count": 21,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -242,6 +242,21 @@
       "beds": "6",
       "baths": "3",
       "sqft": "3,564"
+    },
+    {
+      "id": "2255-habersham-dr-clearwater-fl-33764",
+      "address": "2255 Habersham Dr",
+      "city": "Clearwater, FL 33764",
+      "market": "South Florida",
+      "agent": "Rick Schulz",
+      "price": 597612,
+      "priceDisplay": "$597,612",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/2255-Habersham-Dr-Clearwater-FL-33764_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
