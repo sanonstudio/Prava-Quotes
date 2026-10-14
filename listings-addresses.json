@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-10-07T14:55:51.585Z",
-  "count": 20,
+  "updatedAt": "2026-10-14T14:25:51.604Z",
+  "count": 21,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -145,6 +145,15 @@
       "state": "FL",
       "zip": "33411",
       "agent": "Jessica Babcock",
+      "region": "South Florida"
+    },
+    {
+      "id": "2255-habersham-dr-clearwater-fl-33764",
+      "address": "2255 Habersham Dr",
+      "city": "Clearwater",
+      "state": "FL",
+      "zip": "33764",
+      "agent": "Rick Schulz",
       "region": "South Florida"
     },
     {
