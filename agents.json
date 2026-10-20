@@ -1,8 +1,36 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-13T00:48:46.469Z",
-  "count": 41,
+  "updatedAt": "2026-10-20T18:19:15.314Z",
+  "count": 51,
   "agents": [
+    {
+      "slug": "alex-mitkovski",
+      "fullName": "Alex Mitkovski",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "",
+      "email": "alexm@vreelandre.com",
+      "phone": "(954) 703-6998",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1dXKjW64tQSo0c6Dp_mgGWuP8ItRmb_Fq&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
+    },
+    {
+      "slug": "ana-maria-ruiz",
+      "fullName": "Ana Maria Ruiz",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "",
+      "email": "anar@vreelandre.com",
+      "phone": "(754) 285-4796",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1u_8y3qHAyqKptBw0Mb0kq5a-OGIPnL_o&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
+    },
     {
       "slug": "beena-kokeram",
       "fullName": "Beena Kokeram",
@@ -98,6 +126,20 @@
       "legacySlugs": []
     },
     {
+      "slug": "cyndi-frost-perron",
+      "fullName": "Cyndi Frost Perron",
+      "title": "Realtor",
+      "market": "Jacksonville",
+      "teamLead": "",
+      "email": "cyndif@vreelandre.com",
+      "phone": "(904) 426-0184",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1bIhV-qRSVFP7UYUb2yZwh-eJd9vbIsvM&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
+    },
+    {
       "slug": "deron-baugh",
       "fullName": "Deron Baugh",
       "title": "Realtor",
@@ -127,6 +169,20 @@
       "headshotUrl": "https://drive.google.com/thumbnail?id=1q4NKq9zt6IojlrKC5uDpGOZVOkTkvJWo&sz=w600",
       "bio": [],
       "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "ernest-caram",
+      "fullName": "Ernest Caram",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "",
+      "email": "ernestc@vreelandre.com",
+      "phone": "(813) 550-2691",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=16n0xN0BSMHlNbvPFFisM9nklFGI3bYK7&sz=w600",
+      "bio": [],
+      "carriedOver": false,
       "legacySlugs": []
     },
     {
@@ -181,6 +237,20 @@
         "With a background in new construction and a reputation for delivering smooth, high-value closings, Giselle knows how to position her clients for success. If you’re serious about making moves in South Florida, you want her on your side."
       ],
       "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "grace-weis",
+      "fullName": "Grace Weis",
+      "title": "Realtor",
+      "market": "Jacksonville",
+      "teamLead": "",
+      "email": "gracew@vreelandre.com",
+      "phone": "(904) 944-7736",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=15B4gWy6vTt3nYZnLK3vGu41qUTmEBpPC&sz=w600",
+      "bio": [],
+      "carriedOver": false,
       "legacySlugs": []
     },
     {
@@ -370,6 +440,20 @@
       "legacySlugs": []
     },
     {
+      "slug": "judy-sharma",
+      "fullName": "Judy Sharma",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "",
+      "email": "jsharma@vreelandre.com",
+      "phone": "(561) 589-4066",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1dxASYwT0ncBL93mBu4ZxF2qCinx4Vkiv&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
+    },
+    {
       "slug": "justin-hahn",
       "fullName": "Justin Hahn",
       "title": "Realtor",
@@ -505,6 +589,48 @@
       "legacySlugs": [
         "lucas-sadwoski"
       ]
+    },
+    {
+      "slug": "margaret-romanowich",
+      "fullName": "Margaret Romanowich",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "",
+      "email": "margaret@vreelandre.com",
+      "phone": "(561) 652-2508",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1JrgrOOZCJXl9l7sMVZY4HSqH0UIdbRqZ&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
+    },
+    {
+      "slug": "maurice-thomas",
+      "fullName": "Maurice Thomas",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "",
+      "email": "maurice@vreelandre.com",
+      "phone": "(813) 945-4762",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1OLe49wSJBGqOS1KSZInRKA66Kxdj73kV&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
+    },
+    {
+      "slug": "mike-mccarthy",
+      "fullName": "Mike McCarthy",
+      "title": "Realtor",
+      "market": "Tampa",
+      "teamLead": "Kris Nelson",
+      "email": "mikem@vreelandre.com",
+      "phone": "(239) 307-2505",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1i_gVytkpCTGJ5Q_YqC_9pGX6QXgFnCfw&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
     },
     {
       "slug": "natalia-harrison",
@@ -685,6 +811,20 @@
       "headshotUrl": "https://drive.google.com/thumbnail?id=1ivD_7ITgiHKNUTdMWtO2UY4AyWIJNkA5&sz=w600",
       "bio": [],
       "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "yennifer-hartman",
+      "fullName": "Yennifer Hartman",
+      "title": "Realtor",
+      "market": "Broward",
+      "teamLead": "",
+      "email": "yenniferh@vreelandre.com",
+      "phone": "(954) 329-1792",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1l5jVcYn57RlzqgTspx-Xh2noxThFNiJO&sz=w600",
+      "bio": [],
+      "carriedOver": false,
       "legacySlugs": []
     },
     {
