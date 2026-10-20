@@ -1,0 +1,106 @@
+{
+  "source": "14 Days to Close loan advisor roster (OpChamp staff, public fields only)",
+  "updatedAt": "2026-10-20T22:01:26.706Z",
+  "count": 9,
+  "officers": [
+    {
+      "slug": "alberto-morales-jr",
+      "fullName": "Alberto Morales Jr",
+      "title": "Loan Advisor",
+      "market": "Headquarters- 14DTC/PRMG",
+      "teamLead": "Trevor Smith",
+      "email": "alberto@14daystoclose.com",
+      "phone": "(813) 667-9113",
+      "licenseNumber": "NMLS #1801252",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=15ZC7_EeZT2jQxd6BrdifDm-tymYWtMMe&sz=w600"
+    },
+    {
+      "slug": "antonio-kaik",
+      "fullName": "Antonio Kaik",
+      "title": "Loan Advisor",
+      "market": "Headquarters- 14DTC/PRMG",
+      "teamLead": "Trevor Smith",
+      "email": "antoniok@14daystoclose.com",
+      "phone": "(813) 922-3679",
+      "licenseNumber": "Na",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1m1n0uYEkjIe1bFFbjwoBYWDuR7xV27TT&sz=w600"
+    },
+    {
+      "slug": "bobby-ziencina",
+      "fullName": "Bobby Ziencina",
+      "title": "Loan Advisor",
+      "market": "Headquarters- 14DTC/PRMG",
+      "teamLead": "Trevor Smith",
+      "email": "bobby@14daystoclose.com",
+      "phone": "(813) 437-5169",
+      "licenseNumber": "NMLS #1297517",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1tGts2bVPMpS86OhnWQtscES2AWzrHjDH&sz=w600"
+    },
+    {
+      "slug": "kevin-countis",
+      "fullName": "Kevin Countis",
+      "title": "Loan Advisor",
+      "market": "Headquarters- 14DTC/PRMG",
+      "teamLead": "Trevor Smith",
+      "email": "kevin@14daystoclose.com",
+      "phone": "(813) 722-1208",
+      "licenseNumber": "NMLS #2179339",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1nWt7WpUbO7-0rZeFP5whSj3CLk90E3Hl&sz=w600"
+    },
+    {
+      "slug": "lianet-fernandez-espinosa",
+      "fullName": "Lianet Fernandez Espinosa",
+      "title": "Loan Advisor",
+      "market": "Tampa Bay",
+      "teamLead": "Trevor Smith",
+      "email": "lianet@14daystoclose.com",
+      "phone": "(813) 331-1513",
+      "licenseNumber": "NMLS #LO146107",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1Chie3Gq_R-xPpfadqK7zHJLexID-RpUF&sz=w600"
+    },
+    {
+      "slug": "max-disser",
+      "fullName": "Max Disser",
+      "title": "Loan Advisor",
+      "market": "Remote",
+      "teamLead": "Trevor Smith",
+      "email": "max@14daystoclose.com",
+      "phone": "(813) 755-8690",
+      "licenseNumber": "NMLS #2089243",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=12F3C4734JsG9b-bZMb3rX9F4NJ9oVJBA&sz=w600"
+    },
+    {
+      "slug": "quin-thompson",
+      "fullName": "Quin Thompson",
+      "title": "Loan Advisor",
+      "market": "Remote",
+      "teamLead": "Trevor Smith",
+      "email": "quin@14daystoclose.com",
+      "phone": "(813) 686-6300",
+      "licenseNumber": "NMLS #1183901",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1G4428ntDjQFb3_16QBzbAaL0rB63bJAX&sz=w600"
+    },
+    {
+      "slug": "trevor-smith",
+      "fullName": "Trevor Smith",
+      "title": "REALTOR®",
+      "market": "Headquarters- 14DTC/PRMG",
+      "teamLead": "Trevor Smith",
+      "email": "trevor@14daystoclose.com",
+      "phone": "(813) 922-3089",
+      "licenseNumber": "NMLS #33277",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1104CtrkrN2Kni3GiYBj873bP6HjNCFfg&sz=w600"
+    },
+    {
+      "slug": "yessenia-morfin-urla",
+      "fullName": "Yessenia Morfin Urla",
+      "title": "Loan Advisor",
+      "market": "Tampa Bay",
+      "teamLead": "Trevor Smith",
+      "email": "yessenia@14daystoclose.com",
+      "phone": "(813) 669-0226",
+      "licenseNumber": "NMLS #1988817",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=12KVOQi0ZZcQohx5csXVXV38Fxz2OeuM6&sz=w600"
+    }
+  ]
+}
