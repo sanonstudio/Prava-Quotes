@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T23:15:32.378Z",
+  "updatedAt": "2026-10-21T03:06:28.851Z",
   "count": 100,
   "sales": [
     {
@@ -258,13 +258,13 @@
       "is_both_sides_vre": false
     },
     {
-      "photo": "https://photos.zillowstatic.com/fp/b7fd0259fa138cf77bb91b49321d4c2e-cc_ft_1536.jpg",
-      "price": "$275,000",
-      "address": "10950 NW 82nd St Unit 115",
-      "city": "Doral, FL 33178",
-      "beds": "1",
-      "baths_str": "1",
-      "sqft": "838",
+      "photo": "https://photos.zillowstatic.com/fp/6660498d9827bdc4a642e0b0308df6fc-cc_ft_1536.jpg",
+      "price": "$450,000",
+      "address": "1210 NW 135th Street",
+      "city": "North Miami, FL 33167",
+      "beds": "3",
+      "baths_str": "2",
+      "sqft": "1,317",
       "agent": "Vanessa Hernandez",
       "has_agent": true,
       "role": "Buyer's Agent",
@@ -273,13 +273,13 @@
       "is_both_sides_vre": false
     },
     {
-      "photo": "https://photos.zillowstatic.com/fp/6660498d9827bdc4a642e0b0308df6fc-cc_ft_1536.jpg",
-      "price": "$450,000",
-      "address": "1210 NW 135th Street",
-      "city": "North Miami, FL 33167",
-      "beds": "3",
-      "baths_str": "2",
-      "sqft": "1,317",
+      "photo": "https://photos.zillowstatic.com/fp/b7fd0259fa138cf77bb91b49321d4c2e-cc_ft_1536.jpg",
+      "price": "$275,000",
+      "address": "10950 NW 82nd St Unit 115",
+      "city": "Doral, FL 33178",
+      "beds": "1",
+      "baths_str": "1",
+      "sqft": "838",
       "agent": "Vanessa Hernandez",
       "has_agent": true,
       "role": "Buyer's Agent",
@@ -693,7 +693,7 @@
       "is_both_sides_vre": false
     },
     {
-      "photo": "https://photos.zillowstatic.com/fp/f2855634b0ae466d19a5f37ae8556ba8-cc_ft_1536.jpg",
+      "photo": "https://photos.zillowstatic.com/fp/6e9aa25f98919e7800c97bb18190f8b7-cc_ft_1536.jpg",
       "price": "$368,990",
       "address": "9983 Morning Meadowlark Trl",
       "city": "Parrish, FL 34219",
