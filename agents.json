@@ -1,6 +1,6 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-21T15:20:37.514Z",
+  "updatedAt": "2026-10-21T17:20:36.966Z",
   "count": 51,
   "agents": [
     {
@@ -130,7 +130,7 @@
       "fullName": "Cyndi Frost Perron",
       "title": "Realtor",
       "market": "Jacksonville",
-      "teamLead": "",
+      "teamLead": "Scott McAnany",
       "email": "cyndif@vreelandre.com",
       "phone": "(904) 426-0184",
       "licenseNumber": "",
