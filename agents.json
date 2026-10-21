@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-21T17:20:36.966Z",
-  "count": 51,
+  "updatedAt": "2026-10-21T19:20:37.094Z",
+  "count": 49,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -42,22 +42,6 @@
       "licenseNumber": "SL3351655",
       "headshotUrl": "https://drive.google.com/thumbnail?id=1Iqm6NFldD3jZE6t59QX6CmvNy87q4g_3&sz=w600",
       "bio": [],
-      "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "brendon-baugh",
-      "fullName": "Brendon Baugh",
-      "title": "Realtor",
-      "market": "Broward",
-      "teamLead": "Jessica Babcock",
-      "email": "brendon@vreelandre.com",
-      "phone": "(954) 833-6729",
-      "licenseNumber": "SL3641656",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1PQ8ysC3gcpieWMmi7EJqkyuXv7R0N4wX&sz=w600",
-      "bio": [
-        "I’m Brendon Baugh, a proud college graduate with a bachelor’s degree and former college football player who now brings that same drive and determination to real estate. As a dedicated high school football coach, I value teamwork, communication, and leadership, skills I use to guide my clients with confidence. I’m passionate about building strong relationships and making the buying or selling process as smooth and stress-free as possible. Above all, I’m committed to delivering 5-star service every time, ensuring my clients feel fully supported from start to finish."
-      ],
       "carriedOver": true,
       "legacySlugs": []
     },
@@ -137,24 +121,6 @@
       "headshotUrl": "https://drive.google.com/thumbnail?id=1bIhV-qRSVFP7UYUb2yZwh-eJd9vbIsvM&sz=w600",
       "bio": [],
       "carriedOver": false,
-      "legacySlugs": []
-    },
-    {
-      "slug": "deron-baugh",
-      "fullName": "Deron Baugh",
-      "title": "Realtor",
-      "market": "Broward",
-      "teamLead": "Jessica Babcock",
-      "email": "deron@vreelandre.com",
-      "phone": "(754) 334-0173",
-      "licenseNumber": "SL3646364",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1qi5rbMYeRUfIaYWBpjRlg_zhar2BYVZ-&sz=w600",
-      "bio": [
-        "As a South Florida real estate professional, I bring drive, integrity, and local insight to every client relationship. Whether you’re buying your first condo, upgrading to a dream home, or investing for long-term growth, my focus is on clear communication, honest advice, and smooth results.",
-        "Before real estate, I built a career in high-level sales and negotiation skills that now help my clients get the best possible deal while staying stress-free through every step of the process. I understand that real estate isn’t just about property, it’s about people, timing, and strategy.",
-        "Working out of Broward County and surrounding areas, I combine strong market analytics with real-world experience to help my clients make smart, confident decisions. If you’re ready for a knowledgeable, responsive agent who treats your goals like his own, let’s connect and make it happen."
-      ],
-      "carriedOver": true,
       "legacySlugs": []
     },
     {
