@@ -1,6 +1,6 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-20T22:43:03.456Z",
+  "updatedAt": "2026-10-21T15:20:37.514Z",
   "count": 51,
   "agents": [
     {
@@ -595,7 +595,7 @@
       "fullName": "Margaret Romanowich",
       "title": "Realtor",
       "market": "Palm Beach",
-      "teamLead": "",
+      "teamLead": "Justin Hahn",
       "email": "margaret@vreelandre.com",
       "phone": "(561) 652-2508",
       "licenseNumber": "",
