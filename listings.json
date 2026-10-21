@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-21T14:25:46.637Z",
+  "updatedAt": "2026-10-21T18:55:50.191Z",
   "sourceUpdated": "October 21, 2026",
-  "count": 20,
+  "count": 19,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -152,21 +152,6 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1,456"
-    },
-    {
-      "id": "2121-ne-42nd-ct-202c-lighthouse-point-fl-33064",
-      "address": "2121 NE 42nd Ct 202C",
-      "city": "Lighthouse Point, FL 33064",
-      "market": "South Florida",
-      "agent": "Deron Baugh",
-      "price": 149900,
-      "priceDisplay": "$149,900",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/2121-NE-42nd-Ct-202C-Lighthouse-Point-FL-33064_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/99d42f83be18b41e9c4d8ac8d480f958-cc_ft_1536.jpg",
-      "beds": "2",
-      "baths": "1",
-      "sqft": "890"
     },
     {
       "id": "1806-sw-23rd-st-o-fort-lauderdale-fl-33315",
