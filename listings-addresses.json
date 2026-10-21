@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-10-21T12:55:49.966Z",
-  "count": 20,
+  "updatedAt": "2026-10-21T18:55:50.405Z",
+  "count": 19,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -92,15 +92,6 @@
       "zip": "32217",
       "agent": "Scott McAnany",
       "region": "Jacksonville"
-    },
-    {
-      "id": "2121-ne-42nd-ct-202c-lighthouse-point-fl-33064",
-      "address": "2121 NE 42nd Ct 202C",
-      "city": "Lighthouse Point",
-      "state": "FL",
-      "zip": "33064",
-      "agent": "Deron Baugh",
-      "region": "South Florida"
     },
     {
       "id": "1806-sw-23rd-st-o-fort-lauderdale-fl-33315",
