@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T03:06:28.851Z",
+  "updatedAt": "2026-10-22T03:06:28.638Z",
   "count": 100,
   "sales": [
     {
@@ -1083,6 +1083,21 @@
       "is_both_sides_vre": false
     },
     {
+      "photo": "https://photos.zillowstatic.com/fp/40fb45d0bef7adf0ea964fb9fa9c126f-cc_ft_1536.jpg",
+      "price": "$480,000",
+      "address": "4824 Chantilly Road",
+      "city": "Lake Worth, FL 33467",
+      "beds": "3",
+      "baths_str": "3",
+      "sqft": "1,826",
+      "agent": "Christopher Peck",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "July 17, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
+    {
       "photo": "https://photos.zillowstatic.com/fp/a283b8d78120078bb6cdf279f30d4b3f-cc_ft_1536.jpg",
       "price": "$400,000",
       "address": "1830 NW 26th Ter",
@@ -1107,21 +1122,6 @@
       "sqft": "1,556",
       "agent": "",
       "has_agent": false,
-      "role": "Buyer's Agent",
-      "date": "July 17, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
-      "photo": "https://photos.zillowstatic.com/fp/40fb45d0bef7adf0ea964fb9fa9c126f-cc_ft_1536.jpg",
-      "price": "$480,000",
-      "address": "4824 Chantilly Road",
-      "city": "Lake Worth, FL 33467",
-      "beds": "3",
-      "baths_str": "3",
-      "sqft": "1,826",
-      "agent": "Christopher Peck",
-      "has_agent": true,
       "role": "Buyer's Agent",
       "date": "July 17, 2026",
       "year_built": null,
