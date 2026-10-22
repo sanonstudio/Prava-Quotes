@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-22T03:20:35.957Z",
-  "count": 49,
+  "updatedAt": "2026-10-22T13:20:35.446Z",
+  "count": 48,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -596,20 +596,6 @@
       "headshotUrl": "https://drive.google.com/thumbnail?id=1i_gVytkpCTGJ5Q_YqC_9pGX6QXgFnCfw&sz=w600",
       "bio": [],
       "carriedOver": false,
-      "legacySlugs": []
-    },
-    {
-      "slug": "natalia-harrison",
-      "fullName": "Natalia Harrison",
-      "title": "Realtor",
-      "market": "Palm Beach",
-      "teamLead": "Jessica Babcock",
-      "email": "nharrison@vreelandre.com",
-      "phone": "(561) 621-3805",
-      "licenseNumber": "BK3644065",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1eCYrhX91p5DKzYO7PL6dkNiuEKdE2wEI&sz=w600",
-      "bio": [],
-      "carriedOver": true,
       "legacySlugs": []
     },
     {
