@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-22T13:20:35.446Z",
-  "count": 48,
+  "updatedAt": "2026-10-23T09:21:06.334Z",
+  "count": 47,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -466,25 +466,6 @@
       "licenseNumber": "SL3492636",
       "headshotUrl": "https://drive.google.com/thumbnail?id=19T7jLVfPhP2WgUglNg3yCwbj-w7zEXRV&sz=w600",
       "bio": [],
-      "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "kris-nelson",
-      "fullName": "Kris Nelson",
-      "title": "REALTOR®",
-      "market": "Tampa",
-      "teamLead": "Kris Nelson",
-      "email": "kris@vreelandre.com",
-      "phone": "(813) 945-8415",
-      "licenseNumber": "SL3560786",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1Y_V-YFKV8oiHsUHLB0spazysDllUtYZw&sz=w600",
-      "bio": [
-        "Kris Nelson is a top Tampa Bay Realtor known for delivering exceptional results in the luxury real estate market. With over 16 years of experience and a reputation built on trust, service, and precision, he’s the go-to expert for buying and selling high-end homes across Tampa, St. Petersburg, Plant City, Palmetto, and Ruskin.",
-        "From private estates to waterfront properties and exclusive communities, Kris brings expert-level knowledge of the Tampa Bay luxury market. Clients rely on his strategic approach, attention to detail, and commitment to high-touch, personalized service. His deep understanding of the local real estate landscape helps buyers find the perfect property and sellers command premium value.",
-        "He really takes pride in building strong relationships while guiding clients through every step of the process with discretion, integrity, and professionalism.",
-        "If you’re buying or selling a luxury home in Tampa Bay, Kris Nelson is the Realtor who knows how to get it done right."
-      ],
       "carriedOver": true,
       "legacySlugs": []
     },
