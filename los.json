@@ -1,7 +1,7 @@
 {
   "source": "14 Days to Close loan advisor roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-22T03:20:38.148Z",
-  "count": 9,
+  "updatedAt": "2026-10-26T12:20:39.875Z",
+  "count": 8,
   "officers": [
     {
       "slug": "alberto-morales-jr",
@@ -90,17 +90,6 @@
       "phone": "(813) 922-3089",
       "licenseNumber": "NMLS #33277",
       "headshotUrl": "https://drive.google.com/thumbnail?id=1104CtrkrN2Kni3GiYBj873bP6HjNCFfg&sz=w600"
-    },
-    {
-      "slug": "yessenia-morfin-urla",
-      "fullName": "Yessenia Morfin Urla",
-      "title": "Loan Advisor",
-      "market": "Tampa Bay",
-      "teamLead": "Trevor Smith",
-      "email": "yessenia@14daystoclose.com",
-      "phone": "(813) 669-0226",
-      "licenseNumber": "NMLS #1988817",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=12KVOQi0ZZcQohx5csXVXV38Fxz2OeuM6&sz=w600"
     }
   ]
 }
