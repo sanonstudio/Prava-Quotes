@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-27T19:55:47.161Z",
-  "sourceUpdated": "October 27, 2026",
+  "updatedAt": "2026-10-28T12:40:46.342Z",
+  "sourceUpdated": "October 28, 2026",
   "count": 20,
   "listings": [
     {
@@ -101,7 +101,7 @@
       "agent": "Lucas Sadowski",
       "price": 325000,
       "priceDisplay": "$325,000",
-      "onMls": true,
+      "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/10525-Albritton-Road-Lithia-FL-33547_rb/",
       "photo": "",
       "beds": "",
