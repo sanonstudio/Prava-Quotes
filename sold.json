@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-10-27T10:55:01.909Z",
+  "updatedAt": "2026-10-29T09:49:07.681Z",
   "count": 100,
   "sales": [
+    {
+      "photo": "https://photos.zillowstatic.com/fp/c312ac620286bd205bffa993d5368c4e-cc_ft_1536.jpg",
+      "price": "$385,000",
+      "address": "777 N Ashley Drive #1213",
+      "city": "Tampa, FL 33602",
+      "beds": "1",
+      "baths_str": "1",
+      "sqft": "714",
+      "agent": "Jonas Bridges",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "October 27, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
     {
       "photo": "https://photos.zillowstatic.com/fp/c827706098de13defb452248bef029a3-cc_ft_1536.jpg",
       "price": "$138,240",
@@ -1481,21 +1496,6 @@
       "baths_str": "6",
       "sqft": "5,796",
       "agent": "Christopher Peck",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "June 22, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
-      "photo": "https://photos.zillowstatic.com/fp/e0a91e707422e8afd452a0bfdbaa61d8-cc_ft_1536.jpg",
-      "price": "$465,000",
-      "address": "1184 SW Mirror Lake Cove",
-      "city": "Port Saint Lucie, FL 34986",
-      "beds": "4",
-      "baths_str": "2",
-      "sqft": "2,547",
-      "agent": "Stella Patrice",
       "has_agent": true,
       "role": "Buyer's Agent",
       "date": "June 22, 2026",
