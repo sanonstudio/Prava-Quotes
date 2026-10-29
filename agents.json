@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-10-28T19:20:35.561Z",
-  "count": 46,
+  "updatedAt": "2026-10-29T21:20:37.320Z",
+  "count": 47,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -738,6 +738,20 @@
       "phone": "(954) 329-1792",
       "licenseNumber": "",
       "headshotUrl": "https://drive.google.com/thumbnail?id=1l5jVcYn57RlzqgTspx-Xh2noxThFNiJO&sz=w600",
+      "bio": [],
+      "carriedOver": false,
+      "legacySlugs": []
+    },
+    {
+      "slug": "yessenia-morfin",
+      "fullName": "Yessenia Morfin",
+      "title": "Realtor",
+      "market": "Miami",
+      "teamLead": "",
+      "email": "yesseniam@vreelandre.com",
+      "phone": "(645) 215-5825",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1rs8IOcZTI0RWkXX4ds7xChZiMiK3wIuZ&sz=w600",
       "bio": [],
       "carriedOver": false,
       "legacySlugs": []
