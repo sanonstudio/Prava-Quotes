@@ -1,6 +1,6 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-02T14:20:36.779Z",
+  "updatedAt": "2026-11-02T22:20:35.764Z",
   "count": 47,
   "agents": [
     {
@@ -50,7 +50,7 @@
       "fullName": "Brianna Dean",
       "title": "Realtor",
       "market": "Jacksonville",
-      "teamLead": "Jessica Babcock",
+      "teamLead": "",
       "email": "brianna@vreelandre.com",
       "phone": "(904) 664-0023",
       "licenseNumber": "SL3627394",
@@ -128,7 +128,7 @@
       "fullName": "Edgar Palacios",
       "title": "Realtor",
       "market": "Tampa",
-      "teamLead": "Justin Hahn",
+      "teamLead": "",
       "email": "edgar@vreelandre.com",
       "phone": "(813) 522-3725",
       "licenseNumber": "SL3560183",
@@ -442,7 +442,7 @@
       "fullName": "Kianna Woods",
       "title": "Realtor",
       "market": "Broward",
-      "teamLead": "Jessica Babcock",
+      "teamLead": "",
       "email": "kianna@vreelandre.com",
       "phone": "(954) 908-6505",
       "licenseNumber": "SL3492636",
@@ -566,7 +566,7 @@
       "fullName": "Rebecca Martin Hakola",
       "title": "REALTOR®",
       "market": "Tampa",
-      "teamLead": "Justin Hahn",
+      "teamLead": "",
       "email": "rebeccamh@vreelandre.com",
       "phone": "(813) 544-2504",
       "licenseNumber": "SL3622017",
