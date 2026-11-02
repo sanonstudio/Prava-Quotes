@@ -1,7 +1,7 @@
 {
   "source": "14 Days to Close loan advisor roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-01T18:20:42.270Z",
-  "count": 9,
+  "updatedAt": "2026-11-02T17:20:38.953Z",
+  "count": 10,
   "officers": [
     {
       "slug": "alberto-morales-jr",
@@ -46,6 +46,17 @@
       "phone": "(813) 296-6263",
       "licenseNumber": "",
       "headshotUrl": ""
+    },
+    {
+      "slug": "gregory-giesecke",
+      "fullName": "Gregory Giesecke",
+      "title": "Loan Advisor",
+      "market": "Remote",
+      "teamLead": "Trevor Smith",
+      "email": "gregoryg@14daystoclose.com",
+      "phone": "(813) 773-8153",
+      "licenseNumber": "NMLS #2897615",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=11_nxB6Tn9UC3OH2zXoATx19vAnaTK9Wh&sz=w600"
     },
     {
       "slug": "kevin-countis",
