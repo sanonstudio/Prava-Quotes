@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-10-27T19:55:47.382Z",
-  "count": 20,
+  "updatedAt": "2026-11-02T19:10:50.464Z",
+  "count": 19,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -19,15 +19,6 @@
       "state": "FL",
       "zip": "33954",
       "agent": "Jonas Bridges",
-      "region": "Tampa"
-    },
-    {
-      "id": "18334-spencer-rd-odessa-fl-33556",
-      "address": "18334 Spencer Rd",
-      "city": "Odessa",
-      "state": "FL",
-      "zip": "33556",
-      "agent": "Justin Hahn",
       "region": "Tampa"
     },
     {
