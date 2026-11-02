@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-28T12:40:46.342Z",
-  "sourceUpdated": "October 28, 2026",
-  "count": 20,
+  "updatedAt": "2026-11-02T19:10:50.009Z",
+  "sourceUpdated": "November 2, 2026",
+  "count": 19,
   "listings": [
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -32,21 +32,6 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1,008"
-    },
-    {
-      "id": "18334-spencer-rd-odessa-fl-33556",
-      "address": "18334 Spencer Rd",
-      "city": "Odessa, FL 33556",
-      "market": "Tampa",
-      "agent": "Justin Hahn",
-      "price": 400000,
-      "priceDisplay": "$400,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/18334-Spencer-Rd-Odessa-FL-33556_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/8d172b52a3f7076ddf58b349dbca3052-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1,935"
     },
     {
       "id": "3196-shadow-creek-road-jacksonville-fl-32226",
