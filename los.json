@@ -1,7 +1,7 @@
 {
   "source": "14 Days to Close loan advisor roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-02T19:20:39.880Z",
-  "count": 10,
+  "updatedAt": "2026-11-02T20:20:37.007Z",
+  "count": 12,
   "officers": [
     {
       "slug": "alberto-morales-jr",
@@ -70,6 +70,17 @@
       "headshotUrl": "https://drive.google.com/thumbnail?id=1nWt7WpUbO7-0rZeFP5whSj3CLk90E3Hl&sz=w600"
     },
     {
+      "slug": "laritza-abreu",
+      "fullName": "Laritza Abreu",
+      "title": "Loan Advisor",
+      "market": "Remote",
+      "teamLead": "Trevor Smith",
+      "email": "laritzaa@14daystoclose.com",
+      "phone": "(813) 532-3104",
+      "licenseNumber": "NMLS #1559245",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1UhlYy9GNL3p7t-NAbs_pZ_grUC86Nz67&sz=w600"
+    },
+    {
       "slug": "lianet-fernandez-espinosa",
       "fullName": "Lianet Fernandez Espinosa",
       "title": "Loan Advisor",
@@ -90,6 +101,17 @@
       "phone": "(813) 755-8690",
       "licenseNumber": "NMLS #2089243",
       "headshotUrl": "https://drive.google.com/thumbnail?id=12F3C4734JsG9b-bZMb3rX9F4NJ9oVJBA&sz=w600"
+    },
+    {
+      "slug": "melanie-stephens",
+      "fullName": "Melanie Stephens",
+      "title": "Loan Advisor",
+      "market": "Remote",
+      "teamLead": "Trevor Smith",
+      "email": "melanies@14daystoclose.com",
+      "phone": "(813) 537-0612",
+      "licenseNumber": "NMLS #1505176",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=17xkCOnSUGbwF8ku37IF6iroMqVydo93h&sz=w600"
     },
     {
       "slug": "quin-thompson",
