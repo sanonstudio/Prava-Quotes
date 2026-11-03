@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-03T13:21:32.014Z",
-  "count": 46,
+  "updatedAt": "2026-11-03T18:20:52.383Z",
+  "count": 47,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -679,6 +679,20 @@
       "headshotUrl": "https://drive.google.com/thumbnail?id=1OoJ3es1kXKEw6eqEAiIDkxZm-fTQKtTR&sz=w600",
       "bio": [],
       "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "toni-giannasca",
+      "fullName": "Toni Giannasca",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "",
+      "email": "tonig@vreelandre.com",
+      "phone": "(561) 475-5261",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1wDfotCU7GxtrkgklXWFBgeuZr6H-zE2K&sz=w600",
+      "bio": [],
+      "carriedOver": false,
       "legacySlugs": []
     },
     {
