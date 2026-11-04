@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T10:10:47.199Z",
+  "updatedAt": "2026-11-04T13:10:48.511Z",
   "sourceUpdated": "November 4, 2026",
-  "count": 55,
+  "count": 56,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -632,6 +632,21 @@
       "beds": "5",
       "baths": "3",
       "sqft": "3,484"
+    },
+    {
+      "id": "4187-southview-road-green-acres-fl-33463",
+      "address": "4187 Southview Road",
+      "city": "Green Acres, FL 33463",
+      "market": "South Florida",
+      "agent": "Jennifer Calvoni",
+      "price": 419000,
+      "priceDisplay": "$419,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/4187-Southview-Road-Green-Acres-FL-33463_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "2025-oysterwood-lane-riviera-beach-fl-33410",
