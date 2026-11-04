@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:40:47.062Z",
+  "updatedAt": "2026-11-04T09:55:45.661Z",
   "sourceUpdated": "November 4, 2026",
   "count": 55,
   "listings": [
@@ -133,10 +133,10 @@
       "priceDisplay": "$325,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/10525-Albritton-Road-Lithia-FL-33547_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/82de614364c33fad4d034bcd4e390942-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1512"
     },
     {
       "id": "10706-dowry-ave-tampa-fl-33615",
@@ -223,10 +223,10 @@
       "priceDisplay": "$417,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/190-Jones-Fish-Camp-Road-Edgewater-FL-32141_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/78305536e838693383955a0a8fe71955-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "3",
+      "sqft": "2106"
     },
     {
       "id": "2700-n-atlantic-ave-unit-1003-daytona-beach-fl-32118",
@@ -238,10 +238,10 @@
       "priceDisplay": "$85,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/2700-N-Atlantic-Ave-Unit-1003-Daytona-Beach-FL-32118_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/fe10ead977614cab0f04bf5ac628dd77-cc_ft_1536.jpg",
+      "beds": "1",
+      "baths": "1",
+      "sqft": "339"
     },
     {
       "id": "7920-chilton-drive-orlando-fl-32836",
@@ -253,10 +253,10 @@
       "priceDisplay": "$1,600,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/7920-Chilton-Drive-Orlando-FL-32836_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/29e661acd3f1351110ee2950b77e8496-cc_ft_1536.jpg",
+      "beds": "7",
+      "baths": "6",
+      "sqft": "5016"
     },
     {
       "id": "1305-9th-court-ne-winter-haven-fl-33881",
@@ -283,10 +283,10 @@
       "priceDisplay": "$205,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/247-Marble-Lane-Lakeland-FL-33809_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/1e79474b86d27c37aea9e2116c6c7692-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1040"
     },
     {
       "id": "1330-nw-11th-st-fort-lauderdale-fl-33311",
@@ -298,10 +298,10 @@
       "priceDisplay": "$625,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/1330-NW-11th-St-Fort-Lauderdale-FL-33311_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/e4558527d1249ffcd5cb09b05cdebf75-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "3",
+      "sqft": "1822"
     },
     {
       "id": "4611-west-n-b-street-tampa-fl-33609",
@@ -328,10 +328,10 @@
       "priceDisplay": "$195,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/10457-Bigtree-Cir-E-Jacksonville-FL-32257_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/c29c6f626cec5a99e2f8ef70b290cace-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "999"
     },
     {
       "id": "8585-floorstone-mill-drive-jacksonville-fl-32244",
@@ -373,10 +373,10 @@
       "priceDisplay": "$515,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/12256-Silverthorn-Ct-Jacksonville-FL-32258_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/d004e368240fec3e1d512afce3ed3001-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "4",
+      "sqft": "3378"
     },
     {
       "id": "1642-crooked-oak-drive-orange-park-fl-32065",
@@ -388,10 +388,10 @@
       "priceDisplay": "$1,199,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/1642-Crooked-Oak-Drive-Orange-Park-FL-32065_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/b9b053a3511996052a425699f1d4a6b8-cc_ft_1536.jpg",
+      "beds": "6",
+      "baths": "4",
+      "sqft": "4832"
     },
     {
       "id": "5246-devron-driv-jacksonville-fl-33209",
@@ -418,10 +418,10 @@
       "priceDisplay": "$299,900",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/8479-Rampart-Road-Jacksonville-FL-32244_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/28a655f0c19ff2f9dab75166a2734f0a-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1453"
     },
     {
       "id": "9-big-bear-lane-palm-coast-fl-32137",
@@ -463,10 +463,10 @@
       "priceDisplay": "$243,898",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/7804-Merchants-Way-Jacksonville-FL-32222_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/19db83152a7e8fe2f2bb9630995625e9-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "3",
+      "sqft": "1368"
     },
     {
       "id": "1849-s-ocean-dr-1509-hallandale-beach-fl-33009",
@@ -478,10 +478,10 @@
       "priceDisplay": "$359,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/1849-S-Ocean-Dr-1509-Hallandale-Beach-FL-33009_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/79f1157382cbc7fb33e5f102c7c1c64e-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1200"
     },
     {
       "id": "2101-atlantic-shores-blvd-120-hallandale-beach-fl-33009",
@@ -493,10 +493,10 @@
       "priceDisplay": "$299,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/2101-Atlantic-Shores-Blvd-120-Hallandale-Beach-FL-33009_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/1733b415d586dec65dcc3466e0cc03f8-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1450"
     },
     {
       "id": "2500-parkview-dr-2020-hallandale-beach-fl-33009",
@@ -508,10 +508,10 @@
       "priceDisplay": "$369,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/2500-Parkview-Dr-2020-Hallandale-Beach-FL-33009_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/7af4fb1f7292c5c0a2ee8c61055aeb04-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1280"
     },
     {
       "id": "5270-sw-90th-way-cooper-city-fl-33328",
@@ -538,10 +538,10 @@
       "priceDisplay": "$220,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/600-Three-Islands-Blvd-316-Hallandale-Beach-FL-33009_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/e5789f3e1cd17a152f76f2d186f53e18-cc_ft_1536.jpg",
+      "beds": "1",
+      "baths": "2",
+      "sqft": "1000"
     },
     {
       "id": "601-three-islands-blvd-117-hallandale-beach-fl-33009",
@@ -553,10 +553,10 @@
       "priceDisplay": "$315,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/601-Three-Islands-Blvd-117-Hallandale-Beach-FL-33009_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/f128f374e9ad3519d1022337829f9885-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1210"
     },
     {
       "id": "701-three-islands-blvd-506-hallandale-beach-fl-33009",
@@ -568,10 +568,10 @@
       "priceDisplay": "$225,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/701-Three-Islands-Blvd-506-Hallandale-Beach-FL-33009_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/cc0a788eaf2eac61b667a749f7eac585-cc_ft_1536.jpg",
+      "beds": "1",
+      "baths": "1",
+      "sqft": "820"
     },
     {
       "id": "2820-ne-201st-terr-f326-aventura-fl-33180",
@@ -583,10 +583,10 @@
       "priceDisplay": "$239,900",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/2820-NE-201St-Terr-F326-Aventura-FL-33180_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/46eb0c87a409e38b7d2f00be72d26dc2-cc_ft_1536.jpg",
+      "beds": "1",
+      "baths": "2",
+      "sqft": "800"
     },
     {
       "id": "1806-sw-23rd-st-o-fort-lauderdale-fl-33315",
@@ -613,10 +613,10 @@
       "priceDisplay": "$115,900",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/2300-Park-Ln-203-Hollywood-FL-33021_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/510261e437f7cadf33059646f039f7a1-cc_ft_1536.jpg",
+      "beds": "1",
+      "baths": "2",
+      "sqft": "727"
     },
     {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
@@ -688,10 +688,10 @@
       "priceDisplay": "$129,900",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/670-Monaco-Ct-N-Delray-Beach-FL-33446_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/c5e9eb19bc3b89aba40f703907ab74a2-cc_ft_1536.jpg",
+      "beds": "1",
+      "baths": "1",
+      "sqft": "720"
     },
     {
       "id": "2255-habersham-dr-clearwater-fl-33764",
@@ -793,10 +793,10 @@
       "priceDisplay": "$650,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/27364-SW-132nd-Place-Homestead-FL-33032_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/8138c7d164cfdbe1d88db46713f42df0-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "2",
+      "sqft": "1799"
     },
     {
       "id": "5863-paradise-point-dr-palmetto-bay-fl-33157",
@@ -808,7 +808,7 @@
       "priceDisplay": "$1,500,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/5863-Paradise-Point-Dr-Palmetto-Bay-FL-33157_rb/",
-      "photo": "",
+      "photo": "https://photos.zillowstatic.com/fp/dee36af3061c1712d16c3f9df05903a6-cc_ft_1536.jpg",
       "beds": "",
       "baths": "",
       "sqft": ""
@@ -823,10 +823,10 @@
       "priceDisplay": "$240,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/950-Hillcrest-Dr-414-Hollywood-FL-33021_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/b37729adabb6775526d24fafe5d1877b-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "992"
     }
   ]
 }
