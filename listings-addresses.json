@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-04T08:35:25.952Z",
-  "count": 55,
+  "updatedAt": "2026-11-04T13:10:48.708Z",
+  "count": 56,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -378,6 +378,15 @@
       "city": "West Palm Beach",
       "state": "FL",
       "zip": "33411",
+      "agent": "Jennifer Calvoni",
+      "region": "South Florida"
+    },
+    {
+      "id": "4187-southview-road-green-acres-fl-33463",
+      "address": "4187 Southview Road",
+      "city": "Green Acres",
+      "state": "FL",
+      "zip": "33463",
       "agent": "Jennifer Calvoni",
       "region": "South Florida"
     },
