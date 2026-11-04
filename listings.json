@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:35:25.805Z",
+  "updatedAt": "2026-11-04T09:40:47.062Z",
   "sourceUpdated": "November 4, 2026",
   "count": 55,
   "listings": [
@@ -13,10 +13,10 @@
       "priceDisplay": "$255,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/2919-Royal-Tuscan-Lane-Valrico-FL-33594_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/80f795c8e030a21fcf3be3025a4d9e8a-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "3",
+      "sqft": "1573"
     },
     {
       "id": "5143-sandy-beach-ave-sarasota-fl-34242",
@@ -28,10 +28,10 @@
       "priceDisplay": "$1,795,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/5143-SANDY-BEACH-AVE-Sarasota-FL-34242_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/6282cd0e4af2ee2c5a35734bc110ae50-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "3",
+      "sqft": "2244"
     },
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
@@ -118,10 +118,10 @@
       "priceDisplay": "$779,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/55-Rogers-St-P-5-Clearwater-FL-33756_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/5abe253ccc304964178cf3991cfcb1e3-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1900"
     },
     {
       "id": "10525-albritton-road-lithia-fl-33547",
@@ -148,10 +148,10 @@
       "priceDisplay": "$645,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/10706-Dowry-Ave-Tampa-FL-33615_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/6cbba5a6aca6dc598c6a8a493eeae474-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1608"
     },
     {
       "id": "10707-donbrese-ave-tampa-fl-33615",
@@ -163,10 +163,10 @@
       "priceDisplay": "$745,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/10707-DONBRESE-AVE-Tampa-FL-33615_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/44fdb233bd7f2afddd49031a7965f814-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1784"
     },
     {
       "id": "5730-imperial-key-tampa-fl-33615",
