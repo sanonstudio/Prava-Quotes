@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:55:45.661Z",
+  "updatedAt": "2026-11-04T10:10:47.199Z",
   "sourceUpdated": "November 4, 2026",
   "count": 55,
   "listings": [
@@ -403,10 +403,10 @@
       "priceDisplay": "$195,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/5246-Devron-Driv-Jacksonville-FL-33209_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/86d580571769f2400cbd12f919bc6eea-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1008"
     },
     {
       "id": "8479-rampart-road-jacksonville-fl-32244",
@@ -523,10 +523,10 @@
       "priceDisplay": "$1,650,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/5270-SW-90th-Way-Cooper-City-FL-33328_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/16a94a5baba85d7dba8542d9a8e8bd6c-cc_ft_1536.jpg",
+      "beds": "8",
+      "baths": "4",
+      "sqft": "3186"
     },
     {
       "id": "600-three-islands-blvd-316-hallandale-beach-fl-33009",
@@ -673,10 +673,10 @@
       "priceDisplay": "$350,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/2450-Northeast-135th-Street-201-Miami-FL-33181_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/ebf13f5c7309e014943803046f0c1f08-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1190"
     },
     {
       "id": "670-monaco-ct-n-delray-beach-fl-33446",
