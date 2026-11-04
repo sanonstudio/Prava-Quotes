@@ -1,8 +1,26 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-02T19:10:50.464Z",
-  "count": 19,
+  "updatedAt": "2026-11-04T08:35:25.952Z",
+  "count": 55,
   "listings": [
+    {
+      "id": "2919-royal-tuscan-lane-valrico-fl-33594",
+      "address": "2919 Royal Tuscan Lane",
+      "city": "Valrico",
+      "state": "FL",
+      "zip": "33594",
+      "agent": "Edgar Palacios",
+      "region": "Tampa"
+    },
+    {
+      "id": "5143-sandy-beach-ave-sarasota-fl-34242",
+      "address": "5143 SANDY BEACH AVE",
+      "city": "Sarasota",
+      "state": "FL",
+      "zip": "34242",
+      "agent": "Hannah Thorn",
+      "region": "Tampa"
+    },
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
       "address": "10144 Arbor Run Dr 116",
@@ -49,12 +67,57 @@
       "region": "Tampa"
     },
     {
+      "id": "55-rogers-st-p-5-clearwater-fl-33756",
+      "address": "55 Rogers St #P-5",
+      "city": "Clearwater",
+      "state": "FL",
+      "zip": "33756",
+      "agent": "Lindsay Clemmons",
+      "region": "Tampa"
+    },
+    {
       "id": "10525-albritton-road-lithia-fl-33547",
       "address": "10525 Albritton Road",
       "city": "Lithia",
       "state": "FL",
       "zip": "33547",
       "agent": "Lucas Sadowski",
+      "region": "Tampa"
+    },
+    {
+      "id": "10706-dowry-ave-tampa-fl-33615",
+      "address": "10706 Dowry Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33615",
+      "agent": "Lucas Sadowski",
+      "region": "Tampa"
+    },
+    {
+      "id": "10707-donbrese-ave-tampa-fl-33615",
+      "address": "10707 DONBRESE AVE",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33615",
+      "agent": "Lucas Sadowski",
+      "region": "Tampa"
+    },
+    {
+      "id": "5730-imperial-key-tampa-fl-33615",
+      "address": "5730 Imperial Key",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33615",
+      "agent": "Lucas Sadowski",
+      "region": "Tampa"
+    },
+    {
+      "id": "329-marion-oaks-crse-ocala-fl-34473",
+      "address": "329 MARION OAKS CRSE",
+      "city": "Ocala",
+      "state": "FL",
+      "zip": "34473",
+      "agent": "Rebecca Martin Hakola",
       "region": "Tampa"
     },
     {
@@ -67,11 +130,128 @@
       "region": "Tampa"
     },
     {
+      "id": "190-jones-fish-camp-road-edgewater-fl-32141",
+      "address": "190 Jones Fish Camp Road",
+      "city": "Edgewater",
+      "state": "FL",
+      "zip": "32141",
+      "agent": "Rod Oliveira",
+      "region": "Tampa"
+    },
+    {
+      "id": "2700-n-atlantic-ave-unit-1003-daytona-beach-fl-32118",
+      "address": "2700 N Atlantic Ave Unit 1003",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "zip": "32118",
+      "agent": "Rod Oliveira",
+      "region": "Tampa"
+    },
+    {
+      "id": "7920-chilton-drive-orlando-fl-32836",
+      "address": "7920 Chilton Drive",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32836",
+      "agent": "Rod Oliveira",
+      "region": "Tampa"
+    },
+    {
+      "id": "1305-9th-court-ne-winter-haven-fl-33881",
+      "address": "1305 9th Court NE",
+      "city": "Winter Haven",
+      "state": "FL",
+      "zip": "33881",
+      "agent": "Tiana Newman",
+      "region": "Tampa"
+    },
+    {
+      "id": "247-marble-lane-lakeland-fl-33809",
+      "address": "247 Marble Lane",
+      "city": "Lakeland",
+      "state": "FL",
+      "zip": "33809",
+      "agent": "Tiana Newman",
+      "region": "Tampa"
+    },
+    {
+      "id": "1330-nw-11th-st-fort-lauderdale-fl-33311",
+      "address": "1330 NW 11th St",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "zip": "33311",
+      "agent": "Vanessa Hernandez",
+      "region": "Tampa"
+    },
+    {
+      "id": "4611-west-n-b-street-tampa-fl-33609",
+      "address": "4611 West N B Street",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33609",
+      "agent": "Vannesa Alobaidi",
+      "region": "Tampa"
+    },
+    {
+      "id": "10457-bigtree-cir-e-jacksonville-fl-32257",
+      "address": "10457 Bigtree Cir E",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32257",
+      "agent": "Cyndi Frost Perron",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "8585-floorstone-mill-drive-jacksonville-fl-32244",
+      "address": "8585 Floorstone Mill Drive",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32244",
+      "agent": "Cyndi Frost Perron",
+      "region": "Jacksonville"
+    },
+    {
       "id": "0-hogan-road-jacksonville-fl-32216",
       "address": "0 HOGAN Road",
       "city": "Jacksonville",
       "state": "FL",
       "zip": "32216",
+      "agent": "Justin Hahn",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "12256-silverthorn-ct-jacksonville-fl-32258",
+      "address": "12256 Silverthorn Ct",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32258",
+      "agent": "Justin Hahn",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "1642-crooked-oak-drive-orange-park-fl-32065",
+      "address": "1642 Crooked Oak Drive",
+      "city": "Orange Park",
+      "state": "FL",
+      "zip": "32065",
+      "agent": "Justin Hahn",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "5246-devron-driv-jacksonville-fl-33209",
+      "address": "5246 Devron Driv",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "33209",
+      "agent": "Justin Hahn",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "8479-rampart-road-jacksonville-fl-32244",
+      "address": "8479 Rampart Road",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32244",
       "agent": "Justin Hahn",
       "region": "Jacksonville"
     },
@@ -94,11 +274,101 @@
       "region": "Jacksonville"
     },
     {
+      "id": "7804-merchants-way-jacksonville-fl-32222",
+      "address": "7804 Merchants Way",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32222",
+      "agent": "Scott McAnany",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "1849-s-ocean-dr-1509-hallandale-beach-fl-33009",
+      "address": "1849 S Ocean Dr #1509",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "2101-atlantic-shores-blvd-120-hallandale-beach-fl-33009",
+      "address": "2101 Atlantic Shores Blvd #120",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "2500-parkview-dr-2020-hallandale-beach-fl-33009",
+      "address": "2500 Parkview Dr #2020",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "5270-sw-90th-way-cooper-city-fl-33328",
+      "address": "5270 SW 90th Way",
+      "city": "Cooper City",
+      "state": "FL",
+      "zip": "33328",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "600-three-islands-blvd-316-hallandale-beach-fl-33009",
+      "address": "600 Three Islands Blvd #316",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "601-three-islands-blvd-117-hallandale-beach-fl-33009",
+      "address": "601 Three Islands Blvd #117",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "701-three-islands-blvd-506-hallandale-beach-fl-33009",
+      "address": "701 Three Islands Blvd #506",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "2820-ne-201st-terr-f326-aventura-fl-33180",
+      "address": "2820 NE 201St Terr #F326",
+      "city": "Aventura",
+      "state": "FL",
+      "zip": "33180",
+      "agent": "Flynn Nolan",
+      "region": "South Florida"
+    },
+    {
       "id": "1806-sw-23rd-st-o-fort-lauderdale-fl-33315",
       "address": "1806 SW 23rd St O",
       "city": "Fort Lauderdale",
       "state": "FL",
       "zip": "33315",
+      "agent": "Jacqueline Wellington",
+      "region": "South Florida"
+    },
+    {
+      "id": "2300-park-ln-203-hollywood-fl-33021",
+      "address": "2300 Park Ln #203",
+      "city": "Hollywood",
+      "state": "FL",
+      "zip": "33021",
       "agent": "Jacqueline Wellington",
       "region": "South Florida"
     },
@@ -130,6 +400,24 @@
       "region": "South Florida"
     },
     {
+      "id": "2450-northeast-135th-street-201-miami-fl-33181",
+      "address": "2450 Northeast 135th Street, #201",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33181",
+      "agent": "Leo Boodie",
+      "region": "South Florida"
+    },
+    {
+      "id": "670-monaco-ct-n-delray-beach-fl-33446",
+      "address": "670 Monaco Ct N",
+      "city": "Delray Beach",
+      "state": "FL",
+      "zip": "33446",
+      "agent": "Margaret Romanowich",
+      "region": "South Florida"
+    },
+    {
       "id": "2255-habersham-dr-clearwater-fl-33764",
       "address": "2255 Habersham Dr",
       "city": "Clearwater",
@@ -144,6 +432,15 @@
       "city": "Pompano Beach",
       "state": "FL",
       "zip": "33064",
+      "agent": "Samer Ortiz",
+      "region": "South Florida"
+    },
+    {
+      "id": "17541-winding-wood-lane-punta-gorda-fl-33982",
+      "address": "17541 Winding Wood Lane",
+      "city": "Punta Gorda",
+      "state": "FL",
+      "zip": "33982",
       "agent": "Samer Ortiz",
       "region": "South Florida"
     },
@@ -172,6 +469,33 @@
       "state": "FL",
       "zip": "33321",
       "agent": "Samer Ortiz",
+      "region": "South Florida"
+    },
+    {
+      "id": "27364-sw-132nd-place-homestead-fl-33032",
+      "address": "27364 SW 132nd Place",
+      "city": "Homestead",
+      "state": "FL",
+      "zip": "33032",
+      "agent": "Vanessa Hernandez",
+      "region": "South Florida"
+    },
+    {
+      "id": "5863-paradise-point-dr-palmetto-bay-fl-33157",
+      "address": "5863 Paradise Point Dr",
+      "city": "Palmetto Bay",
+      "state": "FL",
+      "zip": "33157",
+      "agent": "Vanessa Hernandez",
+      "region": "South Florida"
+    },
+    {
+      "id": "950-hillcrest-dr-414-hollywood-fl-33021",
+      "address": "950 Hillcrest Dr #414",
+      "city": "Hollywood",
+      "state": "FL",
+      "zip": "33021",
+      "agent": "Yennifer Hartman",
       "region": "South Florida"
     }
   ]
