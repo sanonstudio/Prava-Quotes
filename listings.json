@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T19:55:47.618Z",
+  "updatedAt": "2026-11-04T20:10:47.892Z",
   "sourceUpdated": "November 4, 2026",
-  "count": 51,
+  "count": 50,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -692,21 +692,6 @@
       "beds": "4",
       "baths": "3",
       "sqft": "2,028"
-    },
-    {
-      "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
-      "address": "1091 Northwest 33rd Court",
-      "city": "Pompano Beach, FL 33064",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 489000,
-      "priceDisplay": "$489,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/1091-Northwest-33rd-Court-Pompano-Beach-FL-33064_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/8f93ead7f3174df0854e21f0d6d5b6a5-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "3",
-      "sqft": "1,420"
     },
     {
       "id": "17541-winding-wood-lane-punta-gorda-fl-33982",
