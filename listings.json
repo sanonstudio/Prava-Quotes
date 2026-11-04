@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T16:55:45.499Z",
+  "updatedAt": "2026-11-04T19:25:45.898Z",
   "sourceUpdated": "November 4, 2026",
-  "count": 53,
+  "count": 50,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -707,51 +707,6 @@
       "beds": "",
       "baths": "",
       "sqft": ""
-    },
-    {
-      "id": "3100-nw-42nd-avenue-d401-coconut-creek-fl-33066",
-      "address": "3100 NW 42nd Avenue D401",
-      "city": "Coconut Creek, FL 33066",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 220000,
-      "priceDisplay": "$220,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/3100-NW-42nd-Avenue-D401-Coconut-Creek-FL-33066_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/533ba802f2abad38f8b7e5bc02b6b507-cc_ft_1536.jpg",
-      "beds": "2",
-      "baths": "2",
-      "sqft": "1,340"
-    },
-    {
-      "id": "3425-nw-47th-ave-3191-coconut-creek-fl-33063",
-      "address": "3425 NW 47th Ave 3191",
-      "city": "Coconut Creek, FL 33063",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 220000,
-      "priceDisplay": "$220,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/3425-NW-47th-Ave-3191-Coconut-Creek-FL-33063_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/cf95d34dbef1700c17b41b311a9f99e1-cc_ft_1536.jpg",
-      "beds": "2",
-      "baths": "2",
-      "sqft": "955"
-    },
-    {
-      "id": "8450-lagos-de-campo-blvd-107-tamarac-fl-33321",
-      "address": "8450 Lagos De Campo Blvd #107",
-      "city": "Tamarac, FL 33321",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 185000,
-      "priceDisplay": "$185,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/8450-Lagos-De-Campo-Blvd-107-Tamarac-FL-33321_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/b9bf5fe6bcc779a5dbdb5401fd9b5122-cc_ft_1536.jpg",
-      "beds": "2",
-      "baths": "2",
-      "sqft": "980"
     },
     {
       "id": "27364-sw-132nd-place-homestead-fl-33032",
