@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T13:10:48.511Z",
+  "updatedAt": "2026-11-04T16:55:45.499Z",
   "sourceUpdated": "November 4, 2026",
-  "count": 56,
+  "count": 53,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -137,51 +137,6 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1512"
-    },
-    {
-      "id": "10706-dowry-ave-tampa-fl-33615",
-      "address": "10706 Dowry Ave",
-      "city": "Tampa, FL 33615",
-      "market": "Tampa",
-      "agent": "Lucas Sadowski",
-      "price": 645000,
-      "priceDisplay": "$645,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/10706-Dowry-Ave-Tampa-FL-33615_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/6cbba5a6aca6dc598c6a8a493eeae474-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1608"
-    },
-    {
-      "id": "10707-donbrese-ave-tampa-fl-33615",
-      "address": "10707 DONBRESE AVE",
-      "city": "Tampa, FL 33615",
-      "market": "Tampa",
-      "agent": "Lucas Sadowski",
-      "price": 745000,
-      "priceDisplay": "$745,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/10707-DONBRESE-AVE-Tampa-FL-33615_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/44fdb233bd7f2afddd49031a7965f814-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1784"
-    },
-    {
-      "id": "5730-imperial-key-tampa-fl-33615",
-      "address": "5730 Imperial Key",
-      "city": "Tampa, FL 33615",
-      "market": "Tampa",
-      "agent": "Lucas Sadowski",
-      "price": 849000,
-      "priceDisplay": "$849,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/5730-Imperial-Key-Tampa-FL-33615_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
     },
     {
       "id": "329-marion-oaks-crse-ocala-fl-34473",
