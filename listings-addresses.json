@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-04T19:25:46.070Z",
-  "count": 50,
+  "updatedAt": "2026-11-04T19:55:47.775Z",
+  "count": 51,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -379,6 +379,15 @@
       "state": "FL",
       "zip": "33411",
       "agent": "Jessica Babcock",
+      "region": "South Florida"
+    },
+    {
+      "id": "19201-collins-ave-721-sunny-isles-beach-fl-33160",
+      "address": "19201 Collins Ave #721",
+      "city": "Sunny Isles Beach",
+      "state": "FL",
+      "zip": "33160",
+      "agent": "Leo Boodie",
       "region": "South Florida"
     },
     {
