@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-04T16:55:45.639Z",
-  "count": 53,
+  "updatedAt": "2026-11-04T19:25:46.070Z",
+  "count": 50,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -423,33 +423,6 @@
       "city": "Punta Gorda",
       "state": "FL",
       "zip": "33982",
-      "agent": "Samer Ortiz",
-      "region": "South Florida"
-    },
-    {
-      "id": "3100-nw-42nd-avenue-d401-coconut-creek-fl-33066",
-      "address": "3100 NW 42nd Avenue D401",
-      "city": "Coconut Creek",
-      "state": "FL",
-      "zip": "33066",
-      "agent": "Samer Ortiz",
-      "region": "South Florida"
-    },
-    {
-      "id": "3425-nw-47th-ave-3191-coconut-creek-fl-33063",
-      "address": "3425 NW 47th Ave 3191",
-      "city": "Coconut Creek",
-      "state": "FL",
-      "zip": "33063",
-      "agent": "Samer Ortiz",
-      "region": "South Florida"
-    },
-    {
-      "id": "8450-lagos-de-campo-blvd-107-tamarac-fl-33321",
-      "address": "8450 Lagos De Campo Blvd #107",
-      "city": "Tamarac",
-      "state": "FL",
-      "zip": "33321",
       "agent": "Samer Ortiz",
       "region": "South Florida"
     },
