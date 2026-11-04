@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-04T19:55:47.775Z",
-  "count": 51,
+  "updatedAt": "2026-11-04T20:10:48.073Z",
+  "count": 50,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -415,15 +415,6 @@
       "state": "FL",
       "zip": "33764",
       "agent": "Rick Schulz",
-      "region": "South Florida"
-    },
-    {
-      "id": "1091-northwest-33rd-court-pompano-beach-fl-33064",
-      "address": "1091 Northwest 33rd Court",
-      "city": "Pompano Beach",
-      "state": "FL",
-      "zip": "33064",
-      "agent": "Samer Ortiz",
       "region": "South Florida"
     },
     {
