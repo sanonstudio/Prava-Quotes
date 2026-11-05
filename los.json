@@ -1,7 +1,7 @@
 {
   "source": "14 Days to Close loan advisor roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-02T20:20:37.007Z",
-  "count": 12,
+  "updatedAt": "2026-11-05T17:21:22.408Z",
+  "count": 13,
   "officers": [
     {
       "slug": "alberto-morales-jr",
@@ -46,6 +46,17 @@
       "phone": "(813) 296-6263",
       "licenseNumber": "",
       "headshotUrl": "https://drive.google.com/thumbnail?id=1mCl6GSUt_z3xGQlm2j3Ka00pWxfuqy8k&sz=w600"
+    },
+    {
+      "slug": "geoffrey-chavez",
+      "fullName": "Geoffrey Chavez",
+      "title": "Loan Advisor",
+      "market": "Remote",
+      "teamLead": "Trevor Smith",
+      "email": "geoffreyc@14daystoclose.com",
+      "phone": "(813) 592-6198",
+      "licenseNumber": "NMLS #1426162",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1R4zcDj2CztXwmNDKMQrF1sQvxT98hZR0&sz=w600"
     },
     {
       "slug": "gregory-giesecke",
