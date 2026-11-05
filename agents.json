@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-04T12:20:35.699Z",
-  "count": 47,
+  "updatedAt": "2026-11-05T13:20:38.676Z",
+  "count": 46,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -649,20 +649,6 @@
       "phone": "(904) 801-1440",
       "licenseNumber": "SL3654316",
       "headshotUrl": "https://drive.google.com/thumbnail?id=1N4a97BXLjKDEdLWlALw-R3065AUGICCL&sz=w600",
-      "bio": [],
-      "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "tai-vo",
-      "fullName": "Tai Vo",
-      "title": "Realtor",
-      "market": "Palm Beach",
-      "teamLead": "",
-      "email": "tai@vreelandre.com",
-      "phone": "(561) 861-1700",
-      "licenseNumber": "SL3604390",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1MjdWBl3NFh1OAou0uEwa9gyb7KWVZCvj&sz=w600",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
