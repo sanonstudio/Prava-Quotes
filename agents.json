@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-05T13:20:38.676Z",
-  "count": 46,
+  "updatedAt": "2026-11-06T22:20:47.260Z",
+  "count": 47,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -756,6 +756,20 @@
         "As a proud Jacksonville-area real estate professional, Zach is committed to helping buyers and sellers achieve their real estate goals throughout Northeast Florida. Whether you're purchasing your first home, searching for a luxury waterfront property, building on residential land, or preparing to sell, Zach is dedicated to providing exceptional service, clear communication, and trusted guidance every step of the way. For sellers, he understands your home is often one of your largest financial assets. Zach's goal is to strategically position your property through thoughtful pricing, targeted marketing, and skilled negotiation to maximize its value while making the process as smooth and stress-free as possible. For buyers, he's committed to helping you find the right property for your lifestyle, needs, and future. Built on integrity, professionalism, and lasting relationships, Zach is here to make every move a successful one."
       ],
       "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "zoily-hidalgo",
+      "fullName": "Zoily Hidalgo",
+      "title": "Realtor",
+      "market": "Miami",
+      "teamLead": "",
+      "email": "zoilyh@vreelandre.com",
+      "phone": "(786) 667-6848",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1kFjJGyyxtdo0eP5nbBwlPeGHgo3juGa7&sz=w600",
+      "bio": [],
+      "carriedOver": false,
       "legacySlugs": []
     }
   ]
