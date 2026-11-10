@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T20:10:47.892Z",
+  "updatedAt": "2026-11-10T21:25:46.284Z",
   "sourceUpdated": "November 4, 2026",
   "count": 50,
   "listings": [
@@ -298,10 +298,10 @@
       "priceDisplay": "$327,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/8585-Floorstone-Mill-Drive-Jacksonville-FL-32244_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/004eb093b8a96618e362223a3190a2a7-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1935"
     },
     {
       "id": "0-hogan-road-jacksonville-fl-32216",
@@ -598,10 +598,10 @@
       "priceDisplay": "$419,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/4187-Southview-Road-Green-Acres-FL-33463_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/754a80fc9cf2e1de73a977d6b9a0c37f-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "2",
+      "sqft": "1056"
     },
     {
       "id": "2025-oysterwood-lane-riviera-beach-fl-33410",
@@ -643,10 +643,10 @@
       "priceDisplay": "$150,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/19201-Collins-Ave-721-Sunny-Isles-Beach-FL-33160_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/6b770be19634c0165dd994518c9ee620-cc_ft_1536.jpg",
+      "beds": "0",
+      "baths": "1",
+      "sqft": "360"
     },
     {
       "id": "2450-northeast-135th-street-201-miami-fl-33181",
