@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-04T20:10:48.073Z",
-  "count": 50,
+  "updatedAt": "2026-11-11T18:55:50.683Z",
+  "count": 51,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -81,6 +81,15 @@
       "city": "Lithia",
       "state": "FL",
       "zip": "33547",
+      "agent": "Lucas Sadowski",
+      "region": "Tampa"
+    },
+    {
+      "id": "10706-dowry-ave-tampa-fl-33615",
+      "address": "10706 Dowry Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33615",
       "agent": "Lucas Sadowski",
       "region": "Tampa"
     },
