@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-10T21:25:46.284Z",
-  "sourceUpdated": "November 4, 2026",
-  "count": 50,
+  "updatedAt": "2026-11-11T18:55:50.311Z",
+  "sourceUpdated": "November 11, 2026",
+  "count": 51,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -137,6 +137,21 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1512"
+    },
+    {
+      "id": "10706-dowry-ave-tampa-fl-33615",
+      "address": "10706 Dowry Ave",
+      "city": "Tampa, FL 33615",
+      "market": "Tampa",
+      "agent": "Lucas Sadowski",
+      "price": 639000,
+      "priceDisplay": "$639,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/10706-Dowry-Ave-Tampa-FL-33615_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/6cbba5a6aca6dc598c6a8a493eeae474-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1608"
     },
     {
       "id": "329-marion-oaks-crse-ocala-fl-34473",
