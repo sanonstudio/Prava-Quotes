@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-11T18:55:50.311Z",
-  "sourceUpdated": "November 11, 2026",
-  "count": 51,
+  "updatedAt": "2026-11-12T12:25:51.705Z",
+  "sourceUpdated": "November 12, 2026",
+  "count": 53,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -694,6 +694,21 @@
       "sqft": "720"
     },
     {
+      "id": "88-cambridge-d-west-palm-beach-fl-33417",
+      "address": "88 Cambridge D",
+      "city": "West Palm Beach, FL 33417",
+      "market": "South Florida",
+      "agent": "Margaret Romanowich",
+      "price": 70000,
+      "priceDisplay": "$70,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/88-Cambridge-D-West-Palm-Beach-FL-33417_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
+    },
+    {
       "id": "2255-habersham-dr-clearwater-fl-33764",
       "address": "2255 Habersham Dr",
       "city": "Clearwater, FL 33764",
@@ -718,6 +733,21 @@
       "priceDisplay": "$699,000",
       "onMls": false,
       "zillowUrl": "https://www.zillow.com/homes/17541-Winding-Wood-Lane-Punta-Gorda-FL-33982_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
+    },
+    {
+      "id": "1330-nw-11th-street-fort-lauderdale-fl-33311",
+      "address": "1330 NW 11th Street",
+      "city": "Fort Lauderdale, FL 33311",
+      "market": "South Florida",
+      "agent": "Vanessa Hernandez",
+      "price": 625000,
+      "priceDisplay": "$625,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/1330-NW-11th-Street-Fort-Lauderdale-FL-33311_rb/",
       "photo": "",
       "beds": "",
       "baths": "",
