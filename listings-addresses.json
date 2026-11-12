@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-12T12:40:48.091Z",
-  "count": 52,
+  "updatedAt": "2026-11-12T12:55:47.219Z",
+  "count": 48,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -82,15 +82,6 @@
       "state": "FL",
       "zip": "33615",
       "agent": "Lucas Sadowski",
-      "region": "Tampa"
-    },
-    {
-      "id": "329-marion-oaks-crse-ocala-fl-34473",
-      "address": "329 MARION OAKS CRSE",
-      "city": "Ocala",
-      "state": "FL",
-      "zip": "34473",
-      "agent": "Rebecca Martin Hakola",
       "region": "Tampa"
     },
     {
@@ -184,15 +175,6 @@
       "region": "Jacksonville"
     },
     {
-      "id": "0-hogan-road-jacksonville-fl-32216",
-      "address": "0 HOGAN Road",
-      "city": "Jacksonville",
-      "state": "FL",
-      "zip": "32216",
-      "agent": "Justin Hahn",
-      "region": "Jacksonville"
-    },
-    {
       "id": "12256-silverthorn-ct-jacksonville-fl-32258",
       "address": "12256 Silverthorn Ct",
       "city": "Jacksonville",
@@ -243,15 +225,6 @@
       "city": "Jacksonville",
       "state": "FL",
       "zip": "32217",
-      "agent": "Scott McAnany",
-      "region": "Jacksonville"
-    },
-    {
-      "id": "7804-merchants-way-jacksonville-fl-32222",
-      "address": "7804 Merchants Way",
-      "city": "Jacksonville",
-      "state": "FL",
-      "zip": "32222",
       "agent": "Scott McAnany",
       "region": "Jacksonville"
     },
@@ -424,15 +397,6 @@
       "state": "FL",
       "zip": "33764",
       "agent": "Rick Schulz",
-      "region": "South Florida"
-    },
-    {
-      "id": "17541-winding-wood-lane-punta-gorda-fl-33982",
-      "address": "17541 Winding Wood Lane",
-      "city": "Punta Gorda",
-      "state": "FL",
-      "zip": "33982",
-      "agent": "Samer Ortiz",
       "region": "South Florida"
     },
     {
