@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-11T18:55:50.683Z",
-  "count": 51,
+  "updatedAt": "2026-11-12T12:25:52.186Z",
+  "count": 53,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -418,6 +418,15 @@
       "region": "South Florida"
     },
     {
+      "id": "88-cambridge-d-west-palm-beach-fl-33417",
+      "address": "88 Cambridge D",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "zip": "33417",
+      "agent": "Margaret Romanowich",
+      "region": "South Florida"
+    },
+    {
       "id": "2255-habersham-dr-clearwater-fl-33764",
       "address": "2255 Habersham Dr",
       "city": "Clearwater",
@@ -433,6 +442,15 @@
       "state": "FL",
       "zip": "33982",
       "agent": "Samer Ortiz",
+      "region": "South Florida"
+    },
+    {
+      "id": "1330-nw-11th-street-fort-lauderdale-fl-33311",
+      "address": "1330 NW 11th Street",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "zip": "33311",
+      "agent": "Vanessa Hernandez",
       "region": "South Florida"
     },
     {
