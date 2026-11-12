@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-12T12:40:47.750Z",
+  "updatedAt": "2026-11-12T12:55:47.108Z",
   "sourceUpdated": "November 12, 2026",
-  "count": 52,
+  "count": 48,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -137,21 +137,6 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1608"
-    },
-    {
-      "id": "329-marion-oaks-crse-ocala-fl-34473",
-      "address": "329 MARION OAKS CRSE",
-      "city": "Ocala, FL 34473",
-      "market": "Tampa",
-      "agent": "Rebecca Martin Hakola",
-      "price": 175000,
-      "priceDisplay": "$175,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/329-MARION-OAKS-CRSE-Ocala-FL-34473_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
     },
     {
       "id": "11434-stone-pine-street-riverview-fl-33569",
@@ -304,21 +289,6 @@
       "sqft": "1935"
     },
     {
-      "id": "0-hogan-road-jacksonville-fl-32216",
-      "address": "0 HOGAN Road",
-      "city": "Jacksonville, FL 32216",
-      "market": "Jacksonville",
-      "agent": "Justin Hahn",
-      "price": 199900,
-      "priceDisplay": "$199,900",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/0-HOGAN-Road-Jacksonville-FL-32216_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/79a83626c8f7fb6dc94ca4e6ebbdedfc-cc_ft_1536.jpg",
-      "beds": "",
-      "baths": "",
-      "sqft": "700"
-    },
-    {
       "id": "12256-silverthorn-ct-jacksonville-fl-32258",
       "address": "12256 Silverthorn Ct",
       "city": "Jacksonville, FL 32258",
@@ -407,21 +377,6 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1,456"
-    },
-    {
-      "id": "7804-merchants-way-jacksonville-fl-32222",
-      "address": "7804 Merchants Way",
-      "city": "Jacksonville, FL 32222",
-      "market": "Jacksonville",
-      "agent": "Scott McAnany",
-      "price": 243898,
-      "priceDisplay": "$243,898",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/7804-Merchants-Way-Jacksonville-FL-32222_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/19db83152a7e8fe2f2bb9630995625e9-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "3",
-      "sqft": "1368"
     },
     {
       "id": "1849-s-ocean-dr-1509-hallandale-beach-fl-33009",
@@ -707,21 +662,6 @@
       "beds": "4",
       "baths": "3",
       "sqft": "2,028"
-    },
-    {
-      "id": "17541-winding-wood-lane-punta-gorda-fl-33982",
-      "address": "17541 Winding Wood Lane",
-      "city": "Punta Gorda, FL 33982",
-      "market": "South Florida",
-      "agent": "Samer Ortiz",
-      "price": 699000,
-      "priceDisplay": "$699,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/17541-Winding-Wood-Lane-Punta-Gorda-FL-33982_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
     },
     {
       "id": "1330-nw-11th-street-fort-lauderdale-fl-33311",
