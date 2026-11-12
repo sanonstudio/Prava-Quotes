@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-12T12:25:52.186Z",
-  "count": 53,
+  "updatedAt": "2026-11-12T12:40:48.091Z",
+  "count": 52,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -54,15 +54,6 @@
       "city": "Tampa",
       "state": "FL",
       "zip": "33647",
-      "agent": "Lindsay Clemmons",
-      "region": "Tampa"
-    },
-    {
-      "id": "388-mangrove-shade-cir-apollo-beach-fl-33572",
-      "address": "388 Mangrove Shade Cir",
-      "city": "Apollo Beach",
-      "state": "FL",
-      "zip": "33572",
       "agent": "Lindsay Clemmons",
       "region": "Tampa"
     },
