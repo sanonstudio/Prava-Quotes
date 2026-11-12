@@ -16,3 +16,6 @@ Enable Pages: Settings → Pages → Deploy from branch → main → /root. Live
 - Quotes per play: edit `SLIDE_COUNT` in index.html
 - Timing: edit `SLIDE_MS` (milliseconds)
 Then commit + push; the live screen updates within ~1 minute.
+
+## Changes
+- 2026-11-12: For Sale board (`for-sale.html`) gives every listing a slide. A listing with no photo yet shows on a brand background, and its photo appears once the photo job adds it. Before, it only showed in the bottom ticker until the photo landed.

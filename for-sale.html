@@ -10,6 +10,8 @@ html,body{width:100%;height:100%;overflow:hidden;background:#010f2a;font-family:
 .sale-slide.active{opacity:1}
 .slide-photo{position:absolute;inset:0;background-size:cover;background-position:center;transform-origin:center center;animation:kenBurns 10s ease-in-out forwards;animation-play-state:paused}
 .sale-slide.active .slide-photo{animation-play-state:running}
+/* No photo yet: brand background so a new listing gets its slide right away (Nov 12 2026) */
+.slide-photo.no-photo{background:radial-gradient(ellipse at 75% 25%,rgba(1,91,187,0.55) 0%,transparent 60%),linear-gradient(135deg,#010f2a 0%,#02234f 55%,#015bbb 100%)}
 @keyframes kenBurns{0%{transform:scale(1) translateX(0) translateY(0)}100%{transform:scale(1.07) translateX(-1%) translateY(-1%)}}
 .slide-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(1,10,35,0.97) 0%,rgba(1,10,35,0.82) 30%,rgba(1,10,35,0.35) 65%,rgba(0,0,0,0.15) 100%),linear-gradient(to right,rgba(1,10,35,0.6) 0%,transparent 50%)}
 .slide-content{position:absolute;bottom:0;left:0;right:0;padding:0 56px 104px;z-index:10;text-align:left}
@@ -87,7 +89,7 @@ var LISTINGS_FALLBACK = [
   {"photo":"https://photos.zillowstatic.com/fp/b9bf5fe6bcc779a5dbdb5401fd9b5122-cc_ft_1536.jpg","photo_fb":"","price":"$185,000","address":"8450 Lagos De Campo Blvd #107","city":"Tamarac, FL 33321","market":"South Florida","agent":"Samer Ortiz","beds":"2","baths":"2","sqft":"980","not_on_mls":false}
 ];
 var LISTINGS = LISTINGS_FALLBACK;
-var SLIDES = [];                 /* listings with no photo are skipped from slides (kept in ticker) */
+var SLIDES = [];                 /* every listing gets a slide; no photo yet = brand background (Nov 12 2026) */
 var currentIdx = 0, autoTimer = null, autoRunning = true, SLIDE_DURATION = 6500;
 /* ═══ Address casing (render layer only, the feed is never changed) ═══
    The source page sends whatever casing it has ("3196 SHADOW CREEK Road").
@@ -162,7 +164,9 @@ function buildSlides(){
     if (l.sqft) metaParts.push(l.sqft + ' Sq Ft');
     var metaHtml = metaParts.map(function(p){ return '<div class="meta-pill">' + p + '</div>'; }).join('');
     slide.innerHTML =
-      '<div class="slide-photo" id="photo-' + i + '" style="background-image:url(\'' + l.photo + '\')"></div>' +
+      (l.photo
+        ? '<div class="slide-photo" id="photo-' + i + '" style="background-image:url(\'' + l.photo + '\')"></div>'
+        : '<div class="slide-photo no-photo" id="photo-' + i + '"></div>') +
       '<div class="slide-overlay"></div>' +
       '<div class="slide-content">' +
         '<div class="sale-header"><div class="sale-label">For Sale</div></div>' +
@@ -256,7 +260,7 @@ function startBoard(list){
   booted = true;
   LISTINGS = (list && list.length) ? list : LISTINGS_FALLBACK;
   LISTINGS.forEach(function(l){ l.address = fmtAddress(l.address); });
-  SLIDES = LISTINGS.filter(function(l){ return l.photo; });
+  SLIDES = LISTINGS.slice();     /* was: photo-only. A new listing no longer waits for the 9 AM photo job */
   currentIdx = 0;
   buildSlides(); buildTicker(); resetAuto(); loadAgentNumbers();
 }
