@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-12T14:40:46.935Z",
-  "count": 45,
+  "updatedAt": "2026-11-12T16:55:49.098Z",
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -199,6 +199,15 @@
       "state": "FL",
       "zip": "32137",
       "agent": "Justin Hahn",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "10075-gate-parkway-n-unit-302-jacksonville-fl-32246",
+      "address": "10075 Gate Parkway N, Unit 302",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32246",
+      "agent": "Scott McAnany",
       "region": "Jacksonville"
     },
     {
