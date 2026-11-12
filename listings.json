@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:55:48.654Z",
+  "updatedAt": "2026-11-12T22:10:46.639Z",
   "sourceUpdated": "November 12, 2026",
   "count": 46,
   "listings": [
@@ -343,10 +343,10 @@
       "priceDisplay": "$199,500",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/10075-Gate-Parkway-N-Unit-302-Jacksonville-FL-32246_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/7cbecd6b467c353cc4417c0035fefc6a-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1326"
     },
     {
       "id": "4915-baymeadows-rd-2h-jacksonville-fl-32217",
@@ -643,10 +643,10 @@
       "priceDisplay": "$625,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/1330-NW-11th-Street-Fort-Lauderdale-FL-33311_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/e4558527d1249ffcd5cb09b05cdebf75-cc_ft_1536.jpg",
+      "beds": "4",
+      "baths": "3",
+      "sqft": "1822"
     },
     {
       "id": "27364-sw-132nd-place-homestead-fl-33032",
