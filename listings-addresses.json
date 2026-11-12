@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-12T12:55:47.219Z",
-  "count": 48,
+  "updatedAt": "2026-11-12T14:40:46.935Z",
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -175,24 +175,6 @@
       "region": "Jacksonville"
     },
     {
-      "id": "12256-silverthorn-ct-jacksonville-fl-32258",
-      "address": "12256 Silverthorn Ct",
-      "city": "Jacksonville",
-      "state": "FL",
-      "zip": "32258",
-      "agent": "Justin Hahn",
-      "region": "Jacksonville"
-    },
-    {
-      "id": "1642-crooked-oak-drive-orange-park-fl-32065",
-      "address": "1642 Crooked Oak Drive",
-      "city": "Orange Park",
-      "state": "FL",
-      "zip": "32065",
-      "agent": "Justin Hahn",
-      "region": "Jacksonville"
-    },
-    {
       "id": "5246-devron-driv-jacksonville-fl-33209",
       "address": "5246 Devron Driv",
       "city": "Jacksonville",
@@ -306,15 +288,6 @@
       "city": "Fort Lauderdale",
       "state": "FL",
       "zip": "33315",
-      "agent": "Jacqueline Wellington",
-      "region": "South Florida"
-    },
-    {
-      "id": "2300-park-ln-203-hollywood-fl-33021",
-      "address": "2300 Park Ln #203",
-      "city": "Hollywood",
-      "state": "FL",
-      "zip": "33021",
       "agent": "Jacqueline Wellington",
       "region": "South Florida"
     },
