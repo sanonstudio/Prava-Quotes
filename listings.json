@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-12T14:40:46.786Z",
+  "updatedAt": "2026-11-12T16:55:48.654Z",
   "sourceUpdated": "November 12, 2026",
-  "count": 45,
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -332,6 +332,21 @@
       "beds": "4",
       "baths": "3",
       "sqft": "1,772"
+    },
+    {
+      "id": "10075-gate-parkway-n-unit-302-jacksonville-fl-32246",
+      "address": "10075 Gate Parkway N, Unit 302",
+      "city": "Jacksonville, FL 32246",
+      "market": "Jacksonville",
+      "agent": "Scott McAnany",
+      "price": 199500,
+      "priceDisplay": "$199,500",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/10075-Gate-Parkway-N-Unit-302-Jacksonville-FL-32246_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "4915-baymeadows-rd-2h-jacksonville-fl-32217",
