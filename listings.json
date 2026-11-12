@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-12T12:25:51.705Z",
+  "updatedAt": "2026-11-12T12:40:47.750Z",
   "sourceUpdated": "November 12, 2026",
-  "count": 53,
+  "count": 52,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -92,21 +92,6 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1,335"
-    },
-    {
-      "id": "388-mangrove-shade-cir-apollo-beach-fl-33572",
-      "address": "388 Mangrove Shade Cir",
-      "city": "Apollo Beach, FL 33572",
-      "market": "Tampa",
-      "agent": "Lindsay Clemmons",
-      "price": 321000,
-      "priceDisplay": "$321,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/388-Mangrove-Shade-Cir-Apollo-Beach-FL-33572_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/6e40e26c4a751716846634965ebee45a-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "3",
-      "sqft": "1,802"
     },
     {
       "id": "55-rogers-st-p-5-clearwater-fl-33756",
