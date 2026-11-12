@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-12T12:55:47.108Z",
+  "updatedAt": "2026-11-12T14:40:46.786Z",
   "sourceUpdated": "November 12, 2026",
-  "count": 48,
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -289,36 +289,6 @@
       "sqft": "1935"
     },
     {
-      "id": "12256-silverthorn-ct-jacksonville-fl-32258",
-      "address": "12256 Silverthorn Ct",
-      "city": "Jacksonville, FL 32258",
-      "market": "Jacksonville",
-      "agent": "Justin Hahn",
-      "price": 515000,
-      "priceDisplay": "$515,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/12256-Silverthorn-Ct-Jacksonville-FL-32258_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/d004e368240fec3e1d512afce3ed3001-cc_ft_1536.jpg",
-      "beds": "4",
-      "baths": "4",
-      "sqft": "3378"
-    },
-    {
-      "id": "1642-crooked-oak-drive-orange-park-fl-32065",
-      "address": "1642 Crooked Oak Drive",
-      "city": "Orange Park, FL 32065",
-      "market": "Jacksonville",
-      "agent": "Justin Hahn",
-      "price": 1199000,
-      "priceDisplay": "$1,199,000",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/1642-Crooked-Oak-Drive-Orange-Park-FL-32065_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/b9b053a3511996052a425699f1d4a6b8-cc_ft_1536.jpg",
-      "beds": "6",
-      "baths": "4",
-      "sqft": "4832"
-    },
-    {
       "id": "5246-devron-driv-jacksonville-fl-33209",
       "address": "5246 Devron Driv",
       "city": "Jacksonville, FL 33209",
@@ -512,21 +482,6 @@
       "beds": "3",
       "baths": "3",
       "sqft": "2,739"
-    },
-    {
-      "id": "2300-park-ln-203-hollywood-fl-33021",
-      "address": "2300 Park Ln #203",
-      "city": "Hollywood, FL 33021",
-      "market": "South Florida",
-      "agent": "Jacqueline Wellington",
-      "price": 115900,
-      "priceDisplay": "$115,900",
-      "onMls": false,
-      "zillowUrl": "https://www.zillow.com/homes/2300-Park-Ln-203-Hollywood-FL-33021_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/510261e437f7cadf33059646f039f7a1-cc_ft_1536.jpg",
-      "beds": "1",
-      "baths": "2",
-      "sqft": "727"
     },
     {
       "id": "1779-palisades-drive-west-palm-beach-fl-33411",
