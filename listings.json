@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-13T15:55:45.867Z",
+  "updatedAt": "2026-11-13T17:55:46.346Z",
   "sourceUpdated": "November 13, 2026",
-  "count": 45,
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -467,6 +467,21 @@
       "beds": "1",
       "baths": "1",
       "sqft": "820"
+    },
+    {
+      "id": "2121-ne-42nd-ct-202c-lighthouse-point-fl-33064",
+      "address": "2121 NE 42nd Ct 202C",
+      "city": "Lighthouse Point, FL 33064",
+      "market": "South Florida",
+      "agent": "Deron Baugh",
+      "price": 149900,
+      "priceDisplay": "$149,900",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/2121-NE-42nd-Ct-202C-Lighthouse-Point-FL-33064_rb/",
+      "photo": "https://photos.zillowstatic.com/fp/99d42f83be18b41e9c4d8ac8d480f958-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "1",
+      "sqft": "890"
     },
     {
       "id": "2820-ne-201st-terr-f326-aventura-fl-33180",
