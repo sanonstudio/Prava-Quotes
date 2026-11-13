@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-12T16:55:49.098Z",
-  "count": 46,
+  "updatedAt": "2026-11-13T14:55:46.760Z",
+  "count": 47,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -172,6 +172,15 @@
       "state": "FL",
       "zip": "32244",
       "agent": "Cyndi Frost Perron",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "3231-cold-leaf-way-green-cove-springs-fl-32043",
+      "address": "3231 Cold Leaf Way",
+      "city": "Green Cove Springs",
+      "state": "FL",
+      "zip": "32043",
+      "agent": "Cynthia Frost-Perron",
       "region": "Jacksonville"
     },
     {
