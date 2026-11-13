@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-13T14:55:46.760Z",
-  "count": 47,
+  "updatedAt": "2026-11-13T15:55:46.018Z",
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -136,15 +136,6 @@
       "state": "FL",
       "zip": "33809",
       "agent": "Tiana Newman",
-      "region": "Tampa"
-    },
-    {
-      "id": "1330-nw-11th-st-fort-lauderdale-fl-33311",
-      "address": "1330 NW 11th St",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "zip": "33311",
-      "agent": "Vanessa Hernandez",
       "region": "Tampa"
     },
     {
@@ -315,15 +306,6 @@
       "city": "West Palm Beach",
       "state": "FL",
       "zip": "33411",
-      "agent": "Jennifer Calvoni",
-      "region": "South Florida"
-    },
-    {
-      "id": "4187-southview-road-green-acres-fl-33463",
-      "address": "4187 Southview Road",
-      "city": "Green Acres",
-      "state": "FL",
-      "zip": "33463",
       "agent": "Jennifer Calvoni",
       "region": "South Florida"
     },
