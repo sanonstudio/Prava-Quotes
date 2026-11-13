@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-12T22:10:46.639Z",
-  "sourceUpdated": "November 12, 2026",
-  "count": 46,
+  "updatedAt": "2026-11-13T14:55:46.580Z",
+  "sourceUpdated": "November 13, 2026",
+  "count": 47,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -287,6 +287,21 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1935"
+    },
+    {
+      "id": "3231-cold-leaf-way-green-cove-springs-fl-32043",
+      "address": "3231 Cold Leaf Way",
+      "city": "Green Cove Springs, FL 32043",
+      "market": "Jacksonville",
+      "agent": "Cynthia Frost-Perron",
+      "price": 310000,
+      "priceDisplay": "$310,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/3231-Cold-Leaf-Way-Green-Cove-Springs-FL-32043_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "5246-devron-driv-jacksonville-fl-33209",
