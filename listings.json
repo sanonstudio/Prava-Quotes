@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-13T14:55:46.580Z",
+  "updatedAt": "2026-11-13T15:55:45.867Z",
   "sourceUpdated": "November 13, 2026",
-  "count": 47,
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -227,21 +227,6 @@
       "beds": "2",
       "baths": "2",
       "sqft": "1040"
-    },
-    {
-      "id": "1330-nw-11th-st-fort-lauderdale-fl-33311",
-      "address": "1330 NW 11th St",
-      "city": "Fort Lauderdale, FL 33311",
-      "market": "Tampa",
-      "agent": "Vanessa Hernandez",
-      "price": 625000,
-      "priceDisplay": "$625,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/1330-NW-11th-St-Fort-Lauderdale-FL-33311_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/e4558527d1249ffcd5cb09b05cdebf75-cc_ft_1536.jpg",
-      "beds": "4",
-      "baths": "3",
-      "sqft": "1822"
     },
     {
       "id": "4611-west-n-b-street-tampa-fl-33609",
@@ -527,21 +512,6 @@
       "beds": "5",
       "baths": "3",
       "sqft": "3,484"
-    },
-    {
-      "id": "4187-southview-road-green-acres-fl-33463",
-      "address": "4187 Southview Road",
-      "city": "Green Acres, FL 33463",
-      "market": "South Florida",
-      "agent": "Jennifer Calvoni",
-      "price": 419000,
-      "priceDisplay": "$419,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/4187-Southview-Road-Green-Acres-FL-33463_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/754a80fc9cf2e1de73a977d6b9a0c37f-cc_ft_1536.jpg",
-      "beds": "2",
-      "baths": "2",
-      "sqft": "1056"
     },
     {
       "id": "2025-oysterwood-lane-riviera-beach-fl-33410",
