@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T18:25:45.207Z",
+  "updatedAt": "2026-11-13T22:10:47.121Z",
   "sourceUpdated": "November 13, 2026",
   "count": 45,
   "listings": [
@@ -283,10 +283,10 @@
       "priceDisplay": "$310,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/3231-Cold-Leaf-Way-Green-Cove-Springs-FL-32043_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/514c4298668e7bdb40959c15587be17e-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1654"
     },
     {
       "id": "5246-devron-driv-jacksonville-fl-33209",
