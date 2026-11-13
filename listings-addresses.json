@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-13T17:55:46.521Z",
-  "count": 46,
+  "updatedAt": "2026-11-13T18:25:45.318Z",
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -280,15 +280,6 @@
       "state": "FL",
       "zip": "33009",
       "agent": "Alex Mitkovski",
-      "region": "South Florida"
-    },
-    {
-      "id": "2121-ne-42nd-ct-202c-lighthouse-point-fl-33064",
-      "address": "2121 NE 42nd Ct 202C",
-      "city": "Lighthouse Point",
-      "state": "FL",
-      "zip": "33064",
-      "agent": "Deron Baugh",
       "region": "South Florida"
     },
     {
