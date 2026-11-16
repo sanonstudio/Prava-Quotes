@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-16T13:55:52.620Z",
-  "count": 44,
+  "updatedAt": "2026-11-16T17:55:45.350Z",
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -240,6 +240,15 @@
     {
       "id": "2500-parkview-dr-2020-hallandale-beach-fl-33009",
       "address": "2500 Parkview Dr #2020",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "2500-parkview-dr-616-hallandale-beach-fl-33009",
+      "address": "2500 Parkview Dr #616",
       "city": "Hallandale Beach",
       "state": "FL",
       "zip": "33009",
