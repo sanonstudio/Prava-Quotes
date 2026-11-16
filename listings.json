@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-13T22:10:47.121Z",
-  "sourceUpdated": "November 13, 2026",
-  "count": 45,
+  "updatedAt": "2026-11-16T13:55:52.145Z",
+  "sourceUpdated": "November 16, 2026",
+  "count": 44,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -527,21 +527,6 @@
       "beds": "3",
       "baths": "3",
       "sqft": "1,606"
-    },
-    {
-      "id": "2415-westmont-dr-royal-palm-beach-fl-33411",
-      "address": "2415 Westmont Dr",
-      "city": "Royal Palm Beach, FL 33411",
-      "market": "South Florida",
-      "agent": "Jessica Babcock",
-      "price": 849000,
-      "priceDisplay": "$849,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/2415-Westmont-Dr-Royal-Palm-Beach-FL-33411_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/ffd9ad2149972aedaac7861e8f7ad402-cc_ft_1536.jpg",
-      "beds": "6",
-      "baths": "3",
-      "sqft": "3,564"
     },
     {
       "id": "19201-collins-ave-721-sunny-isles-beach-fl-33160",
