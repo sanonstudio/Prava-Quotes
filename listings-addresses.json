@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-16T17:55:45.350Z",
-  "count": 45,
+  "updatedAt": "2026-11-16T20:10:52.374Z",
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -257,6 +257,15 @@
     },
     {
       "id": "5270-sw-90th-way-cooper-city-fl-33328",
+      "address": "5270 SW 90th Way",
+      "city": "Cooper City",
+      "state": "FL",
+      "zip": "33328",
+      "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "5270-sw-90th-way-cooper-city-fl-33328-2",
       "address": "5270 SW 90th Way",
       "city": "Cooper City",
       "state": "FL",
