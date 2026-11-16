@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-16T17:55:45.236Z",
+  "updatedAt": "2026-11-16T20:10:51.699Z",
   "sourceUpdated": "November 16, 2026",
-  "count": 45,
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -437,6 +437,21 @@
       "beds": "8",
       "baths": "4",
       "sqft": "3186"
+    },
+    {
+      "id": "5270-sw-90th-way-cooper-city-fl-33328-2",
+      "address": "5270 SW 90th Way",
+      "city": "Cooper City, FL 33328",
+      "market": "South Florida",
+      "agent": "Alex Mitkovski",
+      "price": 1600000,
+      "priceDisplay": "$1,600,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/5270-SW-90th-Way-Cooper-City-FL-33328_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "600-three-islands-blvd-316-hallandale-beach-fl-33009",
