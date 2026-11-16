@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-16T13:55:52.145Z",
+  "updatedAt": "2026-11-16T17:55:45.236Z",
   "sourceUpdated": "November 16, 2026",
-  "count": 44,
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -407,6 +407,21 @@
       "beds": "2",
       "baths": "2",
       "sqft": "1280"
+    },
+    {
+      "id": "2500-parkview-dr-616-hallandale-beach-fl-33009",
+      "address": "2500 Parkview Dr #616",
+      "city": "Hallandale Beach, FL 33009",
+      "market": "South Florida",
+      "agent": "Alex Mitkovski",
+      "price": 280000,
+      "priceDisplay": "$280,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/2500-Parkview-Dr-616-Hallandale-Beach-FL-33009_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "5270-sw-90th-way-cooper-city-fl-33328",
