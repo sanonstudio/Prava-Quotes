@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-13T18:25:45.318Z",
-  "count": 45,
+  "updatedAt": "2026-11-16T13:55:52.620Z",
+  "count": 44,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -315,15 +315,6 @@
       "city": "Riviera Beach",
       "state": "FL",
       "zip": "33410",
-      "agent": "Jessica Babcock",
-      "region": "South Florida"
-    },
-    {
-      "id": "2415-westmont-dr-royal-palm-beach-fl-33411",
-      "address": "2415 Westmont Dr",
-      "city": "Royal Palm Beach",
-      "state": "FL",
-      "zip": "33411",
       "agent": "Jessica Babcock",
       "region": "South Florida"
     },
