@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:10:51.699Z",
+  "updatedAt": "2026-11-16T20:55:45.444Z",
   "sourceUpdated": "November 16, 2026",
   "count": 46,
   "listings": [
@@ -238,10 +238,10 @@
       "priceDisplay": "$199,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/4611-West-N-B-Street-Tampa-FL-33609_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/cc4819ced95c97d4b2d07e6325d3bd54-cc_ft_1536.jpg",
+      "beds": "2",
+      "baths": "1",
+      "sqft": "632"
     },
     {
       "id": "10457-bigtree-cir-e-jacksonville-fl-32257",
