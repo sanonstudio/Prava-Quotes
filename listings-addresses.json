@@ -1,6 +1,6 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-16T20:10:52.374Z",
+  "updatedAt": "2026-11-17T18:55:47.626Z",
   "count": 46,
   "listings": [
     {
@@ -49,8 +49,8 @@
       "region": "Tampa"
     },
     {
-      "id": "18245-bridle-club-dr-tampa-fl-33647",
-      "address": "18245 BRIDLE CLUB DR",
+      "id": "18245-bridle-club-drive-tampa-fl-33647",
+      "address": "18245 Bridle Club Drive",
       "city": "Tampa",
       "state": "FL",
       "zip": "33647",
