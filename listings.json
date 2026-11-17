@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T18:55:47.484Z",
+  "updatedAt": "2026-11-17T22:25:57.417Z",
   "sourceUpdated": "November 17, 2026",
   "count": 46,
   "listings": [
@@ -88,10 +88,10 @@
       "priceDisplay": "$195,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/18245-Bridle-Club-Drive-Tampa-FL-33647_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/fc693a056ee1ef65069ef7fcac9f0f53-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "2",
+      "sqft": "1335"
     },
     {
       "id": "55-rogers-st-p-5-clearwater-fl-33756",
