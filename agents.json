@@ -1,36 +1,8 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-16T03:20:39.023Z",
-  "count": 47,
+  "updatedAt": "2026-11-17T23:20:35.407Z",
+  "count": 35,
   "agents": [
-    {
-      "slug": "alex-mitkovski",
-      "fullName": "Alex Mitkovski",
-      "title": "Realtor",
-      "market": "Broward",
-      "teamLead": "",
-      "email": "alexm@vreelandre.com",
-      "phone": "(954) 703-6998",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1rohXPj2xox4KpOIX6R2CLA0ZPoMfiacS&sz=w600",
-      "bio": [],
-      "carriedOver": false,
-      "legacySlugs": []
-    },
-    {
-      "slug": "ana-maria-ruiz",
-      "fullName": "Ana Maria Ruiz",
-      "title": "Realtor",
-      "market": "Broward",
-      "teamLead": "",
-      "email": "anar@vreelandre.com",
-      "phone": "(754) 285-4796",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1u_8y3qHAyqKptBw0Mb0kq5a-OGIPnL_o&sz=w600",
-      "bio": [],
-      "carriedOver": false,
-      "legacySlugs": []
-    },
     {
       "slug": "beena-kokeram",
       "fullName": "Beena Kokeram",
@@ -40,7 +12,7 @@
       "email": "beena@vreelandre.com",
       "phone": "(813) 519-3935",
       "licenseNumber": "SL3351655",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1Iqm6NFldD3jZE6t59QX6CmvNy87q4g_3&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
@@ -54,7 +26,7 @@
       "email": "brianna@vreelandre.com",
       "phone": "(904) 664-0023",
       "licenseNumber": "SL3627394",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1gBbszZzi8W8StDImnfaruaUL_QDd-uh6&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Hi! My name is Brianna Dean and I am a Realtor located in Jacksonville Florida. I serve all surrounding counties outside of Jacksonville as well. Not only do I help guide you through the Home Buying process, I create friendships and true life bonds with my clients and the people I have the pleasure to assist. The bond we create helps my clients to not only feel seen but heard, along with a sense of trust! My clients know when they come to me for help that they can relax and put their utmost trust in me to get the job done. That trust alone opens the door to their new home! If you are in search of a new home no matter how big or small, please do not hesitate to reach out to me. Not only am I waiting for your call, I'm expecting it and I am available with undivided attention! I look forward to meeting you, laughing with you and celebrating with you as you embark on this amazing road to your new home, business or investment! See you soon!"
       ],
@@ -70,7 +42,7 @@
       "email": "carolina@vreelandre.com",
       "phone": "",
       "licenseNumber": "3336060",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1lNeauYUJeU3jMD7-l0uqLvHPiKcgSc3Z&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Carolina Suárez Rivas is a top Miami Realtor with deep roots in the community and a passion for helping people find their perfect place in the city she proudly calls home. A Miami native with over a decade of experience, Carolina brings unmatched knowledge of neighborhoods like Brickell, Coral Gables, Downtown, Edgewater, Kendall, Westchester, and Doral.",
         "Known for her responsiveness, strong communication, and full-time commitment to her clients, Carolina goes the extra mile to make the buying or selling process feel smooth and stress-free. Whether you're buying your first home or selling a property in Miami, she brings both the market insight and the strategic negotiation skills you need to succeed. Carolina holds a Bachelor's in Business Administration and a Master's in Strategic Negotiations from Florida International University. Her business background gives her clients a competitive edge in Miami’s fast-paced real estate market.",
@@ -90,7 +62,7 @@
       "email": "charlotte@vreelandre.com",
       "phone": "(754) 654-9111",
       "licenseNumber": "SL3630510",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1czqghwcwkPK3BINsjqTP0tzME5E7cADZ&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
@@ -104,23 +76,9 @@
       "email": "cpeck@vreelandre.com",
       "phone": "(561) 652-6749",
       "licenseNumber": "SL3655247",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1HIGPcQt7UMeWQSvZVVC4u6ZoZy6M3KNk&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "cyndi-frost-perron",
-      "fullName": "Cyndi Frost Perron",
-      "title": "Realtor",
-      "market": "Jacksonville",
-      "teamLead": "Scott McAnany",
-      "email": "cyndif@vreelandre.com",
-      "phone": "(904) 426-0184",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1bIhV-qRSVFP7UYUb2yZwh-eJd9vbIsvM&sz=w600",
-      "bio": [],
-      "carriedOver": false,
       "legacySlugs": []
     },
     {
@@ -132,23 +90,9 @@
       "email": "edgar@vreelandre.com",
       "phone": "(813) 522-3725",
       "licenseNumber": "SL3560183",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1q4NKq9zt6IojlrKC5uDpGOZVOkTkvJWo&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "ernest-caram",
-      "fullName": "Ernest Caram",
-      "title": "Realtor",
-      "market": "Tampa",
-      "teamLead": "",
-      "email": "ernestc@vreelandre.com",
-      "phone": "(813) 550-2691",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=16n0xN0BSMHlNbvPFFisM9nklFGI3bYK7&sz=w600",
-      "bio": [],
-      "carriedOver": false,
       "legacySlugs": []
     },
     {
@@ -160,7 +104,7 @@
       "email": "flynn@vreelandre.com",
       "phone": "(954) 335-6504",
       "licenseNumber": "SL3390060",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1sUD3pVB2M_3OBGB6lxNurhJw7FZAv4oY&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Flynn Nolan is a South Florida Realtor helping buyers, sellers, and investors move smart in one of the most competitive markets in the country. As a full-time agent with Vreeland Real Estate and a Zillow Premier Agent, Flynn combines deep local knowledge with digital marketing expertise to give his clients a serious edge.",
         "Born and raised in South Florida, Flynn understands what makes each neighborhood unique. Whether you're buying your first home, upgrading to a luxury property, or investing in South Florida real estate, he delivers honest advice, sharp negotiation, and a personalized strategy tailored to your goals. With a background in digital marketing, Flynn knows how to make listings stand out and how to find the properties others miss. He keeps the process clear, efficient, and focused on results.",
@@ -178,7 +122,7 @@
       "email": "gabriel@vreelandre.com",
       "phone": "(954) 738-4969",
       "licenseNumber": "SL3620199",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1aIRiXi_SNPvgzNiixuLt8aySgqmgQm7a&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Gabriel Fenelon is a real estate agent helping clients buy and sell homes across Broward County, including Fort Lauderdale, Hollywood, and Pompano Beach. With a strong focus on local market knowledge and a commitment to client success, Gabriel makes sure every deal feels clear, well-informed, and handled with care.",
         "Whether you're buying a condo in Fort Lauderdale, selling a home in Hollywood, or searching for investment property in Pompano Beach, Gabriel offers the strategy, communication, and service you need to make smart moves in South Florida's fast-paced market. Clients appreciate his approachable style, honest advice, and ability to keep the process moving without the stress.",
@@ -196,7 +140,7 @@
       "email": "hthorn@vreelandre.com",
       "phone": "(813) 544-3905",
       "licenseNumber": "SL3531819",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1qyNB53jXTzyIJUkfNd1Cf8t9rHOGYlD7&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "My name is Hannah Thorn, I am a Real Estate Agent and Mortgage Loan Originator with Vreeland Real Estate / 14 Days To Close. I specialize in residential home purchases in Florida, and am based out of Tampa."
       ],
@@ -212,7 +156,7 @@
       "email": "helena@vreelandre.com",
       "phone": "(561) 220-0912",
       "licenseNumber": "SL3595346",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1wIXGmyQ_mojpNtnHGKT6kQtOX1wctGaL&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Whether you are looking to find the perfect home, sell your property at the best value, I am here to assist you. Feel free to reach out at any time for a personalized and consultative approach to your real estate needs."
       ],
@@ -228,7 +172,7 @@
       "email": "hunters@vreelandre.com",
       "phone": "(813) 536-3681",
       "licenseNumber": "SL3662405",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1fQfa7yglR_MgwxhXPf9EHLUvqSWG4Hdt&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
@@ -242,7 +186,7 @@
       "email": "jacqueline@vreelandre.com",
       "phone": "(954) 807-3456",
       "licenseNumber": "SL3214396",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1j3xZbEBDZg5MXnvJCK73J9kmAUGx4MWh&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Jacqueline Wellington is a Fort Lauderdale real estate agent with over 17 years of experience helping buyers and sellers achieve lasting results. Her top priority is client satisfaction, and she treats every transaction with the care, respect, and attention she would expect herself.",
         "Jacqueline combines market knowledge with strategic communication, high-impact marketing, and proven negotiation skills to help clients buy and sell with confidence. Whether you’re buying a home in Fort Lauderdale or listing a property in a competitive market, she brings the creativity, tech-savvy, and drive to make sure your goals are met. She works tirelessly to promote her clients, protect their interests, and help them reach a higher level of financial security and long-term success. Her clients don’t just feel supported, they feel empowered.",
@@ -260,7 +204,7 @@
       "email": "jcalvoni@vreelandre.com",
       "phone": "(561) 560-6704",
       "licenseNumber": "SL3647293",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1IPDfv9yEv_919x-rg7cAlOR2Q0RqBe3J&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "I believe buying or selling a home should feel exciting, not stressful. My goal is to make the process as easy and straightforward as possible, while keeping you confident every step of the way.",
         "At Vreeland Real Estate, I’m part of a family team with many years of combined experience and a shared passion for helping people. Working together means our clients get the benefit of multiple agents, different perspectives, and the collective dedication of a team that truly cares.",
@@ -279,7 +223,7 @@
       "email": "jessicababcock@vreelandre.com",
       "phone": "(561) 556-2933",
       "licenseNumber": "3229677",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1b4m3-broc0ogAq1jb3fvJw15EFyMDmi2&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Buying or selling a home in South Florida is a big deal. You deserve an agent who knows what they’re doing, listens to your goals, and knows how to get results. Jessica Babcock brings over 14 years of experience helping clients across Palm Beach County, Broward County, Miami-Dade County, Martin County, and Saint Lucie County move with confidence.",
         "Since 2010, Jessica has helped people at every stage of life buy, sell, relocate, or invest in real estate. Her approach is hands-on, honest, and always focused on what matters most to you. She backs every decision with local insight, market strategy, and clear communication from beginning to end. Jessica works closely with her husband and business partner, Joe Babcock. Together, they combine real estate experience and financial know-how to deliver high-level support that makes a difference.",
@@ -297,7 +241,7 @@
       "email": "jo-anne@vreelandre.com",
       "phone": "(754) 347-0669",
       "licenseNumber": "SL3638291",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1gOBufrdcpBK60AP8YqK366lAgfIrOS5l&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Maximize your Ft. Lauderdale home sale and move with strategic representation.",
         "Real estate isn’t just about changing homes. It’s about changing how you live. Most of the people I work with are not moving because they have to. They are moving because they are ready for something that better fits their lifestyle: Closer to the water, restaurants, and culture, less time in traffic, the beach as their backyard, and more time actually enjoying where they live.",
@@ -325,7 +269,7 @@
       "email": "",
       "phone": "",
       "licenseNumber": "3628996",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1x4sOsASyPjkr4qaqa5UzBPW5HqGjaHvn&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Joe Babcock is a South Florida real estate advisor who brings a rare combination of financial expertise and deep local knowledge to every client he serves. Based in Broward County and with decades of experience in sales, finance, and real estate, Joe helps buyers and sellers navigate the South Florida market with strategy, confidence, and care.",
         "Since starting his career at age 19, Joe has owned and operated multiple financial firms, giving him a unique understanding of complex deals and investment-driven transactions. He uses this background to guide clients through buying or selling a home in Palm Beach County, investing in South Florida real estate, or relocating to Broward County. Joe works closely with his wife, Jessica, a top-producing Realtor with more than 15 years of experience. Together, they offer a full-service, client-first approach built on trust, communication, and a clear focus on results.",
@@ -346,7 +290,7 @@
       "email": "jfuller@vreelandre.com",
       "phone": "(813) 519-6379",
       "licenseNumber": "SL3594203",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1qH3CcQKFCMEr6JTFuliWcsxWX7IB49xS&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Johnathan Fuller is a Tampa real estate agent who helps buyers and sellers make smart, confident moves across Ruskin, Clearwater, Port Charlotte, and Brandon. With a strong focus on service and local market insight, he works to understand each client’s needs and guide them through a smooth, successful transaction.",
         "Whether you're buying a home in Ruskin or selling a property in Clearwater, Johnathan takes a hands-on approach that keeps things clear and stress-free. His knowledge of the Tampa Bay and Gulf Coast areas helps clients find the right fit in the right neighborhood, at the right price. If you're ready to buy or sell in Tampa or nearby communities, Johnathan Fuller is ready to help you take the next step."
@@ -363,7 +307,7 @@
       "email": "jonas@vreelandre.com",
       "phone": "(813) 592-7493",
       "licenseNumber": "SL3630121",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=11jvw8JUxQkrcRnCuVf081c5h_kQAqeOs&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Jonas Bridges is a Florida real estate agent helping buyers and sellers across some of the state’s most popular areas, including Tampa, Sarasota, Riverview, Clearwater, and beyond. Whether you're buying your first home or getting ready to sell, Jonas is here to help you make a smart, confident move.",
         "He believes everyone deserves a home they feel comfortable in. That’s why he takes the time to understand what matters most to you and works hard to find a property that truly fits your lifestyle. For sellers, Jonas brings creative strategies, local insight, and serious hustle to help you sell your home as quickly and smoothly as possible.",
@@ -371,20 +315,6 @@
         "Ready to buy or sell in the Sunshine State? Reach out to Jonas Bridges and let’s get you where you want to go."
       ],
       "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "judy-sharma",
-      "fullName": "Judy Sharma",
-      "title": "Realtor",
-      "market": "Palm Beach",
-      "teamLead": "",
-      "email": "jsharma@vreelandre.com",
-      "phone": "(561) 589-4066",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1dxASYwT0ncBL93mBu4ZxF2qCinx4Vkiv&sz=w600",
-      "bio": [],
-      "carriedOver": false,
       "legacySlugs": []
     },
     {
@@ -396,7 +326,7 @@
       "email": "justinh@vreelandre.com",
       "phone": "(904) 599-3877",
       "licenseNumber": "SL3356793",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1OAbmZrZ60MRNethCHV8aftms9bzNBpfY&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "If you’re searching for a top Jacksonville Realtor or trusted St. Augustine real estate agent, look no further than Justin Hahn. As a leading Realtor in Northeast Florida and team lead at Vreeland Real Estate, Justin brings over 9+ years of experience, high-energy service, and fierce negotiation skills to help you succeed in today’s market.",
         "Originally from West Michigan, Justin has become one of the top real estate agents in Jacksonville and St. Augustine by consistently delivering results for his clients. Whether you're buying your first home, upgrading, or selling a property, Justin’s expertise ensures you get the most out of your real estate experience.",
@@ -414,7 +344,7 @@
       "email": "katieg@vreelandre.com",
       "phone": "(561) 220-3884",
       "licenseNumber": "BK3335689",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1dkpOSud0PTAlps2Wf-wFJUSv5hyOyhyr&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Katherine Gale is an enthusiastic and confident real estate agent who takes great pride in finding her clientele spectacular homes and great investments. Ms. Gale has experience in the hospitality and real estate industries in Florida, New York, and Asia. Katherine Gale is the fourth generation of a real estate family whose legacy stretches back to 1922. She is the great-granddaughter of Daniel Gale, founder of Daniel Gale Sotheby’s International Realty and daughter of international real estate developer Stan Gale, chairman and managing partner of Gale International, an integrated real estate development company dedicated to the creation of city-scale living and working environments. Actively involved in her family’s numerous enterprises, Ms. Gale has been engaged in the marketing and promotion of Songdo International Business District, a $35 billion city-scale development rising on the western coast of the Korean peninsula. Songdo IBD, currently 40% complete and with a completion date slated for 2016, is touted as one of the world’s first sustainable, connected, smart cities. Ms. Gale received her Bachelor of Science degree in Business Administration and her Master of Business Administration degree, specializing in mass media and communication, from Lynn University in Boca Raton, FL. In addition she also oversaw the opening and management of a luxury boutique hotel in Delray Beach, FL. Previously Ms. Gale was in Manhattan perusing her real estate career with the fastest growing and innovatively savvy company Nest Seekers International. She was a member and director of operations on one of the most noteworthy and successful Teams within the firm. Specializing in Manhattan luxury sales market, working with buyers, sellers and brokers alike quickly became second nature to Ms. Gale. After her success in the New York City market, she has made the decision to continue her real estate career on Long Island. Ms. Gale has joined non-other than Long Island’s premier and established Real Estate Agency, Daniel Gale Sotheby’s International Realty to continue her own legacy of creating dynamic living and working environments for communities around the world."
       ],
@@ -432,7 +362,7 @@
       "email": "kianna@vreelandre.com",
       "phone": "(954) 908-6505",
       "licenseNumber": "SL3492636",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=19T7jLVfPhP2WgUglNg3yCwbj-w7zEXRV&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
@@ -446,7 +376,7 @@
       "email": "leea@vreelandre.com",
       "phone": "(561) 810-2259",
       "licenseNumber": "SL3640881",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1dGZqf9qNjfgcYd6M09imPKdok6BG6oUS&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
@@ -460,7 +390,7 @@
       "email": "leoboodie@vreelandre.com",
       "phone": "(786) 833-9787",
       "licenseNumber": "SL3415614",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1A1vfZBDZ-RnfTiL5It_xMSfMWg7KbGz1&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Leo Boodie is a dedicated real estate professional with a passion for helping clients turn their real estate goals into reality. With a reputation for integrity, market expertise, and a client-first mindset, Leo brings both confidence and clarity to every step of the buying or selling process.Whether you're a first-time buyer, seasoned investor, or looking to sell your home for top value, Leo combines deep local knowledge with a strong commitment to personalized service. He understands that real estate isn't just about properties, it's about people, decisions, and dreams. That’s why Leo takes the time to truly listen, offering clear guidance, smart strategy, and honest communication every step of the way.Known for his professionalism, attention to detail, and ability to build lasting relationships, Leo Boodie is the agent you want in your corner, no matter where your real estate journey takes you."
       ],
@@ -476,7 +406,7 @@
       "email": "lclemmons@vreelandre.com",
       "phone": "(813) 819-7876",
       "licenseNumber": "SL3628156",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=19tUTQT908yjLLs1856CWETSjqqizpUv1&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "As a dedicated Florida real estate professional with Vreeland Real Estate, I’m committed to delivering exceptional service, strong negotiation, and a smooth experience from start to finish.",
         "Whether you're buying your first home, relocating, investing, or selling a property, I bring local market knowledge, clear communication, and a results-driven approach to every transaction. Florida’s market moves fast, and having an agent who is proactive, responsive, and strategic makes all the difference.",
@@ -496,7 +426,7 @@
       "email": "lucas@vreelandre.com",
       "phone": "(813) 491-7140",
       "licenseNumber": "SL3503232",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1nCkRbI4VoZOmsA4E5NbnpKvtLWju_57D&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Military Police Army Veteran. Started investing in Real Estate after my deployment to Guantanmo Bay, Cuba. I strive to help my clients get the best deal possible by working diligently and effectively."
       ],
@@ -504,48 +434,6 @@
       "legacySlugs": [
         "lucas-sadwoski"
       ]
-    },
-    {
-      "slug": "margaret-romanowich",
-      "fullName": "Margaret Romanowich",
-      "title": "Realtor",
-      "market": "Palm Beach",
-      "teamLead": "Justin Hahn",
-      "email": "margaret@vreelandre.com",
-      "phone": "(561) 652-2508",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1JrgrOOZCJXl9l7sMVZY4HSqH0UIdbRqZ&sz=w600",
-      "bio": [],
-      "carriedOver": false,
-      "legacySlugs": []
-    },
-    {
-      "slug": "maurice-thomas",
-      "fullName": "Maurice Thomas",
-      "title": "Realtor",
-      "market": "Tampa",
-      "teamLead": "Jessica Babcock",
-      "email": "maurice@vreelandre.com",
-      "phone": "(813) 945-4762",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1OLe49wSJBGqOS1KSZInRKA66Kxdj73kV&sz=w600",
-      "bio": [],
-      "carriedOver": false,
-      "legacySlugs": []
-    },
-    {
-      "slug": "mike-mccarthy",
-      "fullName": "Mike McCarthy",
-      "title": "Realtor",
-      "market": "Tampa",
-      "teamLead": "",
-      "email": "mikem@vreelandre.com",
-      "phone": "(239) 307-2505",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1i_gVytkpCTGJ5Q_YqC_9pGX6QXgFnCfw&sz=w600",
-      "bio": [],
-      "carriedOver": false,
-      "legacySlugs": []
     },
     {
       "slug": "rebecca-martin-hakola",
@@ -556,7 +444,7 @@
       "email": "rebeccamh@vreelandre.com",
       "phone": "(813) 544-2504",
       "licenseNumber": "SL3622017",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1r4fdThrqeHtQ9lUETb2zVY3Sx0KvyOwr&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Rebecca Hakola is a top-producing real estate agent with nearly 20 years of experience serving buyers, sellers, and military families across Tampa, Hillsborough County, Sarasota County, and Pinellas County. As a Senior Real Estate Advisor and proud active duty military spouse, Rebecca offers unmatched insight, dedication, and support throughout every stage of the real estate journey.",
         "She understands firsthand the demands of military life and the unique timelines and logistics that come with relocation. Whether you’re PCSing to MacDill Air Force Base or transitioning to a more permanent home in the Tampa Bay area, Rebecca brings clarity, strategy, and care to the entire process. Rebecca specializes in helping families find homes that check all the boxes. Her clients value her honesty, attention to detail, and strong communication skills that keep things on track and stress to a minimum.",
@@ -576,7 +464,7 @@
       "email": "ricks@vreelandre.com",
       "phone": "(813) 694-5346",
       "licenseNumber": "BK533899",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=13pNoojIpoTQVYD3J3YaLJwLdUFGmoqwR&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": [
@@ -592,7 +480,7 @@
       "email": "rod@vreelandre.com",
       "phone": "(656) 206-6807",
       "licenseNumber": "SL3489811",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=16VmwmQL7nYjjzymklgGI7um_vo8pue5A&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Hello and welcome! I’m a dedicated REALTOR® proudly serving both the Tampa Bay area and Central Florida, committed to delivering a seamless and results-driven real estate experience. My passion is helping clients navigate the market with confidence whether you're searching for your dream home, selling for top dollar, or building a strong investment portfolio. With in-depth knowledge of local markets including St. Petersburg, Tampa, Orlando, and surrounding areas, I provide strategic guidance, strong negotiation skills, and a personalized approach tailored to your goals. Whether you're relocating, upgrading, downsizing, or investing, I ensure every step is handled with professionalism, transparency, and attention to detail. Buying, Selling, or Investing in Florida? Let’s make your next move a successful one. Contact me today for a complimentary consultation. I look forward to earning your trust and exceeding your expectations."
       ],
@@ -608,7 +496,7 @@
       "email": "samer@vreelandre.com",
       "phone": "(561) 782-3112",
       "licenseNumber": "SL3593417",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1wyV_8dy44vxuUlILDzVEScoGEYQWsB6F&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Samer Ortiz is a Palm Beach real estate agent who brings energy, heart, and local focus to every transaction. Originally from Venezuela and now proud to call South Florida home, Samer chose real estate because he loves helping people make smarter decisions when it matters most.",
         "With a background in real estate knowledge and a strong connection to the tennis community, Samer works with buyers and sellers across Palm Beach to provide honest advice, clear communication, and consistent follow-through. Whether you're buying your first home or looking to sell, he’s focused on making the process simple, informed, and successful.",
@@ -630,7 +518,7 @@
       "email": "scott@vreelandre.com",
       "phone": "(904) 842-4257",
       "licenseNumber": "BK3233628",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1WjoaL0tcZuZ_jsPO0BJPHMNdAvzx7-A_&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Scott McAnany is a top Florida real estate agent and one of the most trusted names in the Jacksonville area. As the broker of Vreeland Real Estate, he brings over a decade of experience helping buyers make smart, confident moves in Jacksonville, Atlantic Beach, St. Johns, and Plantation.",
         "Known for his sharp negotiating skills and deep market knowledge, Scott is the go-to advisor for clients who want to win in competitive markets. He consistently secures seller concessions and crafts offers that stand out, giving his clients the edge they need in fast-moving transactions.",
@@ -648,7 +536,7 @@
       "email": "sheree@vreelandre.com",
       "phone": "(904) 801-1440",
       "licenseNumber": "SL3654316",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1N4a97BXLjKDEdLWlALw-R3065AUGICCL&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
       "legacySlugs": []
@@ -662,23 +550,9 @@
       "email": "tiana@vreelandre.com",
       "phone": "(813) 578-0346",
       "licenseNumber": "SL3657747",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1OoJ3es1kXKEw6eqEAiIDkxZm-fTQKtTR&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "toni-giannasca",
-      "fullName": "Toni Giannasca",
-      "title": "Realtor",
-      "market": "Palm Beach",
-      "teamLead": "",
-      "email": "tonig@vreelandre.com",
-      "phone": "(561) 475-5261",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1wDfotCU7GxtrkgklXWFBgeuZr6H-zE2K&sz=w600",
-      "bio": [],
-      "carriedOver": false,
       "legacySlugs": []
     },
     {
@@ -690,7 +564,7 @@
       "email": "vhernandez@vreelandre.com",
       "phone": "(786) 475-7353",
       "licenseNumber": "BK3059919",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1sxLcgClR47me3TQcy3XU32bfZAYH_L6d&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "Vanessa Hernandez has been selling real estate in South Florida since 2003. She focuses on providing a customer service approach where the customer's needs are always the top priority.",
         "She understands that buying or selling a home is more than just a transaction: it's a life-changing experience. That's why our team of highly-seasoned real estate professionals is dedicated to providing exceptional, personalized service for all of our clients. We take great pride in the relationships we build and always work relentlessly on the client's behalf to help them achieve their real estate goals.",
@@ -709,37 +583,9 @@
       "email": "vitaly@vreelandre.com",
       "phone": "(786) 686-0767",
       "licenseNumber": "SL3629646",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1ivD_7ITgiHKNUTdMWtO2UY4AyWIJNkA5&sz=w600",
+      "headshotUrl": "",
       "bio": [],
       "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "yennifer-hartman",
-      "fullName": "Yennifer Hartman",
-      "title": "Realtor",
-      "market": "Broward",
-      "teamLead": "",
-      "email": "yenniferh@vreelandre.com",
-      "phone": "(954) 329-1792",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1l5jVcYn57RlzqgTspx-Xh2noxThFNiJO&sz=w600",
-      "bio": [],
-      "carriedOver": false,
-      "legacySlugs": []
-    },
-    {
-      "slug": "yessenia-morfin",
-      "fullName": "Yessenia Morfin",
-      "title": "Realtor",
-      "market": "Miami",
-      "teamLead": "Jessica Babcock",
-      "email": "yesseniam@vreelandre.com",
-      "phone": "(645) 215-5825",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1rs8IOcZTI0RWkXX4ds7xChZiMiK3wIuZ&sz=w600",
-      "bio": [],
-      "carriedOver": false,
       "legacySlugs": []
     },
     {
@@ -751,25 +597,11 @@
       "email": "zachs@vreelandre.com",
       "phone": "(904) 944-7896",
       "licenseNumber": "SL3648032",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1GtvLCWUwiHA-0zG4Ggjjw0sqGYFp8Tl7&sz=w600",
+      "headshotUrl": "",
       "bio": [
         "As a proud Jacksonville-area real estate professional, Zach is committed to helping buyers and sellers achieve their real estate goals throughout Northeast Florida. Whether you're purchasing your first home, searching for a luxury waterfront property, building on residential land, or preparing to sell, Zach is dedicated to providing exceptional service, clear communication, and trusted guidance every step of the way. For sellers, he understands your home is often one of your largest financial assets. Zach's goal is to strategically position your property through thoughtful pricing, targeted marketing, and skilled negotiation to maximize its value while making the process as smooth and stress-free as possible. For buyers, he's committed to helping you find the right property for your lifestyle, needs, and future. Built on integrity, professionalism, and lasting relationships, Zach is here to make every move a successful one."
       ],
       "carriedOver": true,
-      "legacySlugs": []
-    },
-    {
-      "slug": "zoily-hidalgo",
-      "fullName": "Zoily Hidalgo",
-      "title": "Realtor",
-      "market": "Miami",
-      "teamLead": "",
-      "email": "zoilyh@vreelandre.com",
-      "phone": "(786) 667-6848",
-      "licenseNumber": "",
-      "headshotUrl": "https://drive.google.com/thumbnail?id=1kFjJGyyxtdo0eP5nbBwlPeGHgo3juGa7&sz=w600",
-      "bio": [],
-      "carriedOver": false,
       "legacySlugs": []
     }
   ]
