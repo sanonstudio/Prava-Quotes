@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T20:55:45.444Z",
-  "sourceUpdated": "November 16, 2026",
+  "updatedAt": "2026-11-17T18:55:47.484Z",
+  "sourceUpdated": "November 17, 2026",
   "count": 46,
   "listings": [
     {
@@ -79,19 +79,19 @@
       "sqft": "2,236"
     },
     {
-      "id": "18245-bridle-club-dr-tampa-fl-33647",
-      "address": "18245 BRIDLE CLUB DR",
+      "id": "18245-bridle-club-drive-tampa-fl-33647",
+      "address": "18245 Bridle Club Drive",
       "city": "Tampa, FL 33647",
       "market": "Tampa",
       "agent": "Lindsay Clemmons",
       "price": 195000,
       "priceDisplay": "$195,000",
       "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/18245-BRIDLE-CLUB-DR-Tampa-FL-33647_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/fc693a056ee1ef65069ef7fcac9f0f53-cc_ft_1536.jpg",
-      "beds": "3",
-      "baths": "2",
-      "sqft": "1,335"
+      "zillowUrl": "https://www.zillow.com/homes/18245-Bridle-Club-Drive-Tampa-FL-33647_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "55-rogers-st-p-5-clearwater-fl-33756",
