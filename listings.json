@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-17T22:25:57.417Z",
-  "sourceUpdated": "November 17, 2026",
-  "count": 46,
+  "updatedAt": "2026-11-18T13:25:49.744Z",
+  "sourceUpdated": "November 18, 2026",
+  "count": 47,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -347,6 +347,21 @@
       "beds": "3",
       "baths": "2",
       "sqft": "1326"
+    },
+    {
+      "id": "215-elm-way-boynton-beach-fl-33426",
+      "address": "215 Elm Way",
+      "city": "Boynton Beach, FL 33426",
+      "market": "Jacksonville",
+      "agent": "Scott McAnany",
+      "price": 500000,
+      "priceDisplay": "$500,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/215-Elm-Way-Boynton-Beach-FL-33426_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "4915-baymeadows-rd-2h-jacksonville-fl-32217",
