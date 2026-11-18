@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-18T13:25:49.744Z",
+  "updatedAt": "2026-11-18T13:55:47.857Z",
   "sourceUpdated": "November 18, 2026",
-  "count": 47,
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -17,21 +17,6 @@
       "beds": "3",
       "baths": "3",
       "sqft": "1573"
-    },
-    {
-      "id": "5143-sandy-beach-ave-sarasota-fl-34242",
-      "address": "5143 SANDY BEACH AVE",
-      "city": "Sarasota, FL 34242",
-      "market": "Tampa",
-      "agent": "Hannah Thorn",
-      "price": 1795000,
-      "priceDisplay": "$1,795,000",
-      "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/5143-SANDY-BEACH-AVE-Sarasota-FL-34242_rb/",
-      "photo": "https://photos.zillowstatic.com/fp/6282cd0e4af2ee2c5a35734bc110ae50-cc_ft_1536.jpg",
-      "beds": "4",
-      "baths": "3",
-      "sqft": "2244"
     },
     {
       "id": "10144-arbor-run-dr-116-tampa-fl-33647",
