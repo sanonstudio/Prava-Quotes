@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-17T18:55:47.626Z",
-  "count": 46,
+  "updatedAt": "2026-11-18T13:25:50.064Z",
+  "count": 47,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -207,6 +207,15 @@
       "city": "Jacksonville",
       "state": "FL",
       "zip": "32246",
+      "agent": "Scott McAnany",
+      "region": "Jacksonville"
+    },
+    {
+      "id": "215-elm-way-boynton-beach-fl-33426",
+      "address": "215 Elm Way",
+      "city": "Boynton Beach",
+      "state": "FL",
+      "zip": "33426",
       "agent": "Scott McAnany",
       "region": "Jacksonville"
     },
