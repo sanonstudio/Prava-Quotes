@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-18T13:25:50.064Z",
-  "count": 47,
+  "updatedAt": "2026-11-18T13:55:48.048Z",
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -10,15 +10,6 @@
       "state": "FL",
       "zip": "33594",
       "agent": "Edgar Palacios",
-      "region": "Tampa"
-    },
-    {
-      "id": "5143-sandy-beach-ave-sarasota-fl-34242",
-      "address": "5143 SANDY BEACH AVE",
-      "city": "Sarasota",
-      "state": "FL",
-      "zip": "34242",
-      "agent": "Hannah Thorn",
       "region": "Tampa"
     },
     {
