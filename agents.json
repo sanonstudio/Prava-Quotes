@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-18T03:20:41.224Z",
-  "count": 47,
+  "updatedAt": "2026-11-18T23:21:24.548Z",
+  "count": 48,
   "agents": [
     {
       "slug": "alex-mitkovski",
@@ -637,6 +637,20 @@
         "Whether you’re buying a home in Jacksonville, looking for the right fit in St. Johns, or exploring properties in Atlantic Beach or Plantation, Scott brings clarity, strategy, and a commitment to your success."
       ],
       "carriedOver": true,
+      "legacySlugs": []
+    },
+    {
+      "slug": "shawn-kaminsky",
+      "fullName": "Shawn Kaminsky",
+      "title": "Realtor",
+      "market": "Palm Beach",
+      "teamLead": "",
+      "email": "shawnk@vreelandre.com",
+      "phone": "(728) 210-0395",
+      "licenseNumber": "",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=12B3KtpWmX-kOz0YXuY9w-UXGPRC6lSwI&sz=w600",
+      "bio": [],
+      "carriedOver": false,
       "legacySlugs": []
     },
     {
