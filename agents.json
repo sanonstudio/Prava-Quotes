@@ -1,6 +1,6 @@
 {
   "source": "Vreeland Real Estate agent roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-19T04:20:37.362Z",
+  "updatedAt": "2026-11-19T13:20:41.990Z",
   "count": 48,
   "agents": [
     {
@@ -142,7 +142,7 @@
       "fullName": "Ernest Caram",
       "title": "Realtor",
       "market": "Tampa",
-      "teamLead": "",
+      "teamLead": "Scott McAnany",
       "email": "ernestc@vreelandre.com",
       "phone": "(813) 550-2691",
       "licenseNumber": "",
@@ -686,7 +686,7 @@
       "fullName": "Toni Giannasca",
       "title": "Realtor",
       "market": "Palm Beach",
-      "teamLead": "",
+      "teamLead": "Justin Hahn",
       "email": "tonig@vreelandre.com",
       "phone": "(561) 475-5261",
       "licenseNumber": "",
