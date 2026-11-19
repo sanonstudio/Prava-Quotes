@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T13:55:47.857Z",
+  "updatedAt": "2026-11-19T22:10:48.394Z",
   "sourceUpdated": "November 18, 2026",
   "count": 46,
   "listings": [
@@ -343,10 +343,10 @@
       "priceDisplay": "$500,000",
       "onMls": true,
       "zillowUrl": "https://www.zillow.com/homes/215-Elm-Way-Boynton-Beach-FL-33426_rb/",
-      "photo": "",
-      "beds": "",
-      "baths": "",
-      "sqft": ""
+      "photo": "https://photos.zillowstatic.com/fp/6447db8035179fbb4028cb2377911059-cc_ft_1536.jpg",
+      "beds": "3",
+      "baths": "3",
+      "sqft": "2538"
     },
     {
       "id": "4915-baymeadows-rd-2h-jacksonville-fl-32217",
