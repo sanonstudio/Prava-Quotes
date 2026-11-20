@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-18T13:55:48.048Z",
-  "count": 46,
+  "updatedAt": "2026-11-20T15:40:45.424Z",
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -316,15 +316,6 @@
       "state": "FL",
       "zip": "33315",
       "agent": "Jacqueline Wellington",
-      "region": "South Florida"
-    },
-    {
-      "id": "1779-palisades-drive-west-palm-beach-fl-33411",
-      "address": "1779 Palisades Drive",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "zip": "33411",
-      "agent": "Jennifer Calvoni",
       "region": "South Florida"
     },
     {
