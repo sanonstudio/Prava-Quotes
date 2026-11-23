@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:55:45.962Z",
+  "updatedAt": "2026-11-23T13:10:48.348Z",
   "sourceUpdated": "November 23, 2026",
   "count": 46,
   "listings": [
@@ -499,15 +499,15 @@
       "sqft": "820"
     },
     {
-      "id": "southwest-40th-street-west-park-fl-33023",
-      "address": "Southwest 40th Street",
+      "id": "4520-southwest-40th-street-west-park-fl-33023",
+      "address": "4520 Southwest 40th Street",
       "city": "West Park, FL 33023",
       "market": "South Florida",
       "agent": "Ana Maria Ruiz",
       "price": 500000,
       "priceDisplay": "$500,000",
       "onMls": true,
-      "zillowUrl": "https://www.zillow.com/homes/Southwest-40th-Street-West-Park-FL-33023_rb/",
+      "zillowUrl": "https://www.zillow.com/homes/4520-Southwest-40th-Street-West-Park-FL-33023_rb/",
       "photo": "",
       "beds": "",
       "baths": "",
