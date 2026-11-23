@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-20T15:40:45.295Z",
-  "sourceUpdated": "November 20, 2026",
-  "count": 45,
+  "updatedAt": "2026-11-23T12:55:45.962Z",
+  "sourceUpdated": "November 23, 2026",
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -497,6 +497,21 @@
       "beds": "1",
       "baths": "1",
       "sqft": "820"
+    },
+    {
+      "id": "southwest-40th-street-west-park-fl-33023",
+      "address": "Southwest 40th Street",
+      "city": "West Park, FL 33023",
+      "market": "South Florida",
+      "agent": "Ana Maria Ruiz",
+      "price": 500000,
+      "priceDisplay": "$500,000",
+      "onMls": true,
+      "zillowUrl": "https://www.zillow.com/homes/Southwest-40th-Street-West-Park-FL-33023_rb/",
+      "photo": "",
+      "beds": "",
+      "baths": "",
+      "sqft": ""
     },
     {
       "id": "2820-ne-201st-terr-f326-aventura-fl-33180",
