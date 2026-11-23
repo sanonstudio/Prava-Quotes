@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-23T13:10:48.754Z",
-  "count": 46,
+  "updatedAt": "2026-11-23T23:40:47.225Z",
+  "count": 45,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -360,15 +360,6 @@
       "city": "Delray Beach",
       "state": "FL",
       "zip": "33446",
-      "agent": "Margaret Romanowich",
-      "region": "South Florida"
-    },
-    {
-      "id": "88-cambridge-d-west-palm-beach-fl-33417",
-      "address": "88 Cambridge D",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "zip": "33417",
       "agent": "Margaret Romanowich",
       "region": "South Florida"
     },
