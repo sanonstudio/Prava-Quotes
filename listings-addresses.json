@@ -1,6 +1,6 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-23T12:55:46.119Z",
+  "updatedAt": "2026-11-23T13:10:48.754Z",
   "count": 46,
   "listings": [
     {
@@ -301,8 +301,8 @@
       "region": "South Florida"
     },
     {
-      "id": "southwest-40th-street-west-park-fl-33023",
-      "address": "Southwest 40th Street",
+      "id": "4520-southwest-40th-street-west-park-fl-33023",
+      "address": "4520 Southwest 40th Street",
       "city": "West Park",
       "state": "FL",
       "zip": "33023",
