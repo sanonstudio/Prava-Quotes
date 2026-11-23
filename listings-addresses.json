@@ -1,7 +1,7 @@
 {
   "source": "Vreeland Real Estate company listings (OpChamp sync, from the listing tracker)",
-  "updatedAt": "2026-11-20T15:40:45.424Z",
-  "count": 45,
+  "updatedAt": "2026-11-23T12:55:46.119Z",
+  "count": 46,
   "listings": [
     {
       "id": "2919-royal-tuscan-lane-valrico-fl-33594",
@@ -298,6 +298,15 @@
       "state": "FL",
       "zip": "33009",
       "agent": "Alex Mitkovski",
+      "region": "South Florida"
+    },
+    {
+      "id": "southwest-40th-street-west-park-fl-33023",
+      "address": "Southwest 40th Street",
+      "city": "West Park",
+      "state": "FL",
+      "zip": "33023",
+      "agent": "Ana Maria Ruiz",
       "region": "South Florida"
     },
     {
