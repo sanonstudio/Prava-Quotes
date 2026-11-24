@@ -1,7 +1,7 @@
 {
   "source": "14 Days to Close loan advisor roster (OpChamp staff, public fields only)",
-  "updatedAt": "2026-11-18T03:20:43.706Z",
-  "count": 13,
+  "updatedAt": "2026-11-24T22:20:35.783Z",
+  "count": 14,
   "officers": [
     {
       "slug": "alberto-morales-jr",
@@ -134,6 +134,17 @@
       "phone": "(813) 686-6300",
       "licenseNumber": "NMLS #1183901",
       "headshotUrl": "https://drive.google.com/thumbnail?id=1G4428ntDjQFb3_16QBzbAaL0rB63bJAX&sz=w600"
+    },
+    {
+      "slug": "shamara-sloan",
+      "fullName": "Shamara Sloan",
+      "title": "Loan Advisor",
+      "market": "Headquarters- 14DTC/PRMG",
+      "teamLead": "Trevor Smith",
+      "email": "shamaras@14daystoclose.com",
+      "phone": "(813) 820-6676",
+      "licenseNumber": "NMLS #2827941",
+      "headshotUrl": "https://drive.google.com/thumbnail?id=1KqTkkWz_xMsSzOq237kZFcldiEs9UCaD&sz=w600"
     },
     {
       "slug": "trevor-smith",
