@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:51:22.921Z",
+  "updatedAt": "2026-11-25T01:54:06.244Z",
   "count": 100,
   "sales": [
     {
@@ -858,6 +858,21 @@
       "is_both_sides_vre": false
     },
     {
+      "photo": "https://photos.zillowstatic.com/fp/b3021d85dd47fc7ecd44324cd0314e5e-cc_ft_1536.jpg",
+      "price": "$260,000",
+      "address": "6311 99TH Way N #11f",
+      "city": "Saint Petersburg, FL 33708",
+      "beds": "2",
+      "baths_str": "2",
+      "sqft": "1,250",
+      "agent": "Hannah Thorn",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "July 31, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
+    {
       "photo": "https://photos.zillowstatic.com/fp/f63292f59546d16752ccb2910daf2f38-cc_ft_1536.jpg",
       "price": "$300,000",
       "address": "11023 Legacy Lane #103",
@@ -896,21 +911,6 @@
       "baths_str": "3",
       "sqft": "2,260",
       "agent": "Kris Nelson",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "July 31, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
-      "photo": "https://photos.zillowstatic.com/fp/b3021d85dd47fc7ecd44324cd0314e5e-cc_ft_1536.jpg",
-      "price": "$260,000",
-      "address": "6311 99TH Way N #11f",
-      "city": "Saint Petersburg, FL 33708",
-      "beds": "2",
-      "baths_str": "2",
-      "sqft": "1,250",
-      "agent": "Hannah Thorn",
       "has_agent": true,
       "role": "Buyer's Agent",
       "date": "July 31, 2026",
@@ -1383,6 +1383,21 @@
       "is_both_sides_vre": false
     },
     {
+      "photo": "https://photos.zillowstatic.com/fp/3b1d95a3a4bce0274eed7a1f02d75bbe-cc_ft_1536.jpg",
+      "price": "$200,000",
+      "address": "124 Mendoza Ave Apt 6",
+      "city": "Coral Gables, FL 33134",
+      "beds": "",
+      "baths_str": "1",
+      "sqft": "351",
+      "agent": "Damaris Gamez",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "July 10, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
+    {
       "photo": "https://photos.zillowstatic.com/fp/c199c692c9e09a829ed98df9426c8d16-cc_ft_1536.jpg",
       "price": "$294,900",
       "address": "21357 Fletcher Road",
@@ -1391,21 +1406,6 @@
       "baths_str": "2",
       "sqft": "1,232",
       "agent": "Jonas Bridges",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "July 10, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
-      "photo": "https://photos.zillowstatic.com/fp/2892b1f73315a2deff343f19ebf55d4d-cc_ft_1536.jpg",
-      "price": "$200,000",
-      "address": "124 Mendoza Ave Apt 6",
-      "city": "Coral Gables, FL 33134",
-      "beds": "",
-      "baths_str": "1",
-      "sqft": "351",
-      "agent": "Damaris Gamez",
       "has_agent": true,
       "role": "Buyer's Agent",
       "date": "July 10, 2026",
