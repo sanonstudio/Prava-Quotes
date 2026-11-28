@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T01:54:06.244Z",
+  "updatedAt": "2026-11-28T17:37:47.515Z",
   "count": 100,
   "sales": [
     {
@@ -63,21 +63,6 @@
       "is_both_sides_vre": false
     },
     {
-      "photo": "https://photos.zillowstatic.com/fp/c288a5baa247317935fdafeee17125fe-cc_ft_1536.jpg",
-      "price": "$750,000",
-      "address": "53 Via Del Corso",
-      "city": "Palm Beach Gardens, FL 33418",
-      "beds": "3",
-      "baths_str": "3",
-      "sqft": "2,088",
-      "agent": "Christopher Peck",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "November 9, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
       "photo": "https://photos.zillowstatic.com/fp/9586ed5b6ad8fe38cf77b6ec315e07c7-cc_ft_1536.jpg",
       "price": "$185,000",
       "address": "1000 NE 191st St #21",
@@ -88,6 +73,21 @@
       "agent": "Leo Boodie",
       "has_agent": true,
       "role": "Listing Agent",
+      "date": "November 9, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
+    {
+      "photo": "https://photos.zillowstatic.com/fp/c288a5baa247317935fdafeee17125fe-cc_ft_1536.jpg",
+      "price": "$750,000",
+      "address": "53 Via Del Corso",
+      "city": "Palm Beach Gardens, FL 33418",
+      "beds": "3",
+      "baths_str": "3",
+      "sqft": "2,088",
+      "agent": "Christopher Peck",
+      "has_agent": true,
+      "role": "Buyer's Agent",
       "date": "November 9, 2026",
       "year_built": null,
       "is_both_sides_vre": false
@@ -273,6 +273,21 @@
       "is_both_sides_vre": false
     },
     {
+      "photo": "https://photos.zillowstatic.com/fp/0eb1f2147300805f98bc50956e6be55d-cc_ft_1536.jpg",
+      "price": "$299,000",
+      "address": "1006 SE 23rd Ave",
+      "city": "Homestead, FL 33035",
+      "beds": "4",
+      "baths_str": "3",
+      "sqft": "1,374",
+      "agent": "Vanessa Hernandez",
+      "has_agent": true,
+      "role": "Buyer's Agent",
+      "date": "September 30, 2026",
+      "year_built": null,
+      "is_both_sides_vre": false
+    },
+    {
       "photo": "https://photos.zillowstatic.com/fp/2e8dc0af6b34817e01cd30599a7e7eef-cc_ft_1536.jpg",
       "price": "$725,000",
       "address": "4400 Queen Palm Lane",
@@ -296,21 +311,6 @@
       "baths_str": "3",
       "sqft": "2,570",
       "agent": "Jessica Babcock",
-      "has_agent": true,
-      "role": "Buyer's Agent",
-      "date": "September 30, 2026",
-      "year_built": null,
-      "is_both_sides_vre": false
-    },
-    {
-      "photo": "https://photos.zillowstatic.com/fp/0eb1f2147300805f98bc50956e6be55d-cc_ft_1536.jpg",
-      "price": "$299,000",
-      "address": "1006 SE 23rd Ave",
-      "city": "Homestead, FL 33035",
-      "beds": "4",
-      "baths_str": "3",
-      "sqft": "1,374",
-      "agent": "Vanessa Hernandez",
       "has_agent": true,
       "role": "Buyer's Agent",
       "date": "September 30, 2026",
@@ -423,13 +423,13 @@
       "is_both_sides_vre": false
     },
     {
-      "photo": "https://photos.zillowstatic.com/fp/6a99cf99226970de33a9dcf84add1844-cc_ft_1536.jpg",
-      "price": "$450,000",
-      "address": "1210 NW 135th St",
-      "city": "North Miami, FL 33167",
-      "beds": "4",
-      "baths_str": "2",
-      "sqft": "1,317",
+      "photo": "https://photos.zillowstatic.com/fp/b7fd0259fa138cf77bb91b49321d4c2e-cc_ft_1536.jpg",
+      "price": "$275,000",
+      "address": "10950 NW 82nd St Unit 115",
+      "city": "Doral, FL 33178",
+      "beds": "1",
+      "baths_str": "1",
+      "sqft": "838",
       "agent": "Vanessa Hernandez",
       "has_agent": true,
       "role": "Buyer's Agent",
@@ -438,13 +438,13 @@
       "is_both_sides_vre": false
     },
     {
-      "photo": "https://photos.zillowstatic.com/fp/b7fd0259fa138cf77bb91b49321d4c2e-cc_ft_1536.jpg",
-      "price": "$275,000",
-      "address": "10950 NW 82nd St Unit 115",
-      "city": "Doral, FL 33178",
-      "beds": "1",
-      "baths_str": "1",
-      "sqft": "838",
+      "photo": "https://photos.zillowstatic.com/fp/6a99cf99226970de33a9dcf84add1844-cc_ft_1536.jpg",
+      "price": "$450,000",
+      "address": "1210 NW 135th St",
+      "city": "North Miami, FL 33167",
+      "beds": "4",
+      "baths_str": "2",
+      "sqft": "1,317",
       "agent": "Vanessa Hernandez",
       "has_agent": true,
       "role": "Buyer's Agent",
